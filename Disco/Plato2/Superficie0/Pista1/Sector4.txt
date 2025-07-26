@@ -1,0 +1,10 @@
+10970     Tablet Modelo 689   1112.3    27        si                  2025-05-19          54373222  
+10971     Teclado Modelo 310  176.74    5         si                  2025-02-22          91635054  
+10972     Fuente de Poder Mode914.89    12        si                  2025-04-02          26146668  
+10973     Adaptador Bluetooth 632.49    5         si                  2025-05-04          16941209  
+10974     Tarjeta Madre Modelo329.1     7         si                  2025-07-19          88054758  
+10975     Smartwatch Modelo 72553.17    31        si                  2025-05-23          48729913  
+10976     Tarjeta de Video Mod1319.48   1         si                  2025-06-01          17907805  
+10977     Cable HDMI Modelo 50335.9     44        si                  2025-02-23          80978007  
+10978     SSD Externo Modelo 31954.26   6         si                  2025-03-21          68566979  
+10979     Teclado Modelo 635  1878.27   23        si                  2025-04-28          25434974  

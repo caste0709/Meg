@@ -1,0 +1,10 @@
+10558     Router Modelo 111   1586.73   43        si                  2025-05-30          13092545  
+10559     Microfono Modelo 115492.3     37        si                  2025-02-19          21113552  
+10560     Disco Duro Modelo 92804.56    14        si                  2025-07-12          22757461  
+10561     Monitor Modelo 379  1938.28   49        si                  2025-05-07          25055358  
+10562     Joystick Modelo 830 1632.86   38        si                  2025-04-18          92801221  
+10563     Camara IP Modelo 3261109.4    26        si                  2025-01-30          32762665  
+10564     Escaner Modelo 625  25.69     2         si                  2025-03-04          60139165  
+10565     Proyector Modelo 8821585.86   7         si                  2025-05-28          35598548  
+10566     Router Modelo 838   76.68     1         si                  2025-02-02          82799454  
+10567     SSD Externo Modelo 9909.11    24        si                  2025-06-21          11946352  

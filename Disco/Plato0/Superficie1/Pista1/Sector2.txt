@@ -1,0 +1,10 @@
+10803     Escaner Modelo 313  391.5     38        si                  2025-01-28          62901583  
+10804     Parlantes Modelo 725161.93    39        si                  2025-02-15          20554288  
+10805     Cooler Modelo 419   1165.2    14        si                  2025-07-15          24657291  
+10806     Parlantes Modelo 907816.55    36        si                  2025-06-25          92018742  
+10807     Smartwatch Modelo 63184.17    35        si                  2025-03-04          43463294  
+10808     Procesador Modelo 18421.09    7         si                  2025-03-08          71059958  
+10809     Case Modelo 328     246.48    41        si                  2025-04-10          41564747  
+10810     Consola de Juegos Mo1971.56   16        si                  2025-04-23          23304765  
+10811     Adaptador Bluetooth 90.28     7         si                  2025-07-01          63415522  
+10812     Hub USB Modelo 928  1035.49   21        si                  2025-01-30          70033808  

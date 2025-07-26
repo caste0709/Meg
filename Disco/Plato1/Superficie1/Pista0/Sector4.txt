@@ -1,0 +1,10 @@
+10137     Monitor Modelo 352  372.8     27        si                  2025-05-19          25969007  
+10138     Tarjeta de Video Mod1248.06   18        si                  2025-04-22          63033225  
+10139     Monitor Modelo 538  1216.99   43        si                  2025-03-20          98476580  
+10140     Mouse Modelo 341    926.93    22        si                  2025-01-29          14174944  
+10141     Microfono Modelo 7001262.93   47        si                  2025-07-03          36132792  
+10142     Tarjeta de Video Mod917.57    26        si                  2025-04-17          94304806  
+10143     Disco Duro Modelo 331635.99   16        si                  2025-04-18          77918659  
+10144     Smartphone Modelo 11331.84    47        si                  2025-05-03          26683069  
+10145     Procesador Modelo 12235.48    46        si                  2025-04-17          59780444  
+10146     Adaptador Bluetooth 341.93    31        si                  2025-07-13          39381001  

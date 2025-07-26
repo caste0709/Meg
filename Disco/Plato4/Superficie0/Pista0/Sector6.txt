@@ -1,0 +1,11 @@
+10874     Joystick Modelo 827 501.64    3         si                  2025-05-08          
+10875     Fuente de Poder Mode1173.98   26        si                  2025-04-07          
+10876     SSD Externo Modelo 3400.25    40        si                  2025-03-18          
+10877     Tablet Modelo 290   478.27    29        si                  2025-04-27          
+10878     Proyector Modelo 9081215.61   41        si                  2025-03-08          
+10879     Mouse Modelo 710    550.23    46        si                  2025-07-20          
+10880     Laptop Modelo 842   678.48    33        si                  2025-07-04          
+10881     Impresora Modelo 1991127.8    18        si                  2025-04-17          
+10882     Laptop Modelo 222   248.67    46        si                  2025-03-30          
+10883     Hub USB Modelo 349  121.32    24        si                  2025-07-11          
+10884     Tarjeta de Video Mod159.72    47        si                  2025-05-04          

@@ -1,0 +1,11 @@
+ID:15#R:49#Lib:0#Tam_fijo:100
+at#cantidad#int#en_stock#string#fecha_ingreso#string#ISBN#int
+10686     Smartphone Modelo 52287.83    9         si                  2025-06-24          33912117  
+10687     Consola de Juegos Mo888.32    31        si                  2025-05-28          27183561  
+10688     Microfono Modelo 5241757.02   21        si                  2025-07-22          75197880  
+10689     Camara IP Modelo 746218.02    21        si                  2025-06-22          99951065  
+10690     Webcam Modelo 788   551.75    29        si                  2025-05-03          46907855  
+10691     Monitor Modelo 263  469.47    31        si                  2025-07-14          99737323  
+10692     Monitor Modelo 443  863.65    22        si                  2025-02-07          33614995  
+10693     Case Modelo 823     217.69    26        si                  2025-03-12          88664144  
+10694     Smartphone Modelo 951640.34   23        si                  2025-04-24          79422390  

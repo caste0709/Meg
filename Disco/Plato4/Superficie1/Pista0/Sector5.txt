@@ -1,0 +1,12 @@
+ID:19#R:54#Lib:0#Tam_fijo:90
+oat#cantidad#int#en_stock#string#fecha_ingreso#string
+10918     Cable HDMI Modelo 771856.5    32        si                  2025-05-07          
+10919     Disco Duro Modelo 53824.1     49        si                  2025-06-05          
+10920     Tablet Modelo 331   591.51    42        si                  2025-06-25          
+10921     Laptop Modelo 243   1090.36   26        si                  2025-06-29          
+10922     Camara IP Modelo 4351298.33   48        si                  2025-02-24          
+10923     Proyector Modelo 971418.81    14        si                  2025-05-09          
+10924     Cable HDMI Modelo 62177.57    42        si                  2025-01-31          
+10925     Procesador Modelo 131182.64   23        si                  2025-02-18          
+10926     Camara IP Modelo 368426.63    36        si                  2025-04-21          
+10927     Proyector Modelo 686990.24    20        si                  2025-04-24          

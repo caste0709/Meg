@@ -1,0 +1,10 @@
+10352     Impresora Modelo 6871816.45   28        si                  2025-05-30          50895787  
+10353     Disco Duro Modelo 211139.45   26        si                  2025-03-03          80096942  
+10354     Router Modelo 604   1503.32   7         si                  2025-06-21          70116918  
+10355     Router Modelo 206   1255.89   25        si                  2025-05-30          20465749  
+10356     Procesador Modelo 271891.3    8         si                  2025-04-21          17609682  
+10357     Auriculares Modelo 6139.57    12        si                  2025-04-26          36721468  
+10358     Parlantes Modelo 628272.03    40        si                  2025-01-29          65541955  
+10359     Laptop Modelo 693   961.62    35        si                  2025-02-01          59433092  
+10360     Laptop Modelo 275   758.23    26        si                  2025-03-05          22711261  
+10361     Cooler Modelo 848   1263.83   14        si                  2025-05-27          89548294  

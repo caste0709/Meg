@@ -1,0 +1,10 @@
+10597     Proyector Modelo 622743.75    3         si                  2025-03-11          84651855  
+10598     Cooler Modelo 930   842.39    16        si                  2025-01-30          54293929  
+10599     Consola de Juegos Mo1423.36   6         si                  2025-05-17          53005551  
+10600     Camara IP Modelo 261262.1     30        si                  2025-06-06          87705581  
+10601     Tarjeta Madre Modelo1081.41   40        si                  2025-02-25          61773437  
+10602     Case Modelo 245     616.54    6         si                  2025-05-29          12839224  
+10603     Cooler Modelo 944   387.03    37        si                  2025-02-04          67850016  
+10604     Cable HDMI Modelo 331370.24   1         si                  2025-06-17          24516965  
+10605     Consola de Juegos Mo1283.45   5         si                  2025-07-10          13437323  
+10606     Teclado Modelo 125  1003.13   5         si                  2025-05-26          41443685  

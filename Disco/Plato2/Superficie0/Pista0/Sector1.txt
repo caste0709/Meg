@@ -1,0 +1,10 @@
+10156     Cable HDMI Modelo 731888.73   2         si                  2025-06-10          36039673  
+10157     Impresora Modelo 852501.75    26        si                  2025-06-18          70255371  
+10158     Tarjeta de Video Mod1654.47   2         si                  2025-05-24          93884474  
+10159     Disco Duro Modelo 28153.5     15        si                  2025-04-07          31245385  
+10160     Procesador Modelo 321617.28   45        si                  2025-02-18          94970758  
+10161     Fuente de Poder Mode1322.71   49        si                  2025-05-19          53214954  
+10162     Teclado Modelo 905  1743.68   11        si                  2025-04-17          34021648  
+10163     Cable HDMI Modelo 17720.12    41        si                  2025-04-10          94639481  
+10164     Escaner Modelo 636  172.13    44        si                  2025-05-22          84207664  
+10165     Microfono Modelo 5721422.46   7         si                  2025-04-24          67375626  

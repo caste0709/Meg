@@ -1,0 +1,10 @@
+10607     Laptop Modelo 591   1793.0    40        si                  2025-04-26          67466583  
+10608     Smartwatch Modelo 241952.74   21        si                  2025-05-05          23953219  
+10609     Tablet Modelo 599   93.09     9         si                  2025-02-25          28525312  
+10610     Adaptador Bluetooth 621.57    1         si                  2025-06-09          42139472  
+10611     Procesador Modelo 31126.16    11        si                  2025-05-08          16106572  
+10612     Webcam Modelo 597   822.91    43        si                  2025-06-21          46622544  
+10613     Auriculares Modelo 31177.3    50        si                  2025-07-23          49377824  
+10614     Fuente de Poder Mode55.29     48        si                  2025-06-16          32902372  
+10615     Monitor Modelo 536  585.02    39        si                  2025-04-30          61931798  
+10616     Camara IP Modelo 8581558.97   27        si                  2025-01-28          99283220  

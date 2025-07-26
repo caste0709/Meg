@@ -1,0 +1,11 @@
+10334     Auriculares Modelo 91399.27   4         si                  2025-02-22          
+10335     Adaptador Bluetooth 1250.54   9         si                  2025-05-30          
+10336     Tarjeta Madre Modelo63.07     23        si                  2025-07-20          
+10337     Fuente de Poder Mode1230.9    8         si                  2025-05-08          
+10338     Joystick Modelo 218 1485.09   5         si                  2025-04-13          
+10339     Cooler Modelo 776   450.58    4         si                  2025-05-06          
+10340     Smartphone Modelo 59186.38    27        si                  2025-05-06          
+10341     Proyector Modelo 266404.57    3         si                  2025-02-13          
+10342     SSD Externo Modelo 7372.43    46        si                  2025-06-03          
+10343     Proyector Modelo 559179.35    14        si                  2025-06-16          
+10344     Teclado Modelo 152  444.28    11        si                  2025-03-26          

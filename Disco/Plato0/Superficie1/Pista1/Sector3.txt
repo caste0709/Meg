@@ -1,0 +1,10 @@
+10813     Smartphone Modelo 781611.19   28        si                  2025-06-16          70199606  
+10814     Consola de Juegos Mo1332.0    32        si                  2025-02-11          45140155  
+10815     Smartphone Modelo 21858.98    26        si                  2025-05-17          91422651  
+10816     Monitor Modelo 114  1932.99   5         si                  2025-03-09          50829202  
+10817     Smartwatch Modelo 991755.54   8         si                  2025-03-18          12768244  
+10818     Memoria RAM Modelo 51184.99   2         si                  2025-02-17          20861863  
+10819     Hub USB Modelo 781  642.71    29        si                  2025-01-31          95418169  
+10820     Tarjeta de Video Mod1137.5    9         si                  2025-06-04          67750977  
+10821     Teclado Modelo 454  302.32    41        si                  2025-02-03          99659256  
+10822     Proyector Modelo 2781819.77   6         si                  2025-02-24          68443195  

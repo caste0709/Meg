@@ -1,0 +1,10 @@
+10421     Consola de Juegos Mo393.94    9         si                  2025-03-04          95916000  
+10422     Tarjeta Madre Modelo173.98    30        si                  2025-04-27          40929260  
+10423     Impresora Modelo 7031632.43   41        si                  2025-03-12          43117947  
+10424     Tarjeta de Video Mod812.09    50        si                  2025-05-14          92116769  
+10425     Procesador Modelo 981079.15   25        si                  2025-04-10          82927357  
+10426     Microfono Modelo 216457.44    0         no                  2025-04-17          11123729  
+10427     Cable HDMI Modelo 3029.91     48        si                  2025-07-24          97026502  
+10428     Cable HDMI Modelo 141316.44   30        si                  2025-04-26          10371483  
+10429     Tablet Modelo 488   1498.94   24        si                  2025-07-16          86531360  
+10430     Escaner Modelo 498  379.55    48        si                  2025-04-18          12959765  

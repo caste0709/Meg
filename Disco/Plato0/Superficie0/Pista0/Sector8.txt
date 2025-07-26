@@ -1,0 +1,10 @@
+10372     Disco Duro Modelo 96785.63    26        si                  2025-07-13          23873126  
+10373     Cable HDMI Modelo 841153.46   3         si                  2025-04-12          15746721  
+10374     Joystick Modelo 751 1479.32   15        si                  2025-03-10          40059658  
+10375     Camara IP Modelo 580176.66    1         si                  2025-07-23          80972744  
+10376     Cooler Modelo 839   182.83    2         si                  2025-02-28          19534046  
+10377     Tarjeta de Video Mod1635.09   17        si                  2025-07-02          34468308  
+10378     Parlantes Modelo 6401772.24   16        si                  2025-05-15          24104700  
+10379     Case Modelo 737     1512.17   46        si                  2025-03-30          86867574  
+10380     Teclado Modelo 830  530.79    31        si                  2025-06-07          67668482  
+10381     Router Modelo 474   99.05     6         si                  2025-01-31          65544274  

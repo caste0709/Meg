@@ -1,0 +1,3001 @@
+id,nombre,precio,cantidad,en_stock,fecha_ingreso
+10000,Auriculares Modelo 466,1005.85,35,si,2025-02-06
+10001,Cable HDMI Modelo 860,1227.38,12,si,2025-02-26
+10002,Procesador Modelo 460,1338.27,20,si,2025-04-16
+10003,Hub USB Modelo 127,450.68,14,si,2025-03-28
+10004,Adaptador Bluetooth Modelo 577,1731.87,16,si,2025-07-05
+10005,Memoria RAM Modelo 331,236.39,40,si,2025-02-01
+10006,Escaner Modelo 915,1000.62,9,si,2025-05-16
+10007,Procesador Modelo 220,872.29,19,si,2025-01-28
+10008,Laptop Modelo 532,1685.62,27,si,2025-03-16
+10009,SSD Externo Modelo 108,236.11,15,si,2025-05-23
+10010,Camara IP Modelo 915,455.89,31,si,2025-02-01
+10011,Joystick Modelo 558,204.13,33,si,2025-05-19
+10012,Impresora Modelo 231,357.09,41,si,2025-03-17
+10013,Adaptador Bluetooth Modelo 707,149.91,48,si,2025-06-30
+10014,Tablet Modelo 258,1336.19,48,si,2025-03-22
+10015,Teclado Modelo 887,1711.5,19,si,2025-05-15
+10016,Joystick Modelo 732,513.35,12,si,2025-03-16
+10017,Smartwatch Modelo 759,1610.97,34,si,2025-06-24
+10018,SSD Externo Modelo 346,1143.85,31,si,2025-05-11
+10019,Disco Duro Modelo 740,238.35,33,si,2025-04-24
+10020,Tarjeta Madre Modelo 397,1234.35,4,si,2025-02-17
+10021,Consola de Juegos Modelo 700,1881.44,28,si,2025-04-26
+10022,Memoria RAM Modelo 815,523.6,22,si,2025-02-14
+10023,Memoria RAM Modelo 270,1568.28,5,si,2025-03-28
+10024,Tablet Modelo 696,1252.67,40,si,2025-06-23
+10025,Auriculares Modelo 186,21.38,16,si,2025-05-19
+10026,Tarjeta de Video Modelo 265,894.07,34,si,2025-06-09
+10027,Tarjeta Madre Modelo 689,1082.29,33,si,2025-05-24
+10028,Escaner Modelo 639,1359.58,28,si,2025-03-10
+10029,Monitor Modelo 824,1632.73,34,si,2025-01-29
+10030,Proyector Modelo 544,1069.17,21,si,2025-04-05
+10031,Procesador Modelo 902,1349.65,23,si,2025-02-10
+10032,Tablet Modelo 769,1117.28,38,si,2025-03-06
+10033,Consola de Juegos Modelo 935,1256.0,41,si,2025-03-27
+10034,Tablet Modelo 969,208.93,0,no,2025-05-31
+10035,Auriculares Modelo 454,1385.23,4,si,2025-04-05
+10036,Adaptador Bluetooth Modelo 389,1992.27,12,si,2025-04-07
+10037,Fuente de Poder Modelo 496,1347.09,41,si,2025-06-04
+10038,Hub USB Modelo 543,1912.68,24,si,2025-03-30
+10039,Router Modelo 804,1031.47,33,si,2025-04-25
+10040,Smartphone Modelo 423,527.37,38,si,2025-03-06
+10041,Adaptador Bluetooth Modelo 192,954.12,48,si,2025-07-18
+10042,Impresora Modelo 228,333.98,34,si,2025-02-04
+10043,Auriculares Modelo 545,1430.91,19,si,2025-04-05
+10044,Laptop Modelo 989,1331.01,8,si,2025-04-03
+10045,Monitor Modelo 650,1447.12,37,si,2025-04-05
+10046,Escaner Modelo 294,1899.63,2,si,2025-03-17
+10047,Proyector Modelo 290,1772.35,12,si,2025-04-24
+10048,Cable HDMI Modelo 328,1770.34,19,si,2025-06-16
+10049,Monitor Modelo 160,1384.42,6,si,2025-03-27
+10050,Smartphone Modelo 776,623.16,33,si,2025-06-12
+10051,Laptop Modelo 791,1324.77,7,si,2025-03-05
+10052,Procesador Modelo 254,767.74,4,si,2025-04-16
+10053,Smartwatch Modelo 371,1743.71,30,si,2025-03-17
+10054,Joystick Modelo 590,1697.92,0,no,2025-06-09
+10055,Parlantes Modelo 586,1000.12,3,si,2025-07-07
+10056,Smartphone Modelo 395,195.23,41,si,2025-02-24
+10057,Adaptador Bluetooth Modelo 384,600.95,10,si,2025-02-11
+10058,Joystick Modelo 981,203.6,23,si,2025-04-05
+10059,Smartphone Modelo 488,1158.29,29,si,2025-03-14
+10060,Cable HDMI Modelo 668,1592.29,28,si,2025-07-18
+10061,Tarjeta de Video Modelo 778,1974.96,44,si,2025-01-25
+10062,Tablet Modelo 560,699.4,28,si,2025-03-08
+10063,Teclado Modelo 627,1864.78,13,si,2025-07-12
+10064,Adaptador Bluetooth Modelo 153,808.31,32,si,2025-07-10
+10065,Monitor Modelo 561,1046.4,34,si,2025-03-15
+10066,Smartphone Modelo 770,1438.39,40,si,2025-06-10
+10067,Camara IP Modelo 546,1890.16,15,si,2025-06-01
+10068,Monitor Modelo 175,1786.4,25,si,2025-03-08
+10069,Consola de Juegos Modelo 792,708.38,29,si,2025-06-25
+10070,Router Modelo 228,1125.9,3,si,2025-02-17
+10071,Microfono Modelo 463,595.58,20,si,2025-05-04
+10072,Tablet Modelo 887,182.2,1,si,2025-04-24
+10073,Fuente de Poder Modelo 407,998.23,26,si,2025-06-26
+10074,Fuente de Poder Modelo 618,278.5,27,si,2025-04-20
+10075,Memoria RAM Modelo 438,1899.63,10,si,2025-02-09
+10076,Fuente de Poder Modelo 291,1241.59,46,si,2025-06-25
+10077,Case Modelo 134,1526.36,46,si,2025-06-05
+10078,Cable HDMI Modelo 244,978.35,30,si,2025-03-29
+10079,Parlantes Modelo 952,911.28,29,si,2025-06-06
+10080,Procesador Modelo 619,289.18,5,si,2025-03-26
+10081,Cable HDMI Modelo 287,1480.78,18,si,2025-06-04
+10082,Joystick Modelo 455,137.48,13,si,2025-03-14
+10083,Joystick Modelo 361,1178.47,0,no,2025-04-03
+10084,Joystick Modelo 451,1977.94,13,si,2025-04-10
+10085,Case Modelo 490,387.22,41,si,2025-03-22
+10086,Mouse Modelo 530,1523.65,14,si,2025-03-21
+10087,Microfono Modelo 300,1815.36,29,si,2025-02-12
+10088,Auriculares Modelo 139,84.29,6,si,2025-07-10
+10089,Cable HDMI Modelo 270,1716.62,30,si,2025-04-22
+10090,Smartwatch Modelo 109,814.21,37,si,2025-02-05
+10091,Procesador Modelo 393,894.96,50,si,2025-06-20
+10092,Laptop Modelo 805,1846.51,38,si,2025-06-18
+10093,Tarjeta de Video Modelo 242,1374.87,44,si,2025-07-08
+10094,Proyector Modelo 527,1850.95,47,si,2025-06-08
+10095,Disco Duro Modelo 848,1022.53,17,si,2025-03-06
+10096,Microfono Modelo 630,1445.02,50,si,2025-05-27
+10097,Camara IP Modelo 465,980.75,12,si,2025-03-28
+10098,Adaptador Bluetooth Modelo 449,1642.14,24,si,2025-07-06
+10099,SSD Externo Modelo 213,1600.19,45,si,2025-04-08
+10100,Smartphone Modelo 936,713.98,47,si,2025-04-14
+10101,Disco Duro Modelo 811,201.33,19,si,2025-06-01
+10102,Tarjeta de Video Modelo 988,608.08,17,si,2025-06-29
+10103,Laptop Modelo 586,1337.94,40,si,2025-07-14
+10104,Impresora Modelo 147,249.3,19,si,2025-04-08
+10105,Webcam Modelo 876,667.22,31,si,2025-06-29
+10106,Router Modelo 198,1130.4,2,si,2025-07-13
+10107,Fuente de Poder Modelo 998,1886.75,27,si,2025-04-14
+10108,Parlantes Modelo 645,250.28,49,si,2025-07-12
+10109,Impresora Modelo 569,1345.33,32,si,2025-04-21
+10110,Tarjeta de Video Modelo 571,1442.7,3,si,2025-03-11
+10111,Joystick Modelo 126,1502.9,36,si,2025-05-07
+10112,Smartwatch Modelo 388,1233.18,2,si,2025-01-29
+10113,Cooler Modelo 460,668.38,39,si,2025-04-18
+10114,Camara IP Modelo 184,696.92,5,si,2025-06-21
+10115,Consola de Juegos Modelo 982,1582.11,28,si,2025-03-03
+10116,Teclado Modelo 853,1558.86,42,si,2025-07-22
+10117,Cable HDMI Modelo 910,112.32,23,si,2025-04-11
+10118,Smartphone Modelo 689,577.23,28,si,2025-04-27
+10119,Case Modelo 139,667.31,38,si,2025-06-02
+10120,Cooler Modelo 210,1638.45,41,si,2025-05-25
+10121,SSD Externo Modelo 388,1196.45,50,si,2025-05-08
+10122,Tablet Modelo 321,794.43,11,si,2025-04-06
+10123,Disco Duro Modelo 773,850.23,0,no,2025-04-27
+10124,Tarjeta de Video Modelo 848,1811.47,22,si,2025-04-27
+10125,Case Modelo 169,817.54,25,si,2025-07-15
+10126,Monitor Modelo 815,1521.51,30,si,2025-05-03
+10127,Memoria RAM Modelo 807,1576.43,7,si,2025-03-01
+10128,Tarjeta de Video Modelo 141,1057.5,29,si,2025-07-16
+10129,Escaner Modelo 152,1676.81,50,si,2025-07-12
+10130,Consola de Juegos Modelo 287,1892.56,3,si,2025-03-19
+10131,Webcam Modelo 765,1256.41,23,si,2025-05-22
+10132,Tarjeta Madre Modelo 726,1205.3,6,si,2025-03-04
+10133,Hub USB Modelo 275,1773.09,19,si,2025-05-24
+10134,Camara IP Modelo 441,1225.79,6,si,2025-06-27
+10135,Cooler Modelo 936,38.33,43,si,2025-04-23
+10136,Monitor Modelo 750,521.89,27,si,2025-03-29
+10137,Monitor Modelo 352,372.8,27,si,2025-05-19
+10138,Tarjeta de Video Modelo 689,1248.06,18,si,2025-04-22
+10139,Monitor Modelo 538,1216.99,43,si,2025-03-20
+10140,Mouse Modelo 341,926.93,22,si,2025-01-29
+10141,Microfono Modelo 700,1262.93,47,si,2025-07-03
+10142,Tarjeta de Video Modelo 598,917.57,26,si,2025-04-17
+10143,Disco Duro Modelo 338,1635.99,16,si,2025-04-18
+10144,Smartphone Modelo 117,331.84,47,si,2025-05-03
+10145,Procesador Modelo 129,235.48,46,si,2025-04-17
+10146,Adaptador Bluetooth Modelo 110,341.93,31,si,2025-07-13
+10147,Tablet Modelo 964,1539.95,41,si,2025-06-10
+10148,Consola de Juegos Modelo 700,894.94,2,si,2025-01-26
+10149,Mouse Modelo 539,276.37,34,si,2025-07-23
+10150,Smartphone Modelo 951,462.33,9,si,2025-03-09
+10151,Hub USB Modelo 603,761.58,38,si,2025-06-16
+10152,Case Modelo 750,1696.2,46,si,2025-02-20
+10153,Joystick Modelo 868,395.17,18,si,2025-05-26
+10154,Webcam Modelo 708,835.29,15,si,2025-02-01
+10155,SSD Externo Modelo 914,471.27,50,si,2025-01-25
+10156,Cable HDMI Modelo 731,1888.73,2,si,2025-06-10
+10157,Impresora Modelo 852,501.75,26,si,2025-06-18
+10158,Tarjeta de Video Modelo 914,1654.47,2,si,2025-05-24
+10159,Disco Duro Modelo 284,153.5,15,si,2025-04-07
+10160,Procesador Modelo 323,1617.28,45,si,2025-02-18
+10161,Fuente de Poder Modelo 840,1322.71,49,si,2025-05-19
+10162,Teclado Modelo 905,1743.68,11,si,2025-04-17
+10163,Cable HDMI Modelo 179,720.12,41,si,2025-04-10
+10164,Escaner Modelo 636,172.13,44,si,2025-05-22
+10165,Microfono Modelo 572,1422.46,7,si,2025-04-24
+10166,Memoria RAM Modelo 246,791.64,13,si,2025-05-18
+10167,Tablet Modelo 167,1331.53,47,si,2025-02-14
+10168,Proyector Modelo 357,312.44,9,si,2025-07-19
+10169,Camara IP Modelo 388,310.02,35,si,2025-06-22
+10170,Mouse Modelo 137,1653.84,30,si,2025-03-24
+10171,Smartphone Modelo 827,833.21,35,si,2025-07-14
+10172,Consola de Juegos Modelo 400,1856.04,14,si,2025-02-24
+10173,Parlantes Modelo 312,1017.32,4,si,2025-02-11
+10174,Webcam Modelo 254,1328.49,8,si,2025-01-28
+10175,Monitor Modelo 704,461.02,22,si,2025-05-01
+10176,Smartphone Modelo 169,515.16,48,si,2025-04-16
+10177,Router Modelo 719,1670.44,11,si,2025-05-22
+10178,Cooler Modelo 592,1878.89,34,si,2025-03-19
+10179,Case Modelo 542,1952.73,10,si,2025-02-23
+10180,Parlantes Modelo 636,58.03,10,si,2025-03-31
+10181,Impresora Modelo 703,1312.65,14,si,2025-06-16
+10182,Monitor Modelo 969,1164.46,27,si,2025-03-02
+10183,Procesador Modelo 344,967.26,33,si,2025-03-15
+10184,Impresora Modelo 739,519.8,21,si,2025-06-19
+10185,Fuente de Poder Modelo 705,1547.2,38,si,2025-04-19
+10186,Auriculares Modelo 924,1765.46,49,si,2025-05-05
+10187,Cable HDMI Modelo 209,509.19,4,si,2025-04-15
+10188,Parlantes Modelo 644,1872.8,32,si,2025-07-09
+10189,Monitor Modelo 889,1403.67,30,si,2025-01-31
+10190,Proyector Modelo 426,98.05,15,si,2025-02-24
+10191,Smartwatch Modelo 472,1075.22,23,si,2025-03-26
+10192,Hub USB Modelo 502,1104.46,4,si,2025-07-04
+10193,Camara IP Modelo 886,1354.44,43,si,2025-02-17
+10194,Tablet Modelo 130,797.16,3,si,2025-06-12
+10195,Consola de Juegos Modelo 808,1863.96,14,si,2025-05-27
+10196,Tarjeta Madre Modelo 861,1397.02,16,si,2025-03-05
+10197,Tablet Modelo 590,1817.45,40,si,2025-03-14
+10198,Escaner Modelo 831,858.11,18,si,2025-02-26
+10199,Proyector Modelo 121,1575.85,45,si,2025-04-12
+10200,Auriculares Modelo 634,831.52,42,si,2025-07-24
+10201,Escaner Modelo 479,1895.78,2,si,2025-07-24
+10202,Tablet Modelo 316,424.36,16,si,2025-05-10
+10203,Parlantes Modelo 753,199.84,47,si,2025-05-08
+10204,Fuente de Poder Modelo 623,1391.74,46,si,2025-02-01
+10205,Auriculares Modelo 633,363.12,2,si,2025-03-14
+10206,Monitor Modelo 630,443.77,50,si,2025-05-10
+10207,Cable HDMI Modelo 883,688.08,32,si,2025-03-08
+10208,Memoria RAM Modelo 847,1128.39,42,si,2025-03-22
+10209,Cable HDMI Modelo 902,992.57,33,si,2025-06-18
+10210,Hub USB Modelo 407,346.7,32,si,2025-05-16
+10211,Smartphone Modelo 223,1534.32,14,si,2025-03-18
+10212,Hub USB Modelo 770,1424.36,20,si,2025-02-16
+10213,Memoria RAM Modelo 385,297.16,18,si,2025-04-02
+10214,Microfono Modelo 561,1883.97,25,si,2025-04-08
+10215,Microfono Modelo 599,349.74,6,si,2025-06-29
+10216,Microfono Modelo 766,642.49,20,si,2025-04-30
+10217,Tablet Modelo 292,1475.81,26,si,2025-03-30
+10218,Tarjeta Madre Modelo 596,566.43,23,si,2025-02-05
+10219,Monitor Modelo 260,1345.57,47,si,2025-03-20
+10220,Impresora Modelo 696,362.28,18,si,2025-02-09
+10221,Laptop Modelo 182,335.63,44,si,2025-03-20
+10222,Hub USB Modelo 889,174.89,7,si,2025-05-03
+10223,Fuente de Poder Modelo 541,1912.33,16,si,2025-06-12
+10224,Tablet Modelo 383,1749.2,49,si,2025-05-11
+10225,Procesador Modelo 912,380.73,40,si,2025-04-02
+10226,Teclado Modelo 658,1973.79,47,si,2025-06-12
+10227,Parlantes Modelo 659,624.5,43,si,2025-02-05
+10228,Laptop Modelo 993,763.06,16,si,2025-05-27
+10229,Adaptador Bluetooth Modelo 852,622.59,34,si,2025-02-25
+10230,Router Modelo 383,1843.6,3,si,2025-04-11
+10231,Teclado Modelo 916,266.1,18,si,2025-04-23
+10232,Cooler Modelo 446,486.51,48,si,2025-03-06
+10233,SSD Externo Modelo 218,593.27,5,si,2025-06-03
+10234,Laptop Modelo 522,1452.58,12,si,2025-02-26
+10235,Tablet Modelo 650,1962.3,12,si,2025-04-25
+10236,Disco Duro Modelo 223,145.13,19,si,2025-07-06
+10237,Teclado Modelo 583,893.92,42,si,2025-03-30
+10238,Hub USB Modelo 433,1817.31,14,si,2025-03-22
+10239,Escaner Modelo 340,1697.48,42,si,2025-04-24
+10240,Tarjeta Madre Modelo 192,1588.06,22,si,2025-04-25
+10241,Router Modelo 711,1135.0,50,si,2025-06-27
+10242,Laptop Modelo 969,1037.97,50,si,2025-03-22
+10243,Smartwatch Modelo 293,1619.75,36,si,2025-03-03
+10244,Laptop Modelo 890,419.55,39,si,2025-05-28
+10245,Smartwatch Modelo 322,133.67,25,si,2025-05-18
+10246,Tarjeta de Video Modelo 359,824.6,2,si,2025-04-04
+10247,Adaptador Bluetooth Modelo 901,1105.86,3,si,2025-02-11
+10248,Smartwatch Modelo 530,646.44,47,si,2025-05-23
+10249,Fuente de Poder Modelo 643,931.31,36,si,2025-04-08
+10250,Mouse Modelo 450,276.42,36,si,2025-04-02
+10251,Case Modelo 422,773.95,22,si,2025-01-27
+10252,Tarjeta Madre Modelo 379,1541.59,6,si,2025-03-03
+10253,Escaner Modelo 321,872.79,42,si,2025-04-15
+10254,Smartphone Modelo 706,756.35,12,si,2025-02-19
+10255,Memoria RAM Modelo 637,649.84,18,si,2025-04-17
+10256,Auriculares Modelo 140,1454.66,18,si,2025-05-04
+10257,Webcam Modelo 744,924.52,39,si,2025-05-31
+10258,SSD Externo Modelo 284,1393.41,11,si,2025-03-17
+10259,Memoria RAM Modelo 652,609.4,28,si,2025-02-02
+10260,Tarjeta Madre Modelo 667,114.85,34,si,2025-05-10
+10261,Monitor Modelo 834,1946.92,17,si,2025-03-21
+10262,Cooler Modelo 237,1446.47,24,si,2025-01-26
+10263,Procesador Modelo 188,688.5,41,si,2025-06-17
+10264,Adaptador Bluetooth Modelo 725,1457.16,49,si,2025-06-04
+10265,Smartwatch Modelo 988,329.49,43,si,2025-04-29
+10266,Auriculares Modelo 731,1406.3,33,si,2025-02-23
+10267,Smartwatch Modelo 450,486.73,43,si,2025-02-10
+10268,Camara IP Modelo 413,1507.13,34,si,2025-07-06
+10269,Tablet Modelo 448,1195.94,45,si,2025-02-07
+10270,Disco Duro Modelo 308,1608.66,30,si,2025-03-13
+10271,Tarjeta Madre Modelo 217,693.35,44,si,2025-05-23
+10272,Tarjeta Madre Modelo 378,1999.86,1,si,2025-06-05
+10273,Camara IP Modelo 441,1828.04,30,si,2025-02-20
+10274,Disco Duro Modelo 297,1734.22,50,si,2025-06-23
+10275,Disco Duro Modelo 294,18.18,22,si,2025-02-22
+10276,Fuente de Poder Modelo 155,604.74,30,si,2025-04-24
+10277,Tablet Modelo 976,1281.86,23,si,2025-04-08
+10278,Cooler Modelo 249,154.54,21,si,2025-07-04
+10279,Disco Duro Modelo 665,968.4,4,si,2025-02-16
+10280,Smartwatch Modelo 959,1645.11,17,si,2025-01-28
+10281,Router Modelo 711,328.76,40,si,2025-05-20
+10282,Fuente de Poder Modelo 657,1486.6,7,si,2025-04-07
+10283,Router Modelo 231,482.33,50,si,2025-04-16
+10284,Cooler Modelo 461,1524.43,30,si,2025-05-29
+10285,Memoria RAM Modelo 327,1161.91,38,si,2025-05-11
+10286,Mouse Modelo 785,1325.11,12,si,2025-05-05
+10287,Microfono Modelo 537,882.08,0,no,2025-06-01
+10288,Cooler Modelo 820,407.98,40,si,2025-04-24
+10289,Smartwatch Modelo 623,1149.08,26,si,2025-03-26
+10290,Camara IP Modelo 680,310.24,18,si,2025-03-05
+10291,Memoria RAM Modelo 108,929.49,49,si,2025-03-05
+10292,Cable HDMI Modelo 723,528.88,1,si,2025-07-24
+10293,Parlantes Modelo 162,830.97,30,si,2025-05-19
+10294,Impresora Modelo 854,1187.38,30,si,2025-05-14
+10295,Mouse Modelo 824,944.27,14,si,2025-05-15
+10296,Webcam Modelo 592,1827.96,38,si,2025-02-12
+10297,Memoria RAM Modelo 974,1629.28,34,si,2025-02-06
+10298,Auriculares Modelo 892,1574.63,28,si,2025-06-09
+10299,Consola de Juegos Modelo 496,192.66,7,si,2025-05-13
+10300,Cooler Modelo 963,1643.13,37,si,2025-06-27
+10301,Case Modelo 759,470.44,2,si,2025-01-27
+10302,Cooler Modelo 217,391.97,31,si,2025-02-28
+10303,Laptop Modelo 625,491.06,3,si,2025-05-14
+10304,Impresora Modelo 908,1829.68,29,si,2025-01-31
+10305,Adaptador Bluetooth Modelo 399,872.46,50,si,2025-03-26
+10306,Memoria RAM Modelo 235,1189.35,11,si,2025-05-11
+10307,Parlantes Modelo 957,1389.19,10,si,2025-02-13
+10308,Proyector Modelo 180,1335.52,50,si,2025-07-09
+10309,Disco Duro Modelo 811,857.48,3,si,2025-02-28
+10310,Laptop Modelo 523,709.18,10,si,2025-03-31
+10311,Microfono Modelo 465,710.1,4,si,2025-03-11
+10312,Disco Duro Modelo 733,395.55,47,si,2025-05-18
+10313,Webcam Modelo 377,567.46,46,si,2025-07-03
+10314,Monitor Modelo 769,354.86,1,si,2025-06-01
+10315,Camara IP Modelo 244,1220.6,17,si,2025-05-01
+10316,Webcam Modelo 991,741.21,9,si,2025-06-09
+10317,Teclado Modelo 532,709.12,19,si,2025-04-09
+10318,Laptop Modelo 105,1993.31,26,si,2025-05-01
+10319,Auriculares Modelo 652,1871.29,24,si,2025-07-01
+10320,Webcam Modelo 970,1281.83,29,si,2025-02-19
+10321,Disco Duro Modelo 551,1114.04,3,si,2025-05-09
+10322,Router Modelo 163,1285.41,28,si,2025-05-24
+10323,Adaptador Bluetooth Modelo 649,1042.86,42,si,2025-01-27
+10324,Tarjeta de Video Modelo 291,1595.09,22,si,2025-06-16
+10325,Laptop Modelo 658,1399.45,37,si,2025-05-15
+10326,Tablet Modelo 657,286.91,14,si,2025-05-23
+10327,Joystick Modelo 276,1187.74,24,si,2025-02-09
+10328,Procesador Modelo 368,1687.17,42,si,2025-05-22
+10329,Tarjeta de Video Modelo 719,1219.78,2,si,2025-03-05
+10330,Smartphone Modelo 781,1729.11,7,si,2025-03-23
+10331,Tarjeta Madre Modelo 954,493.22,22,si,2025-04-04
+10332,Teclado Modelo 308,1756.85,33,si,2025-02-27
+10333,Procesador Modelo 799,1630.71,31,si,2025-03-18
+10334,Auriculares Modelo 942,1399.27,4,si,2025-02-22
+10335,Adaptador Bluetooth Modelo 772,1250.54,9,si,2025-05-30
+10336,Tarjeta Madre Modelo 454,63.07,23,si,2025-07-20
+10337,Fuente de Poder Modelo 156,1230.9,8,si,2025-05-08
+10338,Joystick Modelo 218,1485.09,5,si,2025-04-13
+10339,Cooler Modelo 776,450.58,4,si,2025-05-06
+10340,Smartphone Modelo 599,186.38,27,si,2025-05-06
+10341,Proyector Modelo 266,404.57,3,si,2025-02-13
+10342,SSD Externo Modelo 729,372.43,46,si,2025-06-03
+10343,Proyector Modelo 559,179.35,14,si,2025-06-16
+10344,Teclado Modelo 152,444.28,11,si,2025-03-26
+10345,Tablet Modelo 322,1546.2,24,si,2025-05-17
+10346,Escaner Modelo 713,1060.8,27,si,2025-03-06
+10347,Disco Duro Modelo 318,774.68,0,no,2025-03-29
+10348,Proyector Modelo 573,1470.37,21,si,2025-05-08
+10349,Cable HDMI Modelo 288,1947.53,24,si,2025-02-10
+10350,Cable HDMI Modelo 410,462.53,0,no,2025-02-16
+10351,Laptop Modelo 455,761.99,50,si,2025-07-02
+10352,Impresora Modelo 687,1816.45,28,si,2025-05-30
+10353,Disco Duro Modelo 219,1139.45,26,si,2025-03-03
+10354,Router Modelo 604,1503.32,7,si,2025-06-21
+10355,Router Modelo 206,1255.89,25,si,2025-05-30
+10356,Procesador Modelo 272,1891.3,8,si,2025-04-21
+10357,Auriculares Modelo 618,139.57,12,si,2025-04-26
+10358,Parlantes Modelo 628,272.03,40,si,2025-01-29
+10359,Laptop Modelo 693,961.62,35,si,2025-02-01
+10360,Laptop Modelo 275,758.23,26,si,2025-03-05
+10361,Cooler Modelo 848,1263.83,14,si,2025-05-27
+10362,Mouse Modelo 858,1459.15,13,si,2025-06-11
+10363,Auriculares Modelo 255,1623.6,38,si,2025-03-02
+10364,Camara IP Modelo 578,231.15,48,si,2025-02-03
+10365,Cooler Modelo 602,97.55,33,si,2025-04-05
+10366,Monitor Modelo 853,1815.19,45,si,2025-02-09
+10367,Auriculares Modelo 684,260.55,50,si,2025-04-04
+10368,Monitor Modelo 615,378.23,18,si,2025-06-13
+10369,Parlantes Modelo 811,894.53,14,si,2025-06-29
+10370,Auriculares Modelo 376,1871.52,3,si,2025-06-12
+10371,Case Modelo 648,625.78,42,si,2025-02-22
+10372,Disco Duro Modelo 964,785.63,26,si,2025-07-13
+10373,Cable HDMI Modelo 841,1153.46,3,si,2025-04-12
+10374,Joystick Modelo 751,1479.32,15,si,2025-03-10
+10375,Camara IP Modelo 580,176.66,1,si,2025-07-23
+10376,Cooler Modelo 839,182.83,2,si,2025-02-28
+10377,Tarjeta de Video Modelo 634,1635.09,17,si,2025-07-02
+10378,Parlantes Modelo 640,1772.24,16,si,2025-05-15
+10379,Case Modelo 737,1512.17,46,si,2025-03-30
+10380,Teclado Modelo 830,530.79,31,si,2025-06-07
+10381,Router Modelo 474,99.05,6,si,2025-01-31
+10382,Monitor Modelo 312,1863.14,46,si,2025-02-11
+10383,Memoria RAM Modelo 244,997.62,7,si,2025-03-14
+10384,Teclado Modelo 627,305.89,26,si,2025-05-29
+10385,Proyector Modelo 418,1849.87,28,si,2025-03-04
+10386,Monitor Modelo 707,1042.46,9,si,2025-01-28
+10387,Tarjeta Madre Modelo 289,1020.58,9,si,2025-07-08
+10388,Disco Duro Modelo 656,611.9,43,si,2025-05-23
+10389,Camara IP Modelo 288,1091.4,44,si,2025-03-04
+10390,Case Modelo 233,368.02,12,si,2025-04-10
+10391,Consola de Juegos Modelo 548,749.78,34,si,2025-07-01
+10392,Joystick Modelo 313,351.16,45,si,2025-02-18
+10393,Impresora Modelo 560,506.88,12,si,2025-06-27
+10394,SSD Externo Modelo 601,1541.41,1,si,2025-07-03
+10395,Adaptador Bluetooth Modelo 200,809.36,22,si,2025-07-01
+10396,Router Modelo 288,1261.03,24,si,2025-07-17
+10397,Impresora Modelo 811,454.21,17,si,2025-06-06
+10398,Cooler Modelo 753,1417.52,29,si,2025-01-28
+10399,Impresora Modelo 354,1194.56,25,si,2025-04-23
+10400,Tarjeta de Video Modelo 315,137.21,30,si,2025-05-03
+10401,Smartwatch Modelo 134,268.47,46,si,2025-02-03
+10402,Auriculares Modelo 315,1827.33,1,si,2025-04-20
+10403,SSD Externo Modelo 479,1988.35,37,si,2025-04-19
+10404,Teclado Modelo 395,116.6,46,si,2025-05-01
+10405,Smartphone Modelo 561,1613.21,6,si,2025-03-01
+10406,Laptop Modelo 931,1859.95,47,si,2025-04-30
+10407,Parlantes Modelo 828,1682.57,5,si,2025-06-14
+10408,Procesador Modelo 215,471.27,44,si,2025-07-06
+10409,Router Modelo 870,26.89,37,si,2025-03-11
+10410,Cable HDMI Modelo 916,420.77,29,si,2025-05-03
+10411,Impresora Modelo 795,471.52,24,si,2025-02-24
+10412,Smartwatch Modelo 896,1976.98,21,si,2025-02-27
+10413,Case Modelo 749,650.6,46,si,2025-04-23
+10414,Adaptador Bluetooth Modelo 740,740.54,35,si,2025-02-27
+10415,Disco Duro Modelo 355,1795.73,31,si,2025-07-03
+10416,Mouse Modelo 430,1027.46,11,si,2025-02-08
+10417,Cable HDMI Modelo 680,876.01,1,si,2025-05-26
+10418,Webcam Modelo 723,218.54,31,si,2025-05-23
+10419,Disco Duro Modelo 944,343.12,42,si,2025-03-05
+10420,Escaner Modelo 334,1723.51,36,si,2025-04-13
+10421,Consola de Juegos Modelo 202,393.94,9,si,2025-03-04
+10422,Tarjeta Madre Modelo 630,173.98,30,si,2025-04-27
+10423,Impresora Modelo 703,1632.43,41,si,2025-03-12
+10424,Tarjeta de Video Modelo 489,812.09,50,si,2025-05-14
+10425,Procesador Modelo 986,1079.15,25,si,2025-04-10
+10426,Microfono Modelo 216,457.44,0,no,2025-04-17
+10427,Cable HDMI Modelo 307,29.91,48,si,2025-07-24
+10428,Cable HDMI Modelo 146,1316.44,30,si,2025-04-26
+10429,Tablet Modelo 488,1498.94,24,si,2025-07-16
+10430,Escaner Modelo 498,379.55,48,si,2025-04-18
+10431,Escaner Modelo 213,1539.3,45,si,2025-02-04
+10432,Hub USB Modelo 752,256.04,45,si,2025-04-12
+10433,Memoria RAM Modelo 360,431.15,40,si,2025-02-15
+10434,Auriculares Modelo 438,492.16,31,si,2025-07-04
+10435,SSD Externo Modelo 404,216.5,18,si,2025-03-24
+10436,Teclado Modelo 472,726.15,42,si,2025-05-11
+10437,Escaner Modelo 230,1617.75,41,si,2025-04-20
+10438,Microfono Modelo 960,1366.11,3,si,2025-05-20
+10439,Smartwatch Modelo 757,1210.74,7,si,2025-03-25
+10440,Case Modelo 418,1536.9,33,si,2025-06-17
+10441,Microfono Modelo 845,1958.9,40,si,2025-02-03
+10442,Smartphone Modelo 577,1353.28,4,si,2025-03-16
+10443,Escaner Modelo 337,1719.21,11,si,2025-02-24
+10444,Tarjeta de Video Modelo 456,225.05,13,si,2025-07-01
+10445,Joystick Modelo 138,145.82,29,si,2025-02-10
+10446,Memoria RAM Modelo 161,299.63,30,si,2025-05-29
+10447,Disco Duro Modelo 790,176.2,42,si,2025-04-07
+10448,Cable HDMI Modelo 396,1256.17,14,si,2025-07-18
+10449,Joystick Modelo 542,1726.4,22,si,2025-03-31
+10450,Adaptador Bluetooth Modelo 901,481.77,6,si,2025-05-11
+10451,Adaptador Bluetooth Modelo 633,404.08,30,si,2025-03-09
+10452,Disco Duro Modelo 197,29.87,40,si,2025-07-01
+10453,Joystick Modelo 666,1293.41,38,si,2025-02-25
+10454,Laptop Modelo 589,1191.82,12,si,2025-07-09
+10455,Parlantes Modelo 803,1042.65,29,si,2025-01-31
+10456,Procesador Modelo 240,916.03,3,si,2025-02-15
+10457,Mouse Modelo 429,1903.02,19,si,2025-04-04
+10458,Tarjeta Madre Modelo 389,1397.77,34,si,2025-06-07
+10459,Escaner Modelo 649,811.31,17,si,2025-07-18
+10460,Procesador Modelo 503,1703.33,35,si,2025-02-11
+10461,Smartwatch Modelo 535,218.95,28,si,2025-03-12
+10462,Webcam Modelo 172,487.97,29,si,2025-03-06
+10463,Webcam Modelo 285,1471.75,44,si,2025-06-19
+10464,Procesador Modelo 867,224.78,27,si,2025-07-10
+10465,Memoria RAM Modelo 263,746.87,46,si,2025-05-15
+10466,Proyector Modelo 278,299.28,6,si,2025-04-08
+10467,Impresora Modelo 335,1647.74,21,si,2025-03-31
+10468,Escaner Modelo 901,1086.92,35,si,2025-03-08
+10469,Memoria RAM Modelo 145,77.16,4,si,2025-02-19
+10470,Parlantes Modelo 661,178.56,5,si,2025-04-11
+10471,Tarjeta de Video Modelo 785,160.78,32,si,2025-06-02
+10472,Adaptador Bluetooth Modelo 463,1818.57,29,si,2025-07-11
+10473,Impresora Modelo 526,1338.38,42,si,2025-05-09
+10474,Monitor Modelo 666,1146.71,1,si,2025-05-27
+10475,Tarjeta de Video Modelo 986,1582.85,34,si,2025-07-14
+10476,Tarjeta Madre Modelo 153,718.82,12,si,2025-06-11
+10477,Parlantes Modelo 574,1236.71,10,si,2025-03-10
+10478,Camara IP Modelo 301,1458.05,21,si,2025-06-23
+10479,Case Modelo 424,1350.37,49,si,2025-05-04
+10480,Joystick Modelo 908,1915.23,45,si,2025-05-22
+10481,Cable HDMI Modelo 961,443.39,3,si,2025-06-20
+10482,Cooler Modelo 979,1637.01,46,si,2025-07-14
+10483,Fuente de Poder Modelo 355,420.01,4,si,2025-01-27
+10484,Hub USB Modelo 586,525.12,30,si,2025-02-17
+10485,Laptop Modelo 702,363.25,12,si,2025-04-23
+10486,Tarjeta de Video Modelo 157,1815.88,8,si,2025-04-18
+10487,Laptop Modelo 805,506.12,28,si,2025-06-19
+10488,Impresora Modelo 140,1822.11,7,si,2025-04-20
+10489,Proyector Modelo 845,1100.66,43,si,2025-02-13
+10490,Mouse Modelo 553,1703.94,31,si,2025-03-19
+10491,Tablet Modelo 824,1394.87,24,si,2025-03-03
+10492,Proyector Modelo 941,307.68,10,si,2025-04-01
+10493,Proyector Modelo 812,1696.83,10,si,2025-03-31
+10494,Microfono Modelo 604,973.57,32,si,2025-06-19
+10495,Camara IP Modelo 450,729.3,43,si,2025-01-28
+10496,Auriculares Modelo 941,1609.82,34,si,2025-02-13
+10497,Escaner Modelo 723,640.02,11,si,2025-03-06
+10498,Adaptador Bluetooth Modelo 922,1611.61,8,si,2025-06-21
+10499,Cable HDMI Modelo 569,1859.81,28,si,2025-04-26
+10500,Cable HDMI Modelo 666,609.9,14,si,2025-07-03
+10501,Laptop Modelo 174,1170.15,2,si,2025-06-02
+10502,Camara IP Modelo 239,1095.23,48,si,2025-02-09
+10503,Smartwatch Modelo 131,653.89,45,si,2025-03-24
+10504,Impresora Modelo 190,1066.99,35,si,2025-02-21
+10505,Smartwatch Modelo 595,561.52,37,si,2025-04-16
+10506,Consola de Juegos Modelo 189,110.38,43,si,2025-05-19
+10507,Impresora Modelo 263,396.43,37,si,2025-04-03
+10508,Cooler Modelo 241,202.67,33,si,2025-06-08
+10509,Teclado Modelo 295,406.65,14,si,2025-07-18
+10510,Escaner Modelo 297,584.18,15,si,2025-07-23
+10511,Fuente de Poder Modelo 834,135.34,28,si,2025-02-18
+10512,Parlantes Modelo 247,160.61,10,si,2025-05-15
+10513,Hub USB Modelo 157,1761.2,33,si,2025-04-09
+10514,Tarjeta Madre Modelo 199,1142.95,33,si,2025-04-19
+10515,Case Modelo 254,1203.5,22,si,2025-05-29
+10516,Hub USB Modelo 684,1313.21,1,si,2025-06-09
+10517,Impresora Modelo 384,1900.81,6,si,2025-03-07
+10518,Tablet Modelo 865,123.13,25,si,2025-06-20
+10519,Memoria RAM Modelo 625,1378.4,29,si,2025-04-12
+10520,Tarjeta Madre Modelo 253,1057.12,43,si,2025-05-22
+10521,Cable HDMI Modelo 333,400.41,41,si,2025-02-24
+10522,Laptop Modelo 946,392.09,34,si,2025-04-08
+10523,Consola de Juegos Modelo 672,1575.82,17,si,2025-04-12
+10524,Monitor Modelo 353,1647.43,41,si,2025-03-15
+10525,Case Modelo 496,1347.5,50,si,2025-03-06
+10526,Adaptador Bluetooth Modelo 851,1501.92,7,si,2025-07-05
+10527,Camara IP Modelo 938,1535.72,47,si,2025-03-19
+10528,Parlantes Modelo 798,1987.79,2,si,2025-01-28
+10529,Smartphone Modelo 439,574.44,32,si,2025-05-22
+10530,Disco Duro Modelo 453,1436.92,36,si,2025-01-25
+10531,Procesador Modelo 548,325.17,21,si,2025-07-07
+10532,Teclado Modelo 673,1398.79,45,si,2025-01-30
+10533,Joystick Modelo 470,1189.89,12,si,2025-05-09
+10534,Proyector Modelo 323,269.71,40,si,2025-06-04
+10535,Case Modelo 145,1143.0,33,si,2025-05-09
+10536,Smartphone Modelo 290,1083.47,46,si,2025-03-28
+10537,Proyector Modelo 892,877.47,20,si,2025-05-07
+10538,Fuente de Poder Modelo 724,1346.9,1,si,2025-05-25
+10539,Tablet Modelo 570,836.18,36,si,2025-06-28
+10540,Router Modelo 706,1077.11,43,si,2025-02-07
+10541,Procesador Modelo 765,103.6,34,si,2025-02-10
+10542,Case Modelo 946,1312.39,28,si,2025-02-03
+10543,Cable HDMI Modelo 896,1660.45,19,si,2025-07-10
+10544,Cooler Modelo 587,1548.53,31,si,2025-07-12
+10545,Webcam Modelo 282,346.83,8,si,2025-03-21
+10546,Tablet Modelo 966,974.71,39,si,2025-05-06
+10547,Smartwatch Modelo 667,677.94,15,si,2025-05-27
+10548,Impresora Modelo 116,402.62,36,si,2025-06-03
+10549,Webcam Modelo 773,1879.4,7,si,2025-01-29
+10550,Parlantes Modelo 471,330.51,26,si,2025-03-28
+10551,Tarjeta de Video Modelo 525,1847.91,41,si,2025-03-19
+10552,SSD Externo Modelo 885,828.35,44,si,2025-02-04
+10553,Consola de Juegos Modelo 518,305.43,8,si,2025-04-15
+10554,Tarjeta Madre Modelo 944,1591.04,32,si,2025-05-02
+10555,Fuente de Poder Modelo 697,1843.77,28,si,2025-03-27
+10556,Monitor Modelo 121,1094.9,20,si,2025-02-10
+10557,Laptop Modelo 776,584.66,42,si,2025-03-25
+10558,Router Modelo 111,1586.73,43,si,2025-05-30
+10559,Microfono Modelo 115,492.3,37,si,2025-02-19
+10560,Disco Duro Modelo 922,804.56,14,si,2025-07-12
+10561,Monitor Modelo 379,1938.28,49,si,2025-05-07
+10562,Joystick Modelo 830,1632.86,38,si,2025-04-18
+10563,Camara IP Modelo 326,1109.4,26,si,2025-01-30
+10564,Escaner Modelo 625,25.69,2,si,2025-03-04
+10565,Proyector Modelo 882,1585.86,7,si,2025-05-28
+10566,Router Modelo 838,76.68,1,si,2025-02-02
+10567,SSD Externo Modelo 958,909.11,24,si,2025-06-21
+10568,Procesador Modelo 766,999.15,22,si,2025-06-19
+10569,Smartwatch Modelo 548,840.65,18,si,2025-06-18
+10570,Tablet Modelo 345,1854.64,23,si,2025-05-30
+10571,Fuente de Poder Modelo 992,1228.52,28,si,2025-06-23
+10572,Tarjeta Madre Modelo 673,901.02,44,si,2025-04-13
+10573,Tarjeta de Video Modelo 667,965.45,46,si,2025-05-26
+10574,Consola de Juegos Modelo 902,1836.08,50,si,2025-07-10
+10575,Smartphone Modelo 299,1643.99,50,si,2025-02-02
+10576,Disco Duro Modelo 523,1966.05,35,si,2025-03-19
+10577,Joystick Modelo 973,1667.04,23,si,2025-04-15
+10578,Procesador Modelo 766,498.09,2,si,2025-07-04
+10579,Case Modelo 962,856.38,30,si,2025-07-23
+10580,Memoria RAM Modelo 719,1174.12,43,si,2025-05-15
+10581,Router Modelo 123,1906.09,48,si,2025-02-21
+10582,Procesador Modelo 528,121.16,12,si,2025-05-06
+10583,Webcam Modelo 888,1541.46,50,si,2025-05-12
+10584,Cable HDMI Modelo 297,1687.68,37,si,2025-07-08
+10585,Tarjeta Madre Modelo 201,1737.08,2,si,2025-04-21
+10586,Tablet Modelo 924,520.73,39,si,2025-07-04
+10587,Consola de Juegos Modelo 871,734.11,38,si,2025-04-09
+10588,Disco Duro Modelo 981,1890.55,25,si,2025-02-09
+10589,Procesador Modelo 769,1751.47,10,si,2025-04-19
+10590,Laptop Modelo 207,296.77,41,si,2025-04-09
+10591,Auriculares Modelo 243,1899.67,38,si,2025-02-14
+10592,Memoria RAM Modelo 281,266.26,20,si,2025-05-03
+10593,Router Modelo 618,1744.57,1,si,2025-04-16
+10594,Proyector Modelo 704,228.19,3,si,2025-07-09
+10595,Microfono Modelo 982,1361.14,7,si,2025-04-16
+10596,Case Modelo 216,164.13,6,si,2025-01-25
+10597,Proyector Modelo 622,743.75,3,si,2025-03-11
+10598,Cooler Modelo 930,842.39,16,si,2025-01-30
+10599,Consola de Juegos Modelo 104,1423.36,6,si,2025-05-17
+10600,Camara IP Modelo 261,262.1,30,si,2025-06-06
+10601,Tarjeta Madre Modelo 675,1081.41,40,si,2025-02-25
+10602,Case Modelo 245,616.54,6,si,2025-05-29
+10603,Cooler Modelo 944,387.03,37,si,2025-02-04
+10604,Cable HDMI Modelo 337,1370.24,1,si,2025-06-17
+10605,Consola de Juegos Modelo 162,1283.45,5,si,2025-07-10
+10606,Teclado Modelo 125,1003.13,5,si,2025-05-26
+10607,Laptop Modelo 591,1793.0,40,si,2025-04-26
+10608,Smartwatch Modelo 245,1952.74,21,si,2025-05-05
+10609,Tablet Modelo 599,93.09,9,si,2025-02-25
+10610,Adaptador Bluetooth Modelo 601,621.57,1,si,2025-06-09
+10611,Procesador Modelo 313,126.16,11,si,2025-05-08
+10612,Webcam Modelo 597,822.91,43,si,2025-06-21
+10613,Auriculares Modelo 324,1177.3,50,si,2025-07-23
+10614,Fuente de Poder Modelo 572,55.29,48,si,2025-06-16
+10615,Monitor Modelo 536,585.02,39,si,2025-04-30
+10616,Camara IP Modelo 858,1558.97,27,si,2025-01-28
+10617,Laptop Modelo 353,305.13,14,si,2025-07-19
+10618,Smartwatch Modelo 318,411.82,15,si,2025-03-19
+10619,Joystick Modelo 714,1106.39,42,si,2025-03-06
+10620,Mouse Modelo 485,1157.59,40,si,2025-03-21
+10621,Consola de Juegos Modelo 576,1785.6,32,si,2025-07-01
+10622,Escaner Modelo 145,77.55,18,si,2025-06-20
+10623,SSD Externo Modelo 503,1426.76,40,si,2025-01-26
+10624,Tablet Modelo 377,504.0,35,si,2025-04-05
+10625,Procesador Modelo 718,858.56,15,si,2025-04-16
+10626,Tarjeta Madre Modelo 480,1414.52,13,si,2025-02-21
+10627,Joystick Modelo 116,1099.66,18,si,2025-02-11
+10628,Webcam Modelo 407,148.39,41,si,2025-07-23
+10629,Procesador Modelo 324,1641.37,41,si,2025-07-17
+10630,Joystick Modelo 248,1482.14,39,si,2025-05-29
+10631,Parlantes Modelo 827,944.54,24,si,2025-04-17
+10632,Laptop Modelo 241,1510.48,20,si,2025-04-23
+10633,Laptop Modelo 349,473.11,8,si,2025-03-17
+10634,Case Modelo 543,192.94,22,si,2025-03-30
+10635,Escaner Modelo 784,1014.73,35,si,2025-07-01
+10636,Smartwatch Modelo 535,242.38,38,si,2025-03-24
+10637,Microfono Modelo 455,161.59,46,si,2025-02-11
+10638,Smartphone Modelo 931,885.36,22,si,2025-07-19
+10639,Webcam Modelo 153,316.29,40,si,2025-03-22
+10640,Hub USB Modelo 501,1525.17,3,si,2025-06-13
+10641,Cooler Modelo 709,194.9,4,si,2025-07-15
+10642,Webcam Modelo 978,739.74,26,si,2025-07-13
+10643,Disco Duro Modelo 997,638.39,9,si,2025-03-24
+10644,Laptop Modelo 631,1580.75,22,si,2025-02-12
+10645,Microfono Modelo 614,1797.09,6,si,2025-02-12
+10646,Tarjeta Madre Modelo 573,475.46,5,si,2025-07-02
+10647,Escaner Modelo 385,223.5,8,si,2025-02-18
+10648,Webcam Modelo 498,776.61,2,si,2025-01-25
+10649,Memoria RAM Modelo 197,36.13,14,si,2025-07-14
+10650,Auriculares Modelo 727,279.95,39,si,2025-03-01
+10651,Monitor Modelo 475,725.57,26,si,2025-04-29
+10652,Smartphone Modelo 266,1022.13,39,si,2025-04-30
+10653,Cooler Modelo 712,1969.44,44,si,2025-04-25
+10654,Adaptador Bluetooth Modelo 145,1071.9,1,si,2025-06-13
+10655,Tarjeta de Video Modelo 880,404.91,39,si,2025-06-26
+10656,Auriculares Modelo 596,1893.53,0,no,2025-04-04
+10657,Smartphone Modelo 843,43.49,16,si,2025-06-26
+10658,Adaptador Bluetooth Modelo 103,1028.57,46,si,2025-05-16
+10659,Tablet Modelo 410,1122.46,38,si,2025-04-11
+10660,Joystick Modelo 562,626.27,21,si,2025-05-05
+10661,Impresora Modelo 908,748.31,47,si,2025-04-12
+10662,Escaner Modelo 679,1219.25,36,si,2025-04-28
+10663,Proyector Modelo 981,629.56,38,si,2025-03-17
+10664,Mouse Modelo 148,1330.9,33,si,2025-03-31
+10665,Hub USB Modelo 573,1359.06,17,si,2025-05-21
+10666,Memoria RAM Modelo 306,435.38,38,si,2025-05-03
+10667,Tablet Modelo 511,1543.82,6,si,2025-06-21
+10668,Teclado Modelo 286,120.08,11,si,2025-05-04
+10669,Fuente de Poder Modelo 264,322.78,46,si,2025-07-13
+10670,Mouse Modelo 772,275.25,38,si,2025-03-14
+10671,Disco Duro Modelo 437,349.95,15,si,2025-03-10
+10672,Tablet Modelo 646,582.7,18,si,2025-02-03
+10673,Parlantes Modelo 653,1523.63,49,si,2025-04-08
+10674,Smartphone Modelo 778,1047.79,39,si,2025-06-03
+10675,Cooler Modelo 210,453.73,34,si,2025-04-10
+10676,Mouse Modelo 235,909.03,2,si,2025-02-25
+10677,Laptop Modelo 514,1509.53,5,si,2025-07-24
+10678,Mouse Modelo 989,26.26,19,si,2025-03-13
+10679,Cooler Modelo 342,657.42,24,si,2025-03-04
+10680,Case Modelo 424,265.91,12,si,2025-04-25
+10681,Teclado Modelo 335,680.56,35,si,2025-06-21
+10682,Camara IP Modelo 636,342.75,49,si,2025-05-28
+10683,Case Modelo 435,338.96,43,si,2025-04-16
+10684,Adaptador Bluetooth Modelo 267,277.93,34,si,2025-05-10
+10685,SSD Externo Modelo 104,1950.78,31,si,2025-04-21
+10686,Smartphone Modelo 525,287.83,9,si,2025-06-24
+10687,Consola de Juegos Modelo 447,888.32,31,si,2025-05-28
+10688,Microfono Modelo 524,1757.02,21,si,2025-07-22
+10689,Camara IP Modelo 746,218.02,21,si,2025-06-22
+10690,Webcam Modelo 788,551.75,29,si,2025-05-03
+10691,Monitor Modelo 263,469.47,31,si,2025-07-14
+10692,Monitor Modelo 443,863.65,22,si,2025-02-07
+10693,Case Modelo 823,217.69,26,si,2025-03-12
+10694,Smartphone Modelo 956,1640.34,23,si,2025-04-24
+10695,Tablet Modelo 282,29.23,2,si,2025-04-09
+10696,Parlantes Modelo 176,1570.52,32,si,2025-04-25
+10697,Mouse Modelo 279,1421.86,8,si,2025-04-02
+10698,Microfono Modelo 570,115.68,20,si,2025-06-03
+10699,Monitor Modelo 440,945.73,39,si,2025-04-28
+10700,Webcam Modelo 576,156.19,5,si,2025-02-16
+10701,Adaptador Bluetooth Modelo 670,928.3,5,si,2025-05-09
+10702,Microfono Modelo 566,1954.72,14,si,2025-04-02
+10703,Monitor Modelo 290,527.69,49,si,2025-06-12
+10704,Escaner Modelo 525,126.07,30,si,2025-07-08
+10705,Parlantes Modelo 673,611.84,49,si,2025-06-07
+10706,Consola de Juegos Modelo 652,183.32,44,si,2025-04-04
+10707,Consola de Juegos Modelo 510,1600.2,14,si,2025-05-26
+10708,Mouse Modelo 245,1830.87,35,si,2025-05-10
+10709,Adaptador Bluetooth Modelo 849,646.44,1,si,2025-01-27
+10710,Proyector Modelo 429,1168.59,14,si,2025-06-02
+10711,Smartphone Modelo 971,416.36,12,si,2025-04-11
+10712,Auriculares Modelo 828,471.21,20,si,2025-02-20
+10713,Impresora Modelo 663,574.67,0,no,2025-02-07
+10714,Laptop Modelo 108,483.77,12,si,2025-03-26
+10715,Escaner Modelo 954,1821.71,36,si,2025-07-11
+10716,Laptop Modelo 829,1898.44,19,si,2025-03-07
+10717,Monitor Modelo 799,322.1,50,si,2025-06-26
+10718,Procesador Modelo 816,1343.11,5,si,2025-06-09
+10719,Smartwatch Modelo 737,430.05,50,si,2025-03-14
+10720,Tarjeta de Video Modelo 749,1723.96,31,si,2025-07-17
+10721,Consola de Juegos Modelo 856,1186.57,7,si,2025-03-26
+10722,Parlantes Modelo 570,1608.34,32,si,2025-06-10
+10723,SSD Externo Modelo 311,499.12,7,si,2025-03-29
+10724,Monitor Modelo 545,1633.13,46,si,2025-02-10
+10725,Teclado Modelo 954,1871.7,37,si,2025-04-20
+10726,Teclado Modelo 881,1719.35,25,si,2025-07-07
+10727,Consola de Juegos Modelo 575,609.85,19,si,2025-05-10
+10728,Smartwatch Modelo 868,1886.87,42,si,2025-07-07
+10729,Consola de Juegos Modelo 426,82.56,34,si,2025-03-31
+10730,Fuente de Poder Modelo 188,248.42,25,si,2025-06-15
+10731,Cable HDMI Modelo 111,886.22,10,si,2025-03-16
+10732,Tarjeta de Video Modelo 807,1527.52,32,si,2025-06-21
+10733,Smartwatch Modelo 571,1943.72,25,si,2025-05-04
+10734,Adaptador Bluetooth Modelo 773,834.73,35,si,2025-03-23
+10735,Mouse Modelo 952,1198.24,34,si,2025-03-22
+10736,Consola de Juegos Modelo 141,792.31,23,si,2025-04-12
+10737,Smartwatch Modelo 543,1706.72,1,si,2025-05-14
+10738,Procesador Modelo 332,1700.1,41,si,2025-07-16
+10739,Smartphone Modelo 141,887.82,8,si,2025-06-02
+10740,Procesador Modelo 436,63.01,16,si,2025-06-17
+10741,Disco Duro Modelo 190,44.17,26,si,2025-06-08
+10742,Escaner Modelo 453,1878.87,10,si,2025-04-11
+10743,Tablet Modelo 618,671.39,9,si,2025-05-04
+10744,Case Modelo 502,1550.64,35,si,2025-04-08
+10745,Procesador Modelo 214,956.77,33,si,2025-07-16
+10746,Cooler Modelo 437,1333.77,33,si,2025-07-01
+10747,Hub USB Modelo 417,1483.02,29,si,2025-05-28
+10748,Memoria RAM Modelo 975,1899.03,11,si,2025-04-10
+10749,SSD Externo Modelo 907,1259.31,46,si,2025-05-06
+10750,Memoria RAM Modelo 608,1009.71,15,si,2025-05-09
+10751,Joystick Modelo 209,826.32,36,si,2025-02-21
+10752,Consola de Juegos Modelo 990,49.56,36,si,2025-02-24
+10753,Laptop Modelo 864,1801.64,50,si,2025-05-31
+10754,Joystick Modelo 284,14.89,46,si,2025-05-17
+10755,SSD Externo Modelo 647,1873.34,21,si,2025-03-24
+10756,Microfono Modelo 527,1858.22,14,si,2025-04-04
+10757,Camara IP Modelo 815,782.12,44,si,2025-05-22
+10758,Adaptador Bluetooth Modelo 589,1344.34,40,si,2025-04-10
+10759,Hub USB Modelo 895,484.84,37,si,2025-02-19
+10760,Cable HDMI Modelo 952,727.78,28,si,2025-04-04
+10761,Disco Duro Modelo 831,1153.55,15,si,2025-04-09
+10762,Mouse Modelo 142,1088.81,32,si,2025-01-26
+10763,Monitor Modelo 728,1247.46,34,si,2025-05-20
+10764,Cooler Modelo 959,1649.23,15,si,2025-06-26
+10765,Tarjeta de Video Modelo 135,333.49,28,si,2025-03-30
+10766,Procesador Modelo 370,1456.36,39,si,2025-03-10
+10767,Memoria RAM Modelo 649,277.07,19,si,2025-06-27
+10768,Cable HDMI Modelo 677,798.57,17,si,2025-06-21
+10769,Fuente de Poder Modelo 190,701.27,4,si,2025-03-15
+10770,Tarjeta de Video Modelo 365,990.59,7,si,2025-03-09
+10771,Proyector Modelo 886,1018.5,2,si,2025-03-16
+10772,Procesador Modelo 472,1098.76,9,si,2025-04-12
+10773,Disco Duro Modelo 905,1840.71,45,si,2025-03-10
+10774,Case Modelo 707,371.69,33,si,2025-07-02
+10775,Mouse Modelo 416,1925.23,13,si,2025-04-03
+10776,Microfono Modelo 525,520.84,24,si,2025-06-27
+10777,Adaptador Bluetooth Modelo 167,1113.53,14,si,2025-01-26
+10778,Escaner Modelo 465,1997.9,6,si,2025-05-25
+10779,Adaptador Bluetooth Modelo 770,1298.38,43,si,2025-04-28
+10780,Smartphone Modelo 701,1644.78,35,si,2025-03-17
+10781,Impresora Modelo 129,1263.86,27,si,2025-04-23
+10782,Cable HDMI Modelo 214,246.66,7,si,2025-03-09
+10783,Smartphone Modelo 550,1379.59,48,si,2025-03-20
+10784,Router Modelo 185,773.0,14,si,2025-06-26
+10785,Procesador Modelo 458,349.04,37,si,2025-05-02
+10786,Cable HDMI Modelo 512,222.19,9,si,2025-04-17
+10787,Joystick Modelo 898,1659.77,6,si,2025-04-30
+10788,Impresora Modelo 606,1391.86,16,si,2025-02-12
+10789,Adaptador Bluetooth Modelo 786,589.4,49,si,2025-07-24
+10790,SSD Externo Modelo 964,650.66,36,si,2025-04-14
+10791,Auriculares Modelo 616,354.5,9,si,2025-03-11
+10792,Parlantes Modelo 969,1928.58,28,si,2025-07-19
+10793,Router Modelo 292,1439.82,34,si,2025-01-28
+10794,Camara IP Modelo 911,1446.2,31,si,2025-07-08
+10795,Fuente de Poder Modelo 751,1742.96,29,si,2025-05-20
+10796,Parlantes Modelo 289,1918.12,44,si,2025-03-28
+10797,Impresora Modelo 633,1225.37,19,si,2025-02-26
+10798,Escaner Modelo 255,955.44,25,si,2025-07-16
+10799,Consola de Juegos Modelo 250,1346.89,40,si,2025-02-02
+10800,Joystick Modelo 612,1770.22,31,si,2025-04-05
+10801,Impresora Modelo 928,1279.72,4,si,2025-03-02
+10802,Laptop Modelo 647,939.63,47,si,2025-02-08
+10803,Escaner Modelo 313,391.5,38,si,2025-01-28
+10804,Parlantes Modelo 725,161.93,39,si,2025-02-15
+10805,Cooler Modelo 419,1165.2,14,si,2025-07-15
+10806,Parlantes Modelo 907,816.55,36,si,2025-06-25
+10807,Smartwatch Modelo 633,184.17,35,si,2025-03-04
+10808,Procesador Modelo 187,421.09,7,si,2025-03-08
+10809,Case Modelo 328,246.48,41,si,2025-04-10
+10810,Consola de Juegos Modelo 847,1971.56,16,si,2025-04-23
+10811,Adaptador Bluetooth Modelo 318,90.28,7,si,2025-07-01
+10812,Hub USB Modelo 928,1035.49,21,si,2025-01-30
+10813,Smartphone Modelo 789,1611.19,28,si,2025-06-16
+10814,Consola de Juegos Modelo 601,1332.0,32,si,2025-02-11
+10815,Smartphone Modelo 215,858.98,26,si,2025-05-17
+10816,Monitor Modelo 114,1932.99,5,si,2025-03-09
+10817,Smartwatch Modelo 996,1755.54,8,si,2025-03-18
+10818,Memoria RAM Modelo 588,1184.99,2,si,2025-02-17
+10819,Hub USB Modelo 781,642.71,29,si,2025-01-31
+10820,Tarjeta de Video Modelo 679,1137.5,9,si,2025-06-04
+10821,Teclado Modelo 454,302.32,41,si,2025-02-03
+10822,Proyector Modelo 278,1819.77,6,si,2025-02-24
+10823,Tarjeta de Video Modelo 763,281.31,28,si,2025-02-28
+10824,Cable HDMI Modelo 374,1869.62,31,si,2025-07-21
+10825,Webcam Modelo 516,1030.56,41,si,2025-03-24
+10826,Webcam Modelo 989,775.42,27,si,2025-05-30
+10827,Monitor Modelo 512,1530.0,2,si,2025-05-27
+10828,Auriculares Modelo 363,158.08,8,si,2025-02-12
+10829,Case Modelo 643,11.39,39,si,2025-06-08
+10830,Disco Duro Modelo 586,1750.44,14,si,2025-06-14
+10831,Hub USB Modelo 621,740.47,34,si,2025-07-24
+10832,Hub USB Modelo 345,855.75,14,si,2025-03-05
+10833,Microfono Modelo 930,1813.9,5,si,2025-03-29
+10834,Camara IP Modelo 439,1409.73,42,si,2025-07-18
+10835,Proyector Modelo 423,717.4,19,si,2025-07-20
+10836,Parlantes Modelo 605,1100.42,41,si,2025-05-05
+10837,Cooler Modelo 221,1230.2,9,si,2025-06-13
+10838,Cooler Modelo 402,830.81,7,si,2025-04-09
+10839,Memoria RAM Modelo 285,82.6,26,si,2025-04-25
+10840,Case Modelo 588,1861.92,31,si,2025-07-23
+10841,Teclado Modelo 762,228.5,31,si,2025-06-22
+10842,Joystick Modelo 830,294.49,38,si,2025-03-26
+10843,Consola de Juegos Modelo 751,304.87,43,si,2025-05-02
+10844,Teclado Modelo 119,823.0,0,no,2025-03-25
+10845,Memoria RAM Modelo 862,1717.78,15,si,2025-06-18
+10846,Hub USB Modelo 213,784.87,47,si,2025-05-18
+10847,Procesador Modelo 668,1789.57,13,si,2025-05-01
+10848,SSD Externo Modelo 902,1248.37,34,si,2025-05-21
+10849,Camara IP Modelo 604,1784.39,19,si,2025-05-19
+10850,Teclado Modelo 110,1528.05,44,si,2025-04-09
+10851,Tarjeta de Video Modelo 577,1421.23,34,si,2025-02-16
+10852,Hub USB Modelo 336,490.48,29,si,2025-05-30
+10853,Fuente de Poder Modelo 861,287.72,30,si,2025-04-17
+10854,Fuente de Poder Modelo 498,399.54,8,si,2025-06-04
+10855,Webcam Modelo 954,774.62,15,si,2025-05-30
+10856,Laptop Modelo 562,1946.18,27,si,2025-02-24
+10857,Cooler Modelo 408,199.42,22,si,2025-06-19
+10858,Proyector Modelo 193,1687.57,22,si,2025-03-10
+10859,Mouse Modelo 803,1030.73,39,si,2025-05-19
+10860,Hub USB Modelo 293,1915.84,11,si,2025-05-10
+10861,Camara IP Modelo 570,1644.33,20,si,2025-01-26
+10862,Impresora Modelo 357,1048.05,44,si,2025-02-12
+10863,Smartphone Modelo 178,1385.3,17,si,2025-05-09
+10864,Disco Duro Modelo 245,1870.06,7,si,2025-03-04
+10865,Monitor Modelo 922,1791.58,20,si,2025-04-11
+10866,Parlantes Modelo 371,1103.85,24,si,2025-04-21
+10867,Parlantes Modelo 452,1441.71,5,si,2025-05-06
+10868,Teclado Modelo 253,482.7,32,si,2025-01-28
+10869,Tarjeta de Video Modelo 319,400.65,12,si,2025-07-01
+10870,Consola de Juegos Modelo 253,508.19,14,si,2025-03-16
+10871,Tarjeta Madre Modelo 806,1943.82,0,no,2025-06-04
+10872,Tarjeta Madre Modelo 640,137.08,18,si,2025-03-27
+10873,Monitor Modelo 469,1208.5,22,si,2025-04-11
+10874,Joystick Modelo 827,501.64,3,si,2025-05-08
+10875,Fuente de Poder Modelo 866,1173.98,26,si,2025-04-07
+10876,SSD Externo Modelo 343,400.25,40,si,2025-03-18
+10877,Tablet Modelo 290,478.27,29,si,2025-04-27
+10878,Proyector Modelo 908,1215.61,41,si,2025-03-08
+10879,Mouse Modelo 710,550.23,46,si,2025-07-20
+10880,Laptop Modelo 842,678.48,33,si,2025-07-04
+10881,Impresora Modelo 199,1127.8,18,si,2025-04-17
+10882,Laptop Modelo 222,248.67,46,si,2025-03-30
+10883,Hub USB Modelo 349,121.32,24,si,2025-07-11
+10884,Tarjeta de Video Modelo 855,159.72,47,si,2025-05-04
+10885,Proyector Modelo 339,704.54,45,si,2025-03-14
+10886,Cooler Modelo 766,532.0,23,si,2025-06-17
+10887,Case Modelo 924,1056.76,13,si,2025-03-02
+10888,Adaptador Bluetooth Modelo 909,987.49,25,si,2025-05-30
+10889,Teclado Modelo 741,415.33,17,si,2025-05-13
+10890,Joystick Modelo 473,1581.64,4,si,2025-06-12
+10891,Tarjeta de Video Modelo 469,94.58,27,si,2025-07-06
+10892,Teclado Modelo 643,591.62,24,si,2025-01-25
+10893,Consola de Juegos Modelo 320,586.27,39,si,2025-06-07
+10894,Tarjeta de Video Modelo 369,1159.35,33,si,2025-02-19
+10895,Disco Duro Modelo 215,585.57,35,si,2025-05-17
+10896,Tarjeta de Video Modelo 121,486.93,40,si,2025-06-09
+10897,Fuente de Poder Modelo 307,424.02,30,si,2025-04-29
+10898,Joystick Modelo 730,1623.79,11,si,2025-03-16
+10899,Disco Duro Modelo 660,106.44,0,no,2025-06-22
+10900,Camara IP Modelo 423,1066.3,1,si,2025-05-04
+10901,Smartwatch Modelo 405,1960.82,18,si,2025-03-12
+10902,Fuente de Poder Modelo 733,1501.91,19,si,2025-06-08
+10903,Tablet Modelo 676,1121.45,25,si,2025-07-03
+10904,Escaner Modelo 349,894.33,36,si,2025-05-11
+10905,Router Modelo 312,108.13,44,si,2025-05-20
+10906,Adaptador Bluetooth Modelo 325,1574.75,14,si,2025-04-14
+10907,Procesador Modelo 231,284.87,45,si,2025-07-18
+10908,Smartphone Modelo 872,563.6,15,si,2025-04-06
+10909,Tarjeta Madre Modelo 761,325.46,36,si,2025-02-17
+10910,Escaner Modelo 466,1685.37,10,si,2025-04-22
+10911,Smartwatch Modelo 264,535.87,33,si,2025-07-13
+10912,Tarjeta de Video Modelo 567,1677.74,2,si,2025-02-20
+10913,Auriculares Modelo 331,294.73,35,si,2025-03-01
+10914,Fuente de Poder Modelo 493,1661.14,24,si,2025-02-15
+10915,Tablet Modelo 655,1667.65,7,si,2025-05-21
+10916,Disco Duro Modelo 254,815.55,44,si,2025-03-19
+10917,Escaner Modelo 156,1550.97,30,si,2025-06-20
+10918,Cable HDMI Modelo 778,1856.5,32,si,2025-05-07
+10919,Disco Duro Modelo 530,824.1,49,si,2025-06-05
+10920,Tablet Modelo 331,591.51,42,si,2025-06-25
+10921,Laptop Modelo 243,1090.36,26,si,2025-06-29
+10922,Camara IP Modelo 435,1298.33,48,si,2025-02-24
+10923,Proyector Modelo 971,418.81,14,si,2025-05-09
+10924,Cable HDMI Modelo 626,177.57,42,si,2025-01-31
+10925,Procesador Modelo 135,1182.64,23,si,2025-02-18
+10926,Camara IP Modelo 368,426.63,36,si,2025-04-21
+10927,Proyector Modelo 686,990.24,20,si,2025-04-24
+10928,Smartphone Modelo 348,1699.75,15,si,2025-03-23
+10929,Teclado Modelo 788,1557.44,38,si,2025-06-01
+10930,Consola de Juegos Modelo 228,936.94,25,si,2025-03-07
+10931,Auriculares Modelo 344,419.06,25,si,2025-01-26
+10932,Escaner Modelo 531,1192.08,22,si,2025-06-17
+10933,Case Modelo 559,622.05,25,si,2025-05-23
+10934,Fuente de Poder Modelo 224,1951.75,38,si,2025-03-19
+10935,Tarjeta de Video Modelo 939,1594.23,2,si,2025-03-10
+10936,Case Modelo 223,1774.06,2,si,2025-07-16
+10937,Procesador Modelo 419,843.69,17,si,2025-01-29
+10938,Smartphone Modelo 239,1560.56,8,si,2025-01-29
+10939,Proyector Modelo 616,847.46,43,si,2025-04-23
+10940,Parlantes Modelo 915,1966.7,38,si,2025-06-23
+10941,Smartphone Modelo 988,902.58,44,si,2025-01-26
+10942,Laptop Modelo 157,1386.76,7,si,2025-03-23
+10943,Router Modelo 784,1006.6,45,si,2025-03-29
+10944,Smartwatch Modelo 597,1197.43,33,si,2025-07-07
+10945,SSD Externo Modelo 945,968.82,25,si,2025-06-21
+10946,Adaptador Bluetooth Modelo 420,1263.63,8,si,2025-04-22
+10947,Tablet Modelo 898,1483.1,4,si,2025-03-26
+10948,Disco Duro Modelo 628,1342.52,40,si,2025-07-10
+10949,Memoria RAM Modelo 611,1803.16,36,si,2025-05-30
+10950,Procesador Modelo 107,1426.11,38,si,2025-04-25
+10951,Camara IP Modelo 198,1046.36,6,si,2025-05-13
+10952,Smartphone Modelo 787,349.18,41,si,2025-06-29
+10953,Webcam Modelo 742,1423.31,46,si,2025-06-24
+10954,Fuente de Poder Modelo 900,987.04,1,si,2025-06-22
+10955,Monitor Modelo 568,357.43,43,si,2025-04-24
+10956,Adaptador Bluetooth Modelo 613,1939.95,19,si,2025-02-01
+10957,Proyector Modelo 822,1839.02,37,si,2025-06-16
+10958,Tarjeta Madre Modelo 129,772.29,31,si,2025-03-22
+10959,Fuente de Poder Modelo 180,915.95,39,si,2025-03-21
+10960,Laptop Modelo 739,1431.88,23,si,2025-03-24
+10961,SSD Externo Modelo 705,1118.57,45,si,2025-07-06
+10962,Disco Duro Modelo 935,16.35,45,si,2025-04-14
+10963,Parlantes Modelo 939,41.01,44,si,2025-03-25
+10964,Escaner Modelo 905,1723.17,21,si,2025-02-06
+10965,Monitor Modelo 546,680.45,18,si,2025-02-18
+10966,Cooler Modelo 413,1663.26,35,si,2025-06-26
+10967,Tarjeta Madre Modelo 599,1545.97,42,si,2025-03-19
+10968,Mouse Modelo 856,1012.26,0,no,2025-05-16
+10969,Monitor Modelo 539,1125.96,4,si,2025-04-20
+10970,Tablet Modelo 689,1112.3,27,si,2025-05-19
+10971,Teclado Modelo 310,176.74,5,si,2025-02-22
+10972,Fuente de Poder Modelo 244,914.89,12,si,2025-04-02
+10973,Adaptador Bluetooth Modelo 467,632.49,5,si,2025-05-04
+10974,Tarjeta Madre Modelo 444,329.1,7,si,2025-07-19
+10975,Smartwatch Modelo 722,553.17,31,si,2025-05-23
+10976,Tarjeta de Video Modelo 278,1319.48,1,si,2025-06-01
+10977,Cable HDMI Modelo 504,335.9,44,si,2025-02-23
+10978,SSD Externo Modelo 367,1954.26,6,si,2025-03-21
+10979,Teclado Modelo 635,1878.27,23,si,2025-04-28
+10980,Camara IP Modelo 872,345.73,11,si,2025-07-13
+10981,Escaner Modelo 849,678.93,49,si,2025-02-19
+10982,Camara IP Modelo 213,1747.32,18,si,2025-06-04
+10983,Auriculares Modelo 377,1798.02,49,si,2025-05-31
+10984,Microfono Modelo 573,1125.19,48,si,2025-07-16
+10985,Disco Duro Modelo 982,1106.02,46,si,2025-03-24
+10986,Webcam Modelo 736,1002.44,45,si,2025-05-20
+10987,Tablet Modelo 977,809.73,30,si,2025-02-07
+10988,Cooler Modelo 293,1460.32,9,si,2025-02-28
+10989,Proyector Modelo 378,1481.36,17,si,2025-03-15
+10990,Proyector Modelo 375,72.08,19,si,2025-03-20
+10991,Tablet Modelo 872,99.2,29,si,2025-05-16
+10992,Mouse Modelo 610,660.05,32,si,2025-03-13
+10993,Router Modelo 171,154.1,48,si,2025-02-25
+10994,Parlantes Modelo 483,796.81,47,si,2025-05-05
+10995,Microfono Modelo 376,1864.46,48,si,2025-06-25
+10996,Teclado Modelo 332,1891.72,22,si,2025-04-04
+10997,Cable HDMI Modelo 871,152.9,31,si,2025-04-08
+10998,Teclado Modelo 111,1017.22,26,si,2025-04-08
+10999,Mouse Modelo 842,424.56,35,si,2025-06-24
+11000,Tablet Modelo 576,444.32,50,si,2025-01-29
+11001,Smartwatch Modelo 404,1004.89,26,si,2025-06-24
+11002,Mouse Modelo 116,475.03,7,si,2025-03-20
+11003,Memoria RAM Modelo 992,490.44,15,si,2025-05-06
+11004,SSD Externo Modelo 427,727.7,10,si,2025-03-09
+11005,Tarjeta de Video Modelo 194,167.14,40,si,2025-02-10
+11006,Consola de Juegos Modelo 168,1402.15,23,si,2025-03-21
+11007,Consola de Juegos Modelo 901,396.21,20,si,2025-04-25
+11008,Microfono Modelo 364,915.96,17,si,2025-02-21
+11009,Router Modelo 107,1612.05,3,si,2025-04-26
+11010,Impresora Modelo 404,875.82,23,si,2025-05-08
+11011,Tarjeta de Video Modelo 365,1636.57,29,si,2025-02-12
+11012,Consola de Juegos Modelo 164,995.02,17,si,2025-06-04
+11013,Cooler Modelo 902,418.47,7,si,2025-02-27
+11014,Router Modelo 455,869.92,5,si,2025-02-25
+11015,Camara IP Modelo 876,1037.72,22,si,2025-05-15
+11016,Proyector Modelo 450,1464.55,12,si,2025-03-26
+11017,Laptop Modelo 729,1837.29,7,si,2025-05-17
+11018,Cable HDMI Modelo 677,1991.59,11,si,2025-05-08
+11019,Laptop Modelo 789,253.69,17,si,2025-06-24
+11020,Mouse Modelo 854,832.96,35,si,2025-06-05
+11021,Memoria RAM Modelo 502,1231.7,11,si,2025-04-02
+11022,Teclado Modelo 310,306.77,21,si,2025-07-20
+11023,Escaner Modelo 775,356.26,31,si,2025-05-10
+11024,Parlantes Modelo 864,1685.58,46,si,2025-01-28
+11025,Consola de Juegos Modelo 635,397.35,13,si,2025-03-04
+11026,Joystick Modelo 571,1065.05,7,si,2025-03-22
+11027,Auriculares Modelo 662,313.91,46,si,2025-03-01
+11028,Procesador Modelo 120,1946.05,48,si,2025-06-29
+11029,Case Modelo 659,1189.1,41,si,2025-05-15
+11030,Tarjeta de Video Modelo 257,1256.05,25,si,2025-05-27
+11031,Fuente de Poder Modelo 778,81.69,24,si,2025-06-16
+11032,Laptop Modelo 777,15.42,8,si,2025-02-25
+11033,Tarjeta de Video Modelo 851,425.72,20,si,2025-03-08
+11034,Smartwatch Modelo 589,1639.33,20,si,2025-07-01
+11035,Webcam Modelo 947,1528.97,26,si,2025-02-11
+11036,Smartphone Modelo 351,1716.35,35,si,2025-03-01
+11037,Parlantes Modelo 553,1309.86,41,si,2025-04-21
+11038,Router Modelo 716,1451.23,49,si,2025-03-30
+11039,Disco Duro Modelo 683,1243.46,29,si,2025-02-04
+11040,Tablet Modelo 686,312.92,40,si,2025-03-25
+11041,Camara IP Modelo 923,500.56,31,si,2025-03-08
+11042,Monitor Modelo 151,1012.66,14,si,2025-07-05
+11043,Disco Duro Modelo 921,600.96,16,si,2025-06-10
+11044,Impresora Modelo 624,1575.63,1,si,2025-07-20
+11045,Router Modelo 420,1470.9,10,si,2025-02-13
+11046,Smartphone Modelo 637,431.79,10,si,2025-06-01
+11047,Tablet Modelo 316,791.69,8,si,2025-07-05
+11048,Proyector Modelo 870,714.5,45,si,2025-04-06
+11049,Case Modelo 569,1755.41,13,si,2025-05-01
+11050,Memoria RAM Modelo 145,796.84,6,si,2025-04-20
+11051,Router Modelo 263,795.08,38,si,2025-02-22
+11052,Tarjeta Madre Modelo 964,244.66,21,si,2025-03-08
+11053,Fuente de Poder Modelo 720,1522.36,40,si,2025-03-02
+11054,Hub USB Modelo 285,109.52,16,si,2025-05-07
+11055,Smartphone Modelo 282,500.85,40,si,2025-02-19
+11056,Procesador Modelo 490,1511.21,24,si,2025-02-05
+11057,Auriculares Modelo 801,812.2,38,si,2025-03-21
+11058,Mouse Modelo 741,1035.47,40,si,2025-01-28
+11059,Fuente de Poder Modelo 905,769.62,28,si,2025-02-20
+11060,Microfono Modelo 922,1101.46,18,si,2025-03-07
+11061,Disco Duro Modelo 724,1719.04,39,si,2025-06-13
+11062,Auriculares Modelo 844,1162.66,12,si,2025-05-01
+11063,Smartphone Modelo 823,215.86,43,si,2025-05-13
+11064,Monitor Modelo 554,734.02,19,si,2025-07-21
+11065,Procesador Modelo 849,541.6,33,si,2025-01-26
+11066,Consola de Juegos Modelo 305,1865.38,40,si,2025-03-19
+11067,Smartwatch Modelo 100,1297.5,19,si,2025-05-21
+11068,Hub USB Modelo 318,1043.79,43,si,2025-03-11
+11069,Procesador Modelo 539,290.07,20,si,2025-01-28
+11070,Consola de Juegos Modelo 582,856.9,9,si,2025-02-28
+11071,Tarjeta Madre Modelo 367,862.83,9,si,2025-06-14
+11072,Tarjeta de Video Modelo 565,883.61,31,si,2025-01-26
+11073,Smartwatch Modelo 414,811.85,0,no,2025-03-07
+11074,Hub USB Modelo 331,389.19,14,si,2025-07-24
+11075,Auriculares Modelo 180,1624.66,40,si,2025-04-09
+11076,Joystick Modelo 653,1806.61,24,si,2025-02-05
+11077,Laptop Modelo 680,1899.12,16,si,2025-06-22
+11078,Case Modelo 934,1381.34,25,si,2025-01-25
+11079,Impresora Modelo 520,1880.84,9,si,2025-01-26
+11080,Teclado Modelo 668,1474.72,40,si,2025-05-27
+11081,Proyector Modelo 335,355.64,20,si,2025-05-02
+11082,Tablet Modelo 435,268.77,19,si,2025-03-12
+11083,Joystick Modelo 317,1009.94,1,si,2025-05-15
+11084,Memoria RAM Modelo 530,1255.55,23,si,2025-04-24
+11085,Hub USB Modelo 491,844.28,18,si,2025-06-03
+11086,Tarjeta de Video Modelo 400,229.59,32,si,2025-01-29
+11087,Fuente de Poder Modelo 100,1047.99,16,si,2025-01-26
+11088,Camara IP Modelo 115,1075.53,1,si,2025-06-22
+11089,Teclado Modelo 869,738.17,21,si,2025-03-21
+11090,Escaner Modelo 385,80.13,9,si,2025-05-28
+11091,Parlantes Modelo 201,1858.86,0,no,2025-01-31
+11092,Hub USB Modelo 199,1899.15,22,si,2025-05-04
+11093,Tarjeta de Video Modelo 179,1813.59,14,si,2025-04-29
+11094,Smartphone Modelo 685,198.89,21,si,2025-02-04
+11095,Impresora Modelo 676,352.12,25,si,2025-05-20
+11096,Laptop Modelo 460,757.9,35,si,2025-02-05
+11097,Joystick Modelo 872,635.2,3,si,2025-06-07
+11098,Auriculares Modelo 442,1815.26,22,si,2025-05-02
+11099,Tarjeta de Video Modelo 722,1404.97,50,si,2025-06-01
+11100,Hub USB Modelo 142,1705.84,14,si,2025-04-10
+11101,Tarjeta Madre Modelo 871,575.96,17,si,2025-03-03
+11102,Tablet Modelo 867,384.36,45,si,2025-05-25
+11103,Mouse Modelo 347,992.58,26,si,2025-02-09
+11104,Adaptador Bluetooth Modelo 603,1030.7,1,si,2025-07-24
+11105,Adaptador Bluetooth Modelo 125,1358.0,41,si,2025-05-14
+11106,Procesador Modelo 377,587.24,29,si,2025-02-04
+11107,Adaptador Bluetooth Modelo 985,504.49,42,si,2025-06-16
+11108,Cable HDMI Modelo 431,156.29,26,si,2025-06-10
+11109,Procesador Modelo 877,169.68,22,si,2025-02-27
+11110,Memoria RAM Modelo 830,862.21,0,no,2025-04-28
+11111,Escaner Modelo 172,986.87,49,si,2025-07-19
+11112,Smartwatch Modelo 977,838.17,1,si,2025-03-31
+11113,Microfono Modelo 159,1579.11,26,si,2025-05-21
+11114,Proyector Modelo 815,1709.35,39,si,2025-03-30
+11115,Cooler Modelo 840,1403.7,43,si,2025-01-25
+11116,Auriculares Modelo 598,959.06,7,si,2025-07-07
+11117,Webcam Modelo 525,1537.67,47,si,2025-07-22
+11118,Tarjeta de Video Modelo 446,769.33,21,si,2025-02-05
+11119,Procesador Modelo 998,1923.61,13,si,2025-02-05
+11120,Microfono Modelo 863,1176.94,13,si,2025-02-28
+11121,Memoria RAM Modelo 257,242.29,37,si,2025-06-04
+11122,Case Modelo 843,1661.8,19,si,2025-02-16
+11123,Tablet Modelo 585,975.53,38,si,2025-06-27
+11124,Cable HDMI Modelo 493,1341.09,49,si,2025-03-18
+11125,Tarjeta Madre Modelo 825,1728.6,44,si,2025-06-02
+11126,Monitor Modelo 493,1743.65,12,si,2025-02-26
+11127,Procesador Modelo 516,255.21,43,si,2025-06-06
+11128,Tarjeta Madre Modelo 337,1672.0,12,si,2025-04-14
+11129,Laptop Modelo 597,1812.9,6,si,2025-02-23
+11130,Monitor Modelo 102,1299.63,40,si,2025-02-04
+11131,Fuente de Poder Modelo 456,1016.39,21,si,2025-02-10
+11132,Escaner Modelo 670,703.92,36,si,2025-03-02
+11133,Cooler Modelo 210,1095.44,46,si,2025-07-21
+11134,Adaptador Bluetooth Modelo 477,1686.84,17,si,2025-05-17
+11135,Impresora Modelo 836,492.16,9,si,2025-06-16
+11136,Auriculares Modelo 274,932.88,39,si,2025-04-21
+11137,Parlantes Modelo 629,1857.99,16,si,2025-02-14
+11138,Fuente de Poder Modelo 275,580.16,12,si,2025-04-25
+11139,Procesador Modelo 332,1651.51,29,si,2025-05-28
+11140,Router Modelo 798,1382.16,24,si,2025-02-16
+11141,Consola de Juegos Modelo 975,384.46,12,si,2025-07-19
+11142,Tarjeta Madre Modelo 322,1886.87,7,si,2025-02-25
+11143,Joystick Modelo 129,258.95,3,si,2025-02-25
+11144,Auriculares Modelo 108,1287.95,20,si,2025-04-16
+11145,Case Modelo 882,1095.2,11,si,2025-02-21
+11146,Monitor Modelo 910,330.42,0,no,2025-05-08
+11147,Procesador Modelo 727,525.75,41,si,2025-04-28
+11148,Mouse Modelo 436,986.29,33,si,2025-05-13
+11149,Auriculares Modelo 413,1887.26,2,si,2025-03-02
+11150,Monitor Modelo 853,384.22,38,si,2025-06-19
+11151,Auriculares Modelo 156,478.43,28,si,2025-01-27
+11152,Joystick Modelo 798,1767.2,31,si,2025-07-03
+11153,Camara IP Modelo 496,448.1,43,si,2025-06-12
+11154,Case Modelo 131,1323.56,21,si,2025-02-28
+11155,Impresora Modelo 845,1691.51,32,si,2025-07-08
+11156,Impresora Modelo 606,1690.52,28,si,2025-06-10
+11157,Disco Duro Modelo 157,73.55,17,si,2025-03-27
+11158,Router Modelo 495,1743.25,47,si,2025-02-26
+11159,Parlantes Modelo 728,536.34,8,si,2025-02-07
+11160,Teclado Modelo 994,443.32,45,si,2025-04-16
+11161,Mouse Modelo 829,1956.67,8,si,2025-03-08
+11162,Tarjeta Madre Modelo 698,745.25,39,si,2025-04-02
+11163,Cable HDMI Modelo 855,446.48,13,si,2025-04-26
+11164,Microfono Modelo 616,1133.1,48,si,2025-06-30
+11165,Joystick Modelo 432,1926.15,18,si,2025-07-02
+11166,Mouse Modelo 595,735.94,31,si,2025-04-25
+11167,Case Modelo 601,1248.58,42,si,2025-03-11
+11168,Laptop Modelo 547,1450.82,13,si,2025-07-07
+11169,Tablet Modelo 535,875.48,19,si,2025-02-23
+11170,Joystick Modelo 863,418.7,18,si,2025-06-17
+11171,Escaner Modelo 658,1531.95,22,si,2025-07-07
+11172,Teclado Modelo 220,1201.0,42,si,2025-01-31
+11173,Tarjeta de Video Modelo 148,969.64,37,si,2025-02-25
+11174,Disco Duro Modelo 538,842.32,44,si,2025-05-20
+11175,Joystick Modelo 879,1903.29,13,si,2025-05-21
+11176,Procesador Modelo 408,429.77,25,si,2025-03-25
+11177,Adaptador Bluetooth Modelo 713,72.85,10,si,2025-06-15
+11178,Auriculares Modelo 228,1344.07,41,si,2025-05-09
+11179,Router Modelo 788,1496.4,33,si,2025-06-26
+11180,Mouse Modelo 268,486.21,48,si,2025-05-28
+11181,Adaptador Bluetooth Modelo 674,1506.81,12,si,2025-02-26
+11182,Memoria RAM Modelo 859,1243.64,6,si,2025-02-08
+11183,Microfono Modelo 648,1071.71,18,si,2025-05-01
+11184,Camara IP Modelo 494,18.89,39,si,2025-05-29
+11185,Impresora Modelo 105,1221.3,32,si,2025-03-31
+11186,Teclado Modelo 138,239.31,5,si,2025-07-08
+11187,Disco Duro Modelo 538,932.81,18,si,2025-03-25
+11188,Cable HDMI Modelo 578,1301.62,24,si,2025-06-13
+11189,Memoria RAM Modelo 154,619.86,4,si,2025-05-23
+11190,Fuente de Poder Modelo 270,1980.39,20,si,2025-06-05
+11191,Cable HDMI Modelo 969,719.18,1,si,2025-05-11
+11192,Procesador Modelo 151,960.8,3,si,2025-05-16
+11193,Proyector Modelo 849,215.64,25,si,2025-02-16
+11194,Fuente de Poder Modelo 597,248.22,5,si,2025-06-07
+11195,Teclado Modelo 924,876.79,39,si,2025-02-28
+11196,Hub USB Modelo 600,1959.63,19,si,2025-02-22
+11197,SSD Externo Modelo 800,1399.02,27,si,2025-04-18
+11198,Webcam Modelo 608,1715.42,1,si,2025-02-19
+11199,Tarjeta Madre Modelo 176,41.21,9,si,2025-05-27
+11200,Tarjeta Madre Modelo 729,733.51,7,si,2025-07-04
+11201,Tarjeta Madre Modelo 746,1460.64,27,si,2025-02-28
+11202,Disco Duro Modelo 863,1301.26,39,si,2025-04-02
+11203,Webcam Modelo 589,159.55,18,si,2025-06-18
+11204,Teclado Modelo 726,1044.45,29,si,2025-05-01
+11205,Camara IP Modelo 613,1790.39,32,si,2025-04-27
+11206,Mouse Modelo 885,1160.39,1,si,2025-02-11
+11207,Memoria RAM Modelo 972,1295.68,29,si,2025-03-25
+11208,Adaptador Bluetooth Modelo 335,986.41,37,si,2025-02-17
+11209,Webcam Modelo 841,1480.63,25,si,2025-02-20
+11210,Case Modelo 301,1776.72,11,si,2025-03-05
+11211,Auriculares Modelo 693,165.15,8,si,2025-05-31
+11212,Consola de Juegos Modelo 772,1315.75,26,si,2025-07-11
+11213,Webcam Modelo 763,930.82,7,si,2025-06-03
+11214,Cable HDMI Modelo 989,1574.67,39,si,2025-02-22
+11215,Adaptador Bluetooth Modelo 731,100.13,47,si,2025-07-04
+11216,Camara IP Modelo 593,45.06,22,si,2025-06-20
+11217,Tablet Modelo 449,1125.7,19,si,2025-07-04
+11218,Impresora Modelo 817,1509.19,40,si,2025-07-20
+11219,Microfono Modelo 309,699.16,36,si,2025-05-07
+11220,Mouse Modelo 531,346.87,45,si,2025-03-14
+11221,Escaner Modelo 341,654.59,18,si,2025-04-25
+11222,Cable HDMI Modelo 191,1166.64,4,si,2025-06-04
+11223,Teclado Modelo 145,1300.64,1,si,2025-02-21
+11224,Camara IP Modelo 413,1210.87,8,si,2025-07-22
+11225,Procesador Modelo 620,1525.91,1,si,2025-02-20
+11226,Auriculares Modelo 864,229.76,23,si,2025-03-14
+11227,Escaner Modelo 511,726.6,19,si,2025-04-10
+11228,Memoria RAM Modelo 508,1506.11,34,si,2025-05-29
+11229,Router Modelo 513,72.22,32,si,2025-07-19
+11230,Tarjeta Madre Modelo 923,452.45,2,si,2025-03-24
+11231,Memoria RAM Modelo 373,493.93,3,si,2025-03-22
+11232,Hub USB Modelo 191,1779.36,33,si,2025-06-23
+11233,Memoria RAM Modelo 719,1688.39,22,si,2025-04-26
+11234,Case Modelo 230,1718.48,12,si,2025-02-23
+11235,Memoria RAM Modelo 118,448.8,7,si,2025-02-25
+11236,Escaner Modelo 980,744.74,41,si,2025-05-12
+11237,Case Modelo 719,1618.7,40,si,2025-04-04
+11238,Parlantes Modelo 695,1730.7,49,si,2025-03-17
+11239,SSD Externo Modelo 640,1052.58,27,si,2025-02-02
+11240,Microfono Modelo 251,1960.17,24,si,2025-02-12
+11241,Teclado Modelo 446,139.32,10,si,2025-05-09
+11242,Cable HDMI Modelo 886,1062.15,14,si,2025-07-19
+11243,SSD Externo Modelo 172,490.37,45,si,2025-07-05
+11244,Camara IP Modelo 155,676.01,15,si,2025-06-27
+11245,Mouse Modelo 615,1229.14,1,si,2025-03-19
+11246,Teclado Modelo 287,29.59,47,si,2025-03-06
+11247,Smartphone Modelo 598,1558.18,29,si,2025-07-16
+11248,Smartwatch Modelo 561,701.3,47,si,2025-06-01
+11249,Tarjeta de Video Modelo 806,417.08,48,si,2025-03-28
+11250,Router Modelo 192,1738.35,22,si,2025-02-26
+11251,Consola de Juegos Modelo 644,1557.24,11,si,2025-01-26
+11252,Webcam Modelo 211,1449.46,17,si,2025-03-01
+11253,Router Modelo 382,108.74,1,si,2025-05-22
+11254,Webcam Modelo 707,677.81,35,si,2025-06-25
+11255,Monitor Modelo 689,1140.34,49,si,2025-05-05
+11256,Joystick Modelo 480,364.86,46,si,2025-06-17
+11257,Tarjeta Madre Modelo 116,1560.22,50,si,2025-03-05
+11258,Smartphone Modelo 851,175.0,7,si,2025-06-29
+11259,Microfono Modelo 747,480.63,38,si,2025-06-25
+11260,Smartwatch Modelo 426,1191.24,14,si,2025-03-24
+11261,Tablet Modelo 943,574.34,8,si,2025-02-13
+11262,Camara IP Modelo 608,1779.16,44,si,2025-04-15
+11263,Cooler Modelo 967,1611.26,41,si,2025-07-13
+11264,Impresora Modelo 190,269.09,30,si,2025-04-30
+11265,SSD Externo Modelo 880,672.3,30,si,2025-02-03
+11266,Parlantes Modelo 921,1409.29,22,si,2025-06-07
+11267,Router Modelo 653,311.63,36,si,2025-05-02
+11268,Smartphone Modelo 462,1728.5,11,si,2025-04-19
+11269,Tarjeta de Video Modelo 579,418.23,32,si,2025-05-26
+11270,Auriculares Modelo 863,981.7,23,si,2025-03-10
+11271,Router Modelo 140,1369.36,31,si,2025-07-05
+11272,Parlantes Modelo 648,1056.36,26,si,2025-03-31
+11273,Teclado Modelo 415,1323.61,40,si,2025-04-11
+11274,Escaner Modelo 972,1579.44,2,si,2025-01-28
+11275,Parlantes Modelo 849,1495.79,39,si,2025-04-28
+11276,Fuente de Poder Modelo 489,1011.17,26,si,2025-02-12
+11277,Cooler Modelo 849,537.31,33,si,2025-07-22
+11278,Microfono Modelo 110,1374.03,27,si,2025-01-27
+11279,Auriculares Modelo 710,1019.12,10,si,2025-05-21
+11280,Hub USB Modelo 365,990.44,44,si,2025-07-17
+11281,Cable HDMI Modelo 304,1980.06,4,si,2025-03-24
+11282,Cooler Modelo 276,924.75,12,si,2025-05-26
+11283,Router Modelo 750,739.4,3,si,2025-05-31
+11284,Case Modelo 140,195.69,10,si,2025-03-24
+11285,Procesador Modelo 755,213.63,36,si,2025-02-08
+11286,Joystick Modelo 132,1797.0,6,si,2025-03-29
+11287,Disco Duro Modelo 103,588.67,49,si,2025-04-12
+11288,Proyector Modelo 611,1340.63,22,si,2025-05-26
+11289,Case Modelo 289,380.62,35,si,2025-04-25
+11290,Camara IP Modelo 535,1566.32,4,si,2025-07-11
+11291,Webcam Modelo 540,1334.45,21,si,2025-05-29
+11292,SSD Externo Modelo 921,359.2,41,si,2025-03-16
+11293,Procesador Modelo 251,200.94,24,si,2025-06-22
+11294,Case Modelo 281,25.29,23,si,2025-04-23
+11295,Impresora Modelo 328,1794.27,13,si,2025-05-24
+11296,Smartphone Modelo 715,954.03,45,si,2025-06-14
+11297,Cooler Modelo 445,1745.33,31,si,2025-06-09
+11298,Adaptador Bluetooth Modelo 295,270.37,10,si,2025-05-19
+11299,Auriculares Modelo 929,1844.96,21,si,2025-06-17
+11300,Auriculares Modelo 270,1833.64,35,si,2025-02-26
+11301,Case Modelo 340,892.44,22,si,2025-06-06
+11302,Impresora Modelo 605,892.36,28,si,2025-05-08
+11303,Consola de Juegos Modelo 187,408.68,5,si,2025-03-10
+11304,Microfono Modelo 296,1624.88,41,si,2025-04-30
+11305,Tablet Modelo 217,18.54,26,si,2025-01-27
+11306,Tarjeta Madre Modelo 604,672.65,19,si,2025-07-07
+11307,Tarjeta de Video Modelo 787,1290.73,3,si,2025-04-11
+11308,SSD Externo Modelo 672,25.93,15,si,2025-06-03
+11309,Adaptador Bluetooth Modelo 485,1090.81,28,si,2025-04-22
+11310,Auriculares Modelo 212,507.36,24,si,2025-05-31
+11311,Disco Duro Modelo 453,1641.37,30,si,2025-03-06
+11312,Impresora Modelo 435,1458.27,31,si,2025-06-08
+11313,Smartwatch Modelo 727,475.41,31,si,2025-02-16
+11314,Impresora Modelo 572,1836.87,7,si,2025-06-09
+11315,Impresora Modelo 412,1787.11,17,si,2025-03-14
+11316,Consola de Juegos Modelo 620,651.47,35,si,2025-06-01
+11317,Camara IP Modelo 573,705.65,21,si,2025-03-03
+11318,Parlantes Modelo 660,1450.57,28,si,2025-04-15
+11319,Smartwatch Modelo 631,1331.04,11,si,2025-06-19
+11320,Impresora Modelo 149,1095.0,14,si,2025-03-27
+11321,SSD Externo Modelo 206,1783.95,23,si,2025-02-14
+11322,Impresora Modelo 248,1096.4,35,si,2025-04-24
+11323,Tablet Modelo 674,147.96,12,si,2025-04-07
+11324,Auriculares Modelo 981,60.39,11,si,2025-05-20
+11325,Hub USB Modelo 525,306.14,14,si,2025-07-01
+11326,Tarjeta de Video Modelo 752,510.09,27,si,2025-02-10
+11327,Parlantes Modelo 749,686.41,0,no,2025-04-03
+11328,Hub USB Modelo 712,1271.63,22,si,2025-07-04
+11329,Memoria RAM Modelo 667,1752.71,5,si,2025-01-26
+11330,Disco Duro Modelo 524,948.67,44,si,2025-05-13
+11331,Cooler Modelo 275,1075.54,0,no,2025-06-26
+11332,Proyector Modelo 441,1546.94,47,si,2025-02-24
+11333,Parlantes Modelo 142,1730.13,42,si,2025-06-09
+11334,Teclado Modelo 971,1676.44,47,si,2025-04-19
+11335,Cooler Modelo 826,1252.06,28,si,2025-06-01
+11336,Parlantes Modelo 173,1520.58,21,si,2025-05-14
+11337,Tablet Modelo 260,859.19,35,si,2025-07-08
+11338,Parlantes Modelo 787,819.86,21,si,2025-06-20
+11339,Impresora Modelo 168,1283.02,23,si,2025-04-09
+11340,Joystick Modelo 480,199.13,26,si,2025-04-24
+11341,Cable HDMI Modelo 539,1511.95,2,si,2025-01-27
+11342,Joystick Modelo 397,372.72,17,si,2025-01-31
+11343,SSD Externo Modelo 656,124.92,46,si,2025-07-18
+11344,Auriculares Modelo 858,337.66,40,si,2025-04-21
+11345,Monitor Modelo 239,1547.58,17,si,2025-05-15
+11346,Smartphone Modelo 893,272.08,50,si,2025-03-31
+11347,Adaptador Bluetooth Modelo 784,827.13,39,si,2025-02-18
+11348,Teclado Modelo 533,1249.6,19,si,2025-03-29
+11349,Memoria RAM Modelo 653,1880.72,43,si,2025-02-02
+11350,Smartwatch Modelo 908,340.18,20,si,2025-07-18
+11351,Tarjeta Madre Modelo 716,1615.74,45,si,2025-03-23
+11352,Consola de Juegos Modelo 433,1501.84,34,si,2025-05-20
+11353,Smartphone Modelo 947,333.03,27,si,2025-06-09
+11354,Auriculares Modelo 599,388.35,15,si,2025-05-28
+11355,Tarjeta de Video Modelo 938,191.05,33,si,2025-02-15
+11356,Monitor Modelo 910,1549.55,19,si,2025-07-04
+11357,Procesador Modelo 355,829.87,2,si,2025-03-24
+11358,Memoria RAM Modelo 749,510.07,42,si,2025-06-20
+11359,Monitor Modelo 809,1935.0,22,si,2025-06-08
+11360,Procesador Modelo 691,1240.52,0,no,2025-05-15
+11361,Auriculares Modelo 706,334.74,50,si,2025-04-29
+11362,Cooler Modelo 397,717.73,42,si,2025-04-09
+11363,Monitor Modelo 530,26.19,38,si,2025-05-27
+11364,Tablet Modelo 549,168.09,31,si,2025-04-24
+11365,Disco Duro Modelo 864,1894.46,19,si,2025-06-16
+11366,Cable HDMI Modelo 370,1967.63,50,si,2025-07-18
+11367,Hub USB Modelo 823,1483.3,38,si,2025-03-25
+11368,Impresora Modelo 997,1441.39,28,si,2025-05-05
+11369,Procesador Modelo 287,742.28,47,si,2025-07-13
+11370,Smartwatch Modelo 676,1658.39,12,si,2025-04-10
+11371,Adaptador Bluetooth Modelo 811,1667.73,24,si,2025-05-25
+11372,SSD Externo Modelo 592,109.16,33,si,2025-01-26
+11373,Disco Duro Modelo 529,1834.98,37,si,2025-05-04
+11374,Parlantes Modelo 257,1799.88,7,si,2025-01-31
+11375,Tarjeta de Video Modelo 214,196.9,22,si,2025-06-11
+11376,Parlantes Modelo 888,339.96,30,si,2025-03-02
+11377,Parlantes Modelo 256,1216.98,43,si,2025-05-11
+11378,Cable HDMI Modelo 147,1142.01,1,si,2025-06-23
+11379,Teclado Modelo 635,1146.84,41,si,2025-02-04
+11380,Tablet Modelo 725,593.32,43,si,2025-02-12
+11381,Router Modelo 611,1596.1,7,si,2025-06-13
+11382,Camara IP Modelo 725,941.4,16,si,2025-03-06
+11383,Disco Duro Modelo 418,1507.49,37,si,2025-03-28
+11384,Hub USB Modelo 946,1142.07,0,no,2025-05-27
+11385,Consola de Juegos Modelo 245,408.41,4,si,2025-04-08
+11386,Microfono Modelo 434,810.5,35,si,2025-03-31
+11387,Hub USB Modelo 335,911.86,17,si,2025-04-14
+11388,Laptop Modelo 204,1870.47,34,si,2025-03-05
+11389,Adaptador Bluetooth Modelo 881,1184.65,43,si,2025-03-11
+11390,Proyector Modelo 686,1972.63,0,no,2025-02-17
+11391,Router Modelo 666,1192.33,5,si,2025-01-27
+11392,Auriculares Modelo 398,1583.79,46,si,2025-05-08
+11393,Disco Duro Modelo 213,991.53,8,si,2025-07-04
+11394,Laptop Modelo 386,118.73,45,si,2025-07-04
+11395,Router Modelo 481,248.02,4,si,2025-04-11
+11396,Procesador Modelo 972,856.08,4,si,2025-01-28
+11397,Parlantes Modelo 562,359.05,22,si,2025-07-11
+11398,Teclado Modelo 501,1328.44,11,si,2025-05-08
+11399,Memoria RAM Modelo 870,1007.45,22,si,2025-04-09
+11400,Impresora Modelo 997,1130.51,19,si,2025-05-19
+11401,Tablet Modelo 798,83.2,12,si,2025-01-30
+11402,Disco Duro Modelo 975,608.06,30,si,2025-07-10
+11403,Disco Duro Modelo 371,1937.44,23,si,2025-04-01
+11404,Proyector Modelo 654,1985.93,10,si,2025-04-18
+11405,Proyector Modelo 847,446.74,3,si,2025-04-25
+11406,Disco Duro Modelo 239,521.58,5,si,2025-06-09
+11407,Disco Duro Modelo 253,1356.56,40,si,2025-04-23
+11408,Fuente de Poder Modelo 340,861.61,22,si,2025-03-27
+11409,Smartphone Modelo 590,1489.27,44,si,2025-02-22
+11410,Impresora Modelo 914,1045.63,0,no,2025-06-17
+11411,Proyector Modelo 695,342.17,31,si,2025-03-13
+11412,Mouse Modelo 895,777.03,19,si,2025-04-15
+11413,Smartphone Modelo 674,533.12,42,si,2025-03-22
+11414,Cable HDMI Modelo 968,211.81,34,si,2025-07-18
+11415,Case Modelo 129,1216.3,45,si,2025-06-08
+11416,Smartphone Modelo 672,193.3,29,si,2025-01-28
+11417,Hub USB Modelo 204,732.07,4,si,2025-02-06
+11418,Tarjeta de Video Modelo 310,597.99,11,si,2025-06-30
+11419,SSD Externo Modelo 666,956.33,4,si,2025-02-19
+11420,Tarjeta Madre Modelo 907,1011.54,18,si,2025-03-30
+11421,Smartphone Modelo 586,441.08,15,si,2025-07-18
+11422,Disco Duro Modelo 570,505.51,34,si,2025-04-14
+11423,Camara IP Modelo 387,1951.7,17,si,2025-06-13
+11424,Disco Duro Modelo 516,1951.77,29,si,2025-03-25
+11425,Smartwatch Modelo 996,97.54,32,si,2025-06-07
+11426,Tarjeta de Video Modelo 308,898.11,2,si,2025-04-15
+11427,Cable HDMI Modelo 947,28.33,41,si,2025-04-19
+11428,Cable HDMI Modelo 870,24.27,24,si,2025-04-22
+11429,Tarjeta de Video Modelo 510,1307.95,17,si,2025-04-28
+11430,Microfono Modelo 227,1956.02,20,si,2025-07-20
+11431,Tarjeta Madre Modelo 892,1589.22,32,si,2025-03-06
+11432,Teclado Modelo 930,1622.78,20,si,2025-02-10
+11433,Escaner Modelo 567,1835.08,44,si,2025-04-29
+11434,Hub USB Modelo 319,903.21,11,si,2025-03-05
+11435,Smartwatch Modelo 330,1250.82,22,si,2025-03-09
+11436,Tarjeta Madre Modelo 831,1946.15,33,si,2025-03-28
+11437,Tarjeta Madre Modelo 940,845.96,35,si,2025-01-28
+11438,Mouse Modelo 470,1056.31,38,si,2025-02-20
+11439,Auriculares Modelo 484,1890.11,2,si,2025-01-25
+11440,Tablet Modelo 138,1349.62,36,si,2025-03-06
+11441,Laptop Modelo 247,278.71,3,si,2025-06-11
+11442,Webcam Modelo 761,1450.03,2,si,2025-04-25
+11443,Smartwatch Modelo 269,350.06,27,si,2025-05-07
+11444,Fuente de Poder Modelo 877,1750.5,2,si,2025-03-03
+11445,Tarjeta de Video Modelo 649,1981.02,36,si,2025-03-04
+11446,Impresora Modelo 478,1853.24,19,si,2025-03-19
+11447,Tarjeta Madre Modelo 313,821.12,7,si,2025-02-28
+11448,Smartphone Modelo 354,392.14,47,si,2025-03-20
+11449,SSD Externo Modelo 261,712.19,43,si,2025-04-27
+11450,Parlantes Modelo 631,339.38,2,si,2025-06-20
+11451,Camara IP Modelo 491,1299.8,27,si,2025-04-05
+11452,Router Modelo 777,615.43,5,si,2025-05-06
+11453,Tablet Modelo 966,514.29,2,si,2025-05-15
+11454,Proyector Modelo 163,529.02,36,si,2025-04-23
+11455,Procesador Modelo 407,1144.44,37,si,2025-02-25
+11456,Consola de Juegos Modelo 979,351.58,30,si,2025-04-25
+11457,Tarjeta de Video Modelo 134,1777.79,25,si,2025-03-09
+11458,Laptop Modelo 590,934.95,40,si,2025-04-17
+11459,Joystick Modelo 624,541.86,16,si,2025-07-21
+11460,Tablet Modelo 270,643.87,33,si,2025-01-31
+11461,Router Modelo 790,491.51,41,si,2025-07-23
+11462,Microfono Modelo 337,290.52,32,si,2025-04-23
+11463,Mouse Modelo 877,1928.53,3,si,2025-02-12
+11464,Tarjeta Madre Modelo 744,717.75,47,si,2025-07-16
+11465,Laptop Modelo 297,239.04,4,si,2025-06-13
+11466,Joystick Modelo 682,283.61,7,si,2025-05-05
+11467,Auriculares Modelo 156,1867.59,41,si,2025-06-05
+11468,Webcam Modelo 276,398.86,37,si,2025-07-06
+11469,Parlantes Modelo 943,970.22,5,si,2025-04-17
+11470,Case Modelo 633,1955.01,1,si,2025-01-28
+11471,Tablet Modelo 556,71.76,13,si,2025-06-07
+11472,Cooler Modelo 314,1769.33,18,si,2025-05-04
+11473,Joystick Modelo 215,1590.97,36,si,2025-05-23
+11474,Mouse Modelo 840,1183.16,35,si,2025-02-14
+11475,Smartphone Modelo 190,1031.17,29,si,2025-06-13
+11476,Tarjeta de Video Modelo 563,1423.46,23,si,2025-03-14
+11477,Teclado Modelo 194,1180.41,25,si,2025-02-04
+11478,Webcam Modelo 221,66.41,3,si,2025-07-11
+11479,Camara IP Modelo 275,1194.14,48,si,2025-04-04
+11480,Tablet Modelo 695,445.66,18,si,2025-06-29
+11481,Tarjeta Madre Modelo 212,1895.62,39,si,2025-02-07
+11482,Teclado Modelo 737,1996.64,35,si,2025-03-26
+11483,Tarjeta de Video Modelo 427,215.94,22,si,2025-03-20
+11484,Microfono Modelo 803,1308.47,8,si,2025-02-23
+11485,Escaner Modelo 406,1589.58,8,si,2025-05-22
+11486,Cooler Modelo 739,691.29,15,si,2025-06-24
+11487,Monitor Modelo 165,865.1,36,si,2025-06-13
+11488,Parlantes Modelo 563,751.19,14,si,2025-04-20
+11489,Teclado Modelo 227,33.42,7,si,2025-04-09
+11490,Tablet Modelo 266,191.37,50,si,2025-04-14
+11491,Tarjeta Madre Modelo 218,51.52,38,si,2025-06-22
+11492,Mouse Modelo 165,1874.07,40,si,2025-03-06
+11493,Fuente de Poder Modelo 157,1367.17,49,si,2025-07-22
+11494,Teclado Modelo 334,778.0,34,si,2025-05-12
+11495,Parlantes Modelo 503,557.3,5,si,2025-05-07
+11496,Procesador Modelo 563,1688.27,0,no,2025-05-21
+11497,Monitor Modelo 316,1502.23,24,si,2025-02-27
+11498,Memoria RAM Modelo 348,1525.34,40,si,2025-05-26
+11499,Teclado Modelo 146,1876.42,50,si,2025-07-23
+11500,Microfono Modelo 825,749.0,40,si,2025-07-04
+11501,Microfono Modelo 860,1299.62,42,si,2025-04-14
+11502,Impresora Modelo 107,277.14,33,si,2025-07-18
+11503,Laptop Modelo 287,590.52,29,si,2025-02-14
+11504,Adaptador Bluetooth Modelo 103,1286.69,14,si,2025-04-05
+11505,Joystick Modelo 728,506.84,32,si,2025-06-20
+11506,Cable HDMI Modelo 823,495.61,41,si,2025-04-10
+11507,Camara IP Modelo 451,315.02,30,si,2025-06-26
+11508,Memoria RAM Modelo 174,1318.66,12,si,2025-05-16
+11509,Adaptador Bluetooth Modelo 440,960.92,8,si,2025-06-30
+11510,Consola de Juegos Modelo 831,1336.94,0,no,2025-07-07
+11511,Proyector Modelo 762,947.09,25,si,2025-03-25
+11512,Webcam Modelo 744,16.14,29,si,2025-04-02
+11513,SSD Externo Modelo 758,1638.22,28,si,2025-06-25
+11514,Teclado Modelo 373,1896.34,32,si,2025-04-17
+11515,Laptop Modelo 885,1712.88,37,si,2025-07-13
+11516,Hub USB Modelo 331,683.49,30,si,2025-02-19
+11517,Tarjeta Madre Modelo 436,686.57,11,si,2025-02-08
+11518,Tarjeta Madre Modelo 670,1056.88,17,si,2025-05-02
+11519,Webcam Modelo 845,52.09,0,no,2025-07-17
+11520,Procesador Modelo 284,277.35,38,si,2025-02-25
+11521,Smartwatch Modelo 348,1561.76,40,si,2025-03-27
+11522,Memoria RAM Modelo 783,1600.23,49,si,2025-02-17
+11523,Laptop Modelo 914,1813.36,31,si,2025-01-25
+11524,Case Modelo 945,207.47,23,si,2025-07-18
+11525,Teclado Modelo 369,972.66,35,si,2025-07-06
+11526,Laptop Modelo 503,1140.26,41,si,2025-04-29
+11527,Cooler Modelo 331,515.65,29,si,2025-02-21
+11528,Auriculares Modelo 795,15.66,46,si,2025-04-29
+11529,Parlantes Modelo 367,658.53,47,si,2025-05-24
+11530,Hub USB Modelo 111,751.19,20,si,2025-06-01
+11531,Cooler Modelo 268,1718.29,42,si,2025-03-31
+11532,Impresora Modelo 747,272.8,24,si,2025-03-31
+11533,Cooler Modelo 329,548.81,15,si,2025-03-02
+11534,Parlantes Modelo 998,1429.24,1,si,2025-06-21
+11535,Fuente de Poder Modelo 196,1478.27,17,si,2025-03-10
+11536,Tarjeta de Video Modelo 708,159.38,47,si,2025-03-29
+11537,Smartwatch Modelo 738,1187.89,18,si,2025-02-20
+11538,Router Modelo 781,1522.7,31,si,2025-05-25
+11539,Memoria RAM Modelo 461,1523.25,15,si,2025-06-10
+11540,Tablet Modelo 806,1490.52,43,si,2025-07-19
+11541,Smartwatch Modelo 807,903.24,17,si,2025-05-13
+11542,Memoria RAM Modelo 749,1806.08,41,si,2025-05-31
+11543,Parlantes Modelo 591,1225.88,28,si,2025-06-07
+11544,Hub USB Modelo 448,1449.05,34,si,2025-04-26
+11545,Joystick Modelo 406,985.27,21,si,2025-05-21
+11546,Auriculares Modelo 928,92.19,35,si,2025-04-12
+11547,Cable HDMI Modelo 580,957.77,22,si,2025-04-05
+11548,Memoria RAM Modelo 492,1264.21,8,si,2025-04-28
+11549,Monitor Modelo 925,1114.49,14,si,2025-05-22
+11550,Cable HDMI Modelo 694,1635.89,14,si,2025-06-14
+11551,Smartphone Modelo 931,337.73,23,si,2025-06-06
+11552,Router Modelo 278,605.24,31,si,2025-03-06
+11553,Microfono Modelo 835,874.26,3,si,2025-06-12
+11554,Disco Duro Modelo 316,113.99,0,no,2025-02-05
+11555,Procesador Modelo 709,1878.34,37,si,2025-04-24
+11556,Case Modelo 871,126.22,22,si,2025-04-17
+11557,Camara IP Modelo 596,352.18,19,si,2025-02-14
+11558,Hub USB Modelo 403,1378.4,13,si,2025-02-25
+11559,Proyector Modelo 991,21.14,43,si,2025-05-08
+11560,Cooler Modelo 592,937.24,8,si,2025-06-03
+11561,Consola de Juegos Modelo 541,1762.56,18,si,2025-05-24
+11562,Cooler Modelo 491,846.79,43,si,2025-04-24
+11563,Impresora Modelo 663,1388.76,29,si,2025-04-22
+11564,Fuente de Poder Modelo 649,1797.22,19,si,2025-05-14
+11565,Laptop Modelo 301,1683.71,44,si,2025-03-24
+11566,Microfono Modelo 811,1588.46,27,si,2025-04-06
+11567,Case Modelo 127,228.17,36,si,2025-03-22
+11568,Tarjeta Madre Modelo 583,1611.94,42,si,2025-03-12
+11569,Cable HDMI Modelo 621,339.49,25,si,2025-03-25
+11570,Tarjeta Madre Modelo 457,1035.1,19,si,2025-04-09
+11571,Fuente de Poder Modelo 493,665.45,27,si,2025-01-27
+11572,Proyector Modelo 749,1954.45,25,si,2025-06-07
+11573,Parlantes Modelo 530,30.7,28,si,2025-04-17
+11574,Laptop Modelo 111,1235.78,0,no,2025-07-24
+11575,Proyector Modelo 684,236.4,31,si,2025-03-17
+11576,Joystick Modelo 143,1864.48,27,si,2025-06-20
+11577,Proyector Modelo 902,500.31,16,si,2025-01-28
+11578,Mouse Modelo 241,810.9,2,si,2025-01-28
+11579,Mouse Modelo 355,106.19,5,si,2025-02-06
+11580,Tablet Modelo 735,424.31,42,si,2025-02-11
+11581,Smartphone Modelo 542,730.92,44,si,2025-03-26
+11582,Laptop Modelo 422,319.15,2,si,2025-02-26
+11583,Teclado Modelo 251,1854.68,46,si,2025-07-01
+11584,Monitor Modelo 669,136.51,37,si,2025-05-29
+11585,Smartphone Modelo 511,1840.86,43,si,2025-02-26
+11586,SSD Externo Modelo 687,55.22,39,si,2025-06-23
+11587,Case Modelo 736,10.68,48,si,2025-03-14
+11588,Parlantes Modelo 892,1578.01,48,si,2025-02-26
+11589,Case Modelo 658,247.68,21,si,2025-07-05
+11590,Fuente de Poder Modelo 741,1917.7,1,si,2025-06-30
+11591,Joystick Modelo 575,1164.97,26,si,2025-04-27
+11592,Tablet Modelo 571,1552.49,16,si,2025-02-21
+11593,Cooler Modelo 844,769.55,2,si,2025-04-12
+11594,Camara IP Modelo 668,793.21,15,si,2025-03-19
+11595,Camara IP Modelo 719,1877.24,0,no,2025-02-22
+11596,Adaptador Bluetooth Modelo 912,844.38,27,si,2025-05-30
+11597,Adaptador Bluetooth Modelo 517,785.88,29,si,2025-05-12
+11598,Microfono Modelo 624,658.24,50,si,2025-02-19
+11599,Laptop Modelo 601,549.45,1,si,2025-03-26
+11600,Memoria RAM Modelo 448,1292.6,3,si,2025-05-10
+11601,Impresora Modelo 744,1043.08,18,si,2025-07-20
+11602,Tarjeta Madre Modelo 530,1185.59,24,si,2025-02-13
+11603,Disco Duro Modelo 457,278.41,20,si,2025-06-03
+11604,Impresora Modelo 620,1880.5,41,si,2025-02-27
+11605,Cable HDMI Modelo 684,1761.18,5,si,2025-04-23
+11606,Mouse Modelo 133,1212.08,28,si,2025-03-30
+11607,Cooler Modelo 533,1828.63,45,si,2025-04-17
+11608,SSD Externo Modelo 571,1839.74,32,si,2025-06-22
+11609,Proyector Modelo 281,979.47,20,si,2025-03-24
+11610,Tarjeta Madre Modelo 775,500.18,27,si,2025-07-03
+11611,Smartwatch Modelo 206,1337.44,21,si,2025-06-01
+11612,Impresora Modelo 584,1536.22,47,si,2025-02-02
+11613,Webcam Modelo 105,434.35,11,si,2025-06-05
+11614,Escaner Modelo 616,1622.52,16,si,2025-04-24
+11615,Parlantes Modelo 900,1797.49,22,si,2025-07-10
+11616,Proyector Modelo 149,1985.7,14,si,2025-06-17
+11617,Webcam Modelo 785,377.96,37,si,2025-04-23
+11618,Router Modelo 560,447.4,14,si,2025-04-03
+11619,Camara IP Modelo 183,35.32,16,si,2025-03-20
+11620,Monitor Modelo 372,1176.63,20,si,2025-02-08
+11621,Disco Duro Modelo 342,175.75,24,si,2025-04-24
+11622,Case Modelo 186,1098.68,19,si,2025-05-07
+11623,Adaptador Bluetooth Modelo 609,1880.29,27,si,2025-07-14
+11624,Camara IP Modelo 377,483.08,5,si,2025-02-27
+11625,Webcam Modelo 469,1201.69,10,si,2025-02-03
+11626,Hub USB Modelo 477,787.83,14,si,2025-02-01
+11627,Hub USB Modelo 115,1262.26,3,si,2025-03-22
+11628,Tarjeta Madre Modelo 226,1935.83,28,si,2025-01-27
+11629,Microfono Modelo 163,1179.1,5,si,2025-04-14
+11630,Adaptador Bluetooth Modelo 563,809.31,9,si,2025-03-20
+11631,Mouse Modelo 453,1379.77,13,si,2025-07-19
+11632,Fuente de Poder Modelo 878,552.14,48,si,2025-02-16
+11633,Teclado Modelo 332,329.98,14,si,2025-02-21
+11634,Cable HDMI Modelo 187,506.13,41,si,2025-05-06
+11635,Escaner Modelo 222,1045.54,19,si,2025-02-19
+11636,SSD Externo Modelo 714,459.29,29,si,2025-01-31
+11637,Cable HDMI Modelo 415,1586.9,19,si,2025-05-20
+11638,Auriculares Modelo 672,853.24,10,si,2025-05-17
+11639,Monitor Modelo 391,1342.41,40,si,2025-07-02
+11640,Teclado Modelo 464,913.98,29,si,2025-03-01
+11641,Cooler Modelo 135,195.51,31,si,2025-04-22
+11642,Joystick Modelo 694,918.47,15,si,2025-04-30
+11643,Procesador Modelo 203,121.62,38,si,2025-06-09
+11644,Procesador Modelo 975,942.66,37,si,2025-05-24
+11645,Disco Duro Modelo 456,1832.78,29,si,2025-05-23
+11646,Cooler Modelo 613,469.95,45,si,2025-04-06
+11647,Tarjeta Madre Modelo 269,543.55,9,si,2025-01-27
+11648,SSD Externo Modelo 111,1104.29,17,si,2025-03-29
+11649,Router Modelo 743,1040.4,25,si,2025-07-21
+11650,Auriculares Modelo 357,1258.16,36,si,2025-05-27
+11651,Smartwatch Modelo 452,1377.18,24,si,2025-06-23
+11652,Webcam Modelo 661,669.27,24,si,2025-06-23
+11653,Joystick Modelo 932,218.43,42,si,2025-04-01
+11654,Escaner Modelo 919,817.61,46,si,2025-03-06
+11655,Cable HDMI Modelo 194,895.31,3,si,2025-05-08
+11656,Tablet Modelo 283,789.42,37,si,2025-04-05
+11657,Tablet Modelo 384,675.43,31,si,2025-03-08
+11658,Microfono Modelo 486,987.64,8,si,2025-03-21
+11659,Fuente de Poder Modelo 826,93.97,25,si,2025-03-19
+11660,Smartwatch Modelo 236,1179.1,7,si,2025-02-18
+11661,Mouse Modelo 603,673.53,36,si,2025-07-02
+11662,Tablet Modelo 525,1541.33,27,si,2025-05-13
+11663,Disco Duro Modelo 311,1761.12,17,si,2025-05-06
+11664,Smartphone Modelo 869,834.36,36,si,2025-06-17
+11665,Tarjeta de Video Modelo 972,1993.98,7,si,2025-07-18
+11666,Microfono Modelo 609,618.18,49,si,2025-05-21
+11667,Consola de Juegos Modelo 258,1083.07,30,si,2025-06-30
+11668,Disco Duro Modelo 850,1784.31,0,no,2025-03-24
+11669,Cooler Modelo 459,104.95,43,si,2025-03-13
+11670,Procesador Modelo 530,556.39,36,si,2025-07-05
+11671,Consola de Juegos Modelo 530,1356.89,33,si,2025-04-18
+11672,Hub USB Modelo 687,1183.45,18,si,2025-03-14
+11673,Consola de Juegos Modelo 129,884.27,14,si,2025-03-05
+11674,Consola de Juegos Modelo 514,560.54,31,si,2025-04-07
+11675,Impresora Modelo 961,836.61,27,si,2025-04-19
+11676,Router Modelo 768,177.92,40,si,2025-06-25
+11677,Proyector Modelo 256,1644.25,13,si,2025-04-30
+11678,Cable HDMI Modelo 612,129.8,26,si,2025-05-11
+11679,Cooler Modelo 725,504.66,18,si,2025-07-16
+11680,SSD Externo Modelo 551,802.55,32,si,2025-01-26
+11681,Router Modelo 212,1733.48,29,si,2025-02-20
+11682,Memoria RAM Modelo 374,1680.22,49,si,2025-04-29
+11683,Smartphone Modelo 928,1422.93,17,si,2025-05-18
+11684,Smartphone Modelo 542,246.95,26,si,2025-05-05
+11685,Router Modelo 436,749.1,13,si,2025-06-29
+11686,Joystick Modelo 157,1762.21,22,si,2025-03-22
+11687,Adaptador Bluetooth Modelo 921,404.96,45,si,2025-06-23
+11688,Escaner Modelo 147,1330.7,10,si,2025-03-18
+11689,Camara IP Modelo 732,1840.04,24,si,2025-05-26
+11690,Parlantes Modelo 450,263.17,39,si,2025-05-27
+11691,Teclado Modelo 462,58.26,43,si,2025-04-07
+11692,Smartwatch Modelo 102,1812.16,6,si,2025-01-30
+11693,Parlantes Modelo 553,249.87,10,si,2025-07-03
+11694,Consola de Juegos Modelo 987,1604.23,40,si,2025-07-16
+11695,Cooler Modelo 264,1530.88,28,si,2025-03-04
+11696,SSD Externo Modelo 910,1613.35,21,si,2025-02-28
+11697,Procesador Modelo 134,386.68,6,si,2025-05-03
+11698,Adaptador Bluetooth Modelo 603,241.01,32,si,2025-04-23
+11699,Cooler Modelo 996,915.94,15,si,2025-02-19
+11700,Disco Duro Modelo 372,494.41,36,si,2025-03-04
+11701,Proyector Modelo 353,967.55,49,si,2025-02-17
+11702,Auriculares Modelo 651,130.34,17,si,2025-04-29
+11703,Teclado Modelo 957,1468.62,2,si,2025-03-15
+11704,Tarjeta de Video Modelo 255,638.31,40,si,2025-06-01
+11705,Tarjeta de Video Modelo 398,1894.08,41,si,2025-06-04
+11706,Router Modelo 861,798.16,48,si,2025-06-20
+11707,Disco Duro Modelo 754,992.59,43,si,2025-04-22
+11708,Smartwatch Modelo 554,1002.75,26,si,2025-06-07
+11709,Adaptador Bluetooth Modelo 950,1670.05,17,si,2025-04-04
+11710,Router Modelo 282,1519.81,45,si,2025-04-20
+11711,Router Modelo 166,234.04,22,si,2025-04-05
+11712,Parlantes Modelo 594,320.67,10,si,2025-01-31
+11713,Impresora Modelo 779,806.89,12,si,2025-06-15
+11714,Smartwatch Modelo 767,1638.41,50,si,2025-06-29
+11715,Hub USB Modelo 373,1886.27,46,si,2025-02-13
+11716,Tarjeta de Video Modelo 792,1411.33,3,si,2025-02-14
+11717,Camara IP Modelo 156,919.74,11,si,2025-04-04
+11718,Consola de Juegos Modelo 767,1760.7,37,si,2025-06-25
+11719,Fuente de Poder Modelo 276,148.6,26,si,2025-04-18
+11720,Tarjeta Madre Modelo 288,609.53,18,si,2025-07-21
+11721,Smartphone Modelo 772,1241.68,27,si,2025-03-26
+11722,Webcam Modelo 234,919.78,20,si,2025-03-20
+11723,Microfono Modelo 412,250.21,44,si,2025-07-08
+11724,Cooler Modelo 982,1519.93,18,si,2025-04-27
+11725,Router Modelo 210,1579.83,31,si,2025-04-21
+11726,Router Modelo 533,1074.28,38,si,2025-07-08
+11727,Disco Duro Modelo 287,1848.78,18,si,2025-04-06
+11728,Consola de Juegos Modelo 867,949.71,28,si,2025-05-25
+11729,Laptop Modelo 891,893.0,42,si,2025-05-21
+11730,Impresora Modelo 889,1121.65,21,si,2025-05-19
+11731,Auriculares Modelo 327,675.82,29,si,2025-06-05
+11732,Adaptador Bluetooth Modelo 323,321.1,3,si,2025-04-10
+11733,Proyector Modelo 158,32.19,44,si,2025-07-24
+11734,Hub USB Modelo 431,309.32,1,si,2025-03-03
+11735,Procesador Modelo 972,263.4,0,no,2025-07-24
+11736,Adaptador Bluetooth Modelo 878,1449.51,25,si,2025-03-23
+11737,Auriculares Modelo 928,503.69,21,si,2025-02-02
+11738,Fuente de Poder Modelo 346,697.91,28,si,2025-04-14
+11739,Tablet Modelo 456,493.96,10,si,2025-05-26
+11740,Escaner Modelo 893,91.6,19,si,2025-02-21
+11741,Tarjeta Madre Modelo 196,357.71,29,si,2025-06-03
+11742,Tablet Modelo 210,683.03,14,si,2025-05-23
+11743,Case Modelo 315,1924.08,40,si,2025-04-21
+11744,SSD Externo Modelo 107,1846.34,26,si,2025-06-04
+11745,Fuente de Poder Modelo 857,920.28,47,si,2025-03-14
+11746,Teclado Modelo 536,828.78,3,si,2025-06-26
+11747,Smartphone Modelo 802,1877.62,20,si,2025-05-27
+11748,Auriculares Modelo 724,950.72,3,si,2025-01-29
+11749,Consola de Juegos Modelo 320,282.01,8,si,2025-02-19
+11750,Microfono Modelo 547,983.5,21,si,2025-03-20
+11751,Case Modelo 690,1147.09,11,si,2025-05-25
+11752,SSD Externo Modelo 651,191.69,17,si,2025-02-03
+11753,Joystick Modelo 780,1599.78,24,si,2025-02-25
+11754,Webcam Modelo 619,256.1,4,si,2025-04-21
+11755,Tarjeta Madre Modelo 260,323.47,19,si,2025-07-10
+11756,Smartwatch Modelo 703,1091.3,24,si,2025-01-28
+11757,Parlantes Modelo 887,503.15,36,si,2025-06-18
+11758,Parlantes Modelo 222,705.61,22,si,2025-05-07
+11759,Impresora Modelo 956,145.74,30,si,2025-01-27
+11760,Impresora Modelo 397,1526.01,37,si,2025-04-03
+11761,Microfono Modelo 808,693.59,6,si,2025-07-15
+11762,SSD Externo Modelo 908,1809.19,9,si,2025-03-24
+11763,Escaner Modelo 475,899.84,2,si,2025-03-11
+11764,Smartwatch Modelo 248,1085.07,40,si,2025-05-05
+11765,Mouse Modelo 445,1998.8,23,si,2025-06-27
+11766,Joystick Modelo 465,761.4,25,si,2025-07-14
+11767,Mouse Modelo 142,1913.48,1,si,2025-03-18
+11768,Monitor Modelo 657,1265.02,23,si,2025-04-22
+11769,Cooler Modelo 586,1179.48,10,si,2025-03-24
+11770,Webcam Modelo 400,345.15,33,si,2025-05-18
+11771,Microfono Modelo 586,1382.2,27,si,2025-02-28
+11772,Monitor Modelo 944,387.16,31,si,2025-02-02
+11773,Impresora Modelo 144,1330.88,16,si,2025-02-14
+11774,SSD Externo Modelo 703,1706.65,31,si,2025-06-09
+11775,SSD Externo Modelo 454,1552.5,25,si,2025-01-28
+11776,Adaptador Bluetooth Modelo 659,1333.22,34,si,2025-02-06
+11777,Parlantes Modelo 121,857.53,0,no,2025-05-21
+11778,Parlantes Modelo 417,1679.51,4,si,2025-04-11
+11779,Proyector Modelo 266,1065.78,2,si,2025-02-18
+11780,Procesador Modelo 260,419.63,28,si,2025-03-18
+11781,Auriculares Modelo 333,1179.29,39,si,2025-07-20
+11782,Cable HDMI Modelo 994,1066.43,36,si,2025-04-10
+11783,Parlantes Modelo 998,1937.7,30,si,2025-05-06
+11784,Fuente de Poder Modelo 321,584.01,48,si,2025-07-08
+11785,Mouse Modelo 512,1880.73,39,si,2025-06-01
+11786,Tarjeta de Video Modelo 988,1777.55,2,si,2025-07-06
+11787,Smartwatch Modelo 152,618.31,17,si,2025-06-25
+11788,Smartwatch Modelo 696,1498.73,46,si,2025-06-21
+11789,Impresora Modelo 680,974.21,4,si,2025-02-08
+11790,Laptop Modelo 903,1417.07,4,si,2025-02-13
+11791,Auriculares Modelo 670,1961.95,32,si,2025-02-14
+11792,Monitor Modelo 820,1678.25,14,si,2025-05-12
+11793,Laptop Modelo 671,877.31,13,si,2025-01-27
+11794,Auriculares Modelo 904,1314.17,40,si,2025-02-11
+11795,Adaptador Bluetooth Modelo 878,1700.61,9,si,2025-06-03
+11796,Smartphone Modelo 494,45.95,10,si,2025-05-26
+11797,Microfono Modelo 304,1031.77,4,si,2025-03-11
+11798,Case Modelo 241,344.21,41,si,2025-05-07
+11799,Escaner Modelo 516,1660.2,26,si,2025-07-12
+11800,Teclado Modelo 558,319.2,16,si,2025-06-09
+11801,Smartwatch Modelo 174,1188.63,13,si,2025-06-27
+11802,Smartphone Modelo 654,329.96,14,si,2025-07-16
+11803,Memoria RAM Modelo 313,1414.91,33,si,2025-04-02
+11804,Cooler Modelo 938,927.55,12,si,2025-05-05
+11805,Disco Duro Modelo 956,1728.4,33,si,2025-03-29
+11806,Monitor Modelo 591,1847.55,31,si,2025-03-11
+11807,Proyector Modelo 892,1306.16,38,si,2025-06-19
+11808,Router Modelo 266,1880.59,17,si,2025-03-29
+11809,Cooler Modelo 154,421.76,39,si,2025-07-15
+11810,Cable HDMI Modelo 250,719.82,38,si,2025-07-19
+11811,Laptop Modelo 491,83.9,10,si,2025-02-19
+11812,Webcam Modelo 501,1107.63,36,si,2025-07-03
+11813,Joystick Modelo 184,1410.38,19,si,2025-04-23
+11814,Hub USB Modelo 894,1535.06,31,si,2025-01-30
+11815,Teclado Modelo 681,388.99,39,si,2025-07-19
+11816,Consola de Juegos Modelo 481,923.61,13,si,2025-04-21
+11817,Auriculares Modelo 831,1421.95,34,si,2025-04-11
+11818,Hub USB Modelo 312,765.35,40,si,2025-02-13
+11819,Smartphone Modelo 442,442.51,11,si,2025-02-19
+11820,Procesador Modelo 771,1803.09,14,si,2025-06-02
+11821,Disco Duro Modelo 158,608.27,5,si,2025-05-27
+11822,Adaptador Bluetooth Modelo 695,1358.89,6,si,2025-02-14
+11823,Smartphone Modelo 153,671.65,45,si,2025-05-01
+11824,Tarjeta de Video Modelo 216,1528.86,13,si,2025-04-23
+11825,Escaner Modelo 934,1552.06,41,si,2025-02-14
+11826,Smartphone Modelo 977,369.67,27,si,2025-06-04
+11827,Laptop Modelo 320,1966.95,5,si,2025-05-22
+11828,Procesador Modelo 405,1001.84,24,si,2025-01-30
+11829,Consola de Juegos Modelo 274,397.27,39,si,2025-04-23
+11830,Impresora Modelo 374,1545.28,18,si,2025-01-28
+11831,Memoria RAM Modelo 776,1606.28,11,si,2025-05-17
+11832,Teclado Modelo 309,1069.1,15,si,2025-05-14
+11833,Smartwatch Modelo 702,539.76,40,si,2025-07-10
+11834,Memoria RAM Modelo 849,794.47,41,si,2025-05-30
+11835,Hub USB Modelo 155,422.83,12,si,2025-05-24
+11836,Proyector Modelo 684,1857.59,5,si,2025-05-18
+11837,Consola de Juegos Modelo 899,1698.56,21,si,2025-07-21
+11838,Auriculares Modelo 592,1582.16,20,si,2025-06-11
+11839,Smartwatch Modelo 459,311.05,50,si,2025-04-18
+11840,Memoria RAM Modelo 885,445.24,1,si,2025-06-02
+11841,Teclado Modelo 377,1245.17,15,si,2025-03-13
+11842,Router Modelo 149,987.92,30,si,2025-07-06
+11843,Adaptador Bluetooth Modelo 391,1461.34,22,si,2025-03-07
+11844,Microfono Modelo 182,1581.47,13,si,2025-07-17
+11845,Adaptador Bluetooth Modelo 185,427.73,11,si,2025-04-23
+11846,Smartwatch Modelo 403,211.08,31,si,2025-01-28
+11847,SSD Externo Modelo 707,782.65,21,si,2025-05-11
+11848,Tarjeta Madre Modelo 792,1622.99,35,si,2025-04-01
+11849,Parlantes Modelo 305,486.88,29,si,2025-06-11
+11850,Monitor Modelo 106,169.8,50,si,2025-05-04
+11851,Microfono Modelo 106,1944.61,42,si,2025-03-28
+11852,Smartwatch Modelo 435,240.46,30,si,2025-07-18
+11853,Proyector Modelo 582,964.44,4,si,2025-03-02
+11854,Monitor Modelo 390,987.83,49,si,2025-06-05
+11855,Cable HDMI Modelo 566,1027.79,12,si,2025-02-15
+11856,Impresora Modelo 193,838.9,41,si,2025-04-13
+11857,Smartwatch Modelo 814,387.68,36,si,2025-03-31
+11858,Consola de Juegos Modelo 233,735.03,15,si,2025-04-23
+11859,Cooler Modelo 262,1127.04,5,si,2025-02-18
+11860,Smartphone Modelo 120,943.2,48,si,2025-06-20
+11861,Memoria RAM Modelo 774,391.36,2,si,2025-05-21
+11862,Case Modelo 515,1597.13,2,si,2025-02-02
+11863,Memoria RAM Modelo 433,282.51,8,si,2025-07-07
+11864,SSD Externo Modelo 296,63.39,22,si,2025-05-16
+11865,Camara IP Modelo 580,1462.94,23,si,2025-04-07
+11866,Adaptador Bluetooth Modelo 519,871.54,35,si,2025-03-15
+11867,Case Modelo 947,383.33,0,no,2025-02-01
+11868,Router Modelo 488,1904.72,46,si,2025-05-11
+11869,Router Modelo 927,36.7,20,si,2025-06-09
+11870,Escaner Modelo 536,1624.61,29,si,2025-04-16
+11871,Adaptador Bluetooth Modelo 490,1397.8,28,si,2025-02-17
+11872,Tablet Modelo 630,981.43,49,si,2025-03-20
+11873,Smartphone Modelo 727,589.42,26,si,2025-01-30
+11874,Adaptador Bluetooth Modelo 397,545.73,25,si,2025-03-06
+11875,Hub USB Modelo 534,1396.65,9,si,2025-07-24
+11876,Impresora Modelo 114,501.95,15,si,2025-05-23
+11877,Cooler Modelo 635,1964.08,43,si,2025-03-17
+11878,Smartphone Modelo 652,443.26,15,si,2025-05-17
+11879,Camara IP Modelo 521,551.27,4,si,2025-01-27
+11880,Cable HDMI Modelo 433,296.01,40,si,2025-04-05
+11881,Camara IP Modelo 564,1521.18,46,si,2025-07-20
+11882,Mouse Modelo 924,151.9,10,si,2025-04-18
+11883,Parlantes Modelo 517,1536.96,33,si,2025-06-12
+11884,Case Modelo 371,1512.3,20,si,2025-03-20
+11885,Proyector Modelo 594,939.32,25,si,2025-05-08
+11886,Tablet Modelo 910,611.09,25,si,2025-07-05
+11887,Escaner Modelo 918,1850.0,37,si,2025-07-15
+11888,Hub USB Modelo 896,620.93,13,si,2025-02-07
+11889,Tarjeta Madre Modelo 485,444.33,15,si,2025-02-22
+11890,Cable HDMI Modelo 420,308.33,12,si,2025-06-28
+11891,Disco Duro Modelo 400,970.06,9,si,2025-04-15
+11892,Fuente de Poder Modelo 718,105.19,24,si,2025-04-21
+11893,Smartwatch Modelo 845,1975.57,38,si,2025-05-25
+11894,Smartwatch Modelo 511,313.89,15,si,2025-04-03
+11895,Disco Duro Modelo 525,1558.33,15,si,2025-03-15
+11896,Microfono Modelo 225,1341.77,11,si,2025-05-08
+11897,Tarjeta de Video Modelo 344,87.22,3,si,2025-07-16
+11898,Parlantes Modelo 775,1091.45,18,si,2025-03-16
+11899,Cable HDMI Modelo 547,1735.66,21,si,2025-04-28
+11900,Cooler Modelo 129,351.18,46,si,2025-05-07
+11901,Smartwatch Modelo 994,1097.33,17,si,2025-01-25
+11902,Memoria RAM Modelo 395,832.26,5,si,2025-06-22
+11903,Cooler Modelo 792,120.09,36,si,2025-06-22
+11904,Consola de Juegos Modelo 334,1748.72,12,si,2025-03-28
+11905,Tarjeta de Video Modelo 366,1396.54,33,si,2025-04-28
+11906,Cable HDMI Modelo 941,176.79,47,si,2025-06-27
+11907,Adaptador Bluetooth Modelo 264,701.64,23,si,2025-07-14
+11908,Monitor Modelo 643,1530.68,11,si,2025-07-24
+11909,SSD Externo Modelo 334,551.42,34,si,2025-03-09
+11910,Tarjeta de Video Modelo 569,587.58,15,si,2025-07-15
+11911,Disco Duro Modelo 170,1467.36,14,si,2025-06-23
+11912,Tarjeta de Video Modelo 224,1739.53,45,si,2025-06-01
+11913,Cable HDMI Modelo 146,784.31,24,si,2025-03-20
+11914,Adaptador Bluetooth Modelo 764,1456.18,30,si,2025-04-26
+11915,Teclado Modelo 856,516.2,31,si,2025-01-28
+11916,Impresora Modelo 954,315.56,43,si,2025-01-30
+11917,Tarjeta Madre Modelo 836,942.0,14,si,2025-04-16
+11918,Smartphone Modelo 603,1523.01,40,si,2025-05-03
+11919,Disco Duro Modelo 191,564.42,42,si,2025-02-07
+11920,Case Modelo 683,1626.68,19,si,2025-03-13
+11921,Fuente de Poder Modelo 321,891.1,24,si,2025-07-20
+11922,Adaptador Bluetooth Modelo 657,1314.15,26,si,2025-04-11
+11923,Webcam Modelo 871,54.49,19,si,2025-03-22
+11924,Microfono Modelo 170,33.18,8,si,2025-05-30
+11925,Procesador Modelo 159,1744.72,28,si,2025-05-01
+11926,Smartwatch Modelo 505,1104.72,21,si,2025-06-24
+11927,Tarjeta de Video Modelo 492,1523.99,8,si,2025-02-09
+11928,Case Modelo 105,1893.67,20,si,2025-05-09
+11929,Router Modelo 110,1512.69,42,si,2025-06-16
+11930,Consola de Juegos Modelo 418,1595.36,44,si,2025-04-11
+11931,Monitor Modelo 785,1403.76,32,si,2025-02-01
+11932,Impresora Modelo 584,585.62,18,si,2025-06-11
+11933,Tarjeta Madre Modelo 518,1435.03,46,si,2025-03-24
+11934,Router Modelo 455,1012.31,41,si,2025-03-15
+11935,Webcam Modelo 197,1608.41,27,si,2025-04-30
+11936,Hub USB Modelo 557,506.08,28,si,2025-07-02
+11937,Memoria RAM Modelo 645,1871.75,38,si,2025-02-20
+11938,Procesador Modelo 300,1383.33,37,si,2025-05-27
+11939,Teclado Modelo 939,746.68,43,si,2025-02-07
+11940,Tarjeta Madre Modelo 529,884.0,47,si,2025-03-14
+11941,Auriculares Modelo 545,584.21,31,si,2025-06-05
+11942,Proyector Modelo 311,964.59,49,si,2025-05-25
+11943,Microfono Modelo 913,839.44,43,si,2025-03-05
+11944,Router Modelo 697,406.87,13,si,2025-06-12
+11945,Cable HDMI Modelo 879,1946.63,29,si,2025-03-28
+11946,Tarjeta de Video Modelo 143,477.23,16,si,2025-03-24
+11947,Auriculares Modelo 334,1437.72,28,si,2025-03-03
+11948,Memoria RAM Modelo 313,1060.32,30,si,2025-04-03
+11949,Webcam Modelo 778,605.99,36,si,2025-03-01
+11950,SSD Externo Modelo 544,712.17,2,si,2025-04-27
+11951,Procesador Modelo 945,1614.0,12,si,2025-02-22
+11952,Cable HDMI Modelo 140,1197.99,23,si,2025-03-11
+11953,Tarjeta de Video Modelo 695,1386.35,29,si,2025-02-23
+11954,Memoria RAM Modelo 604,504.91,36,si,2025-07-19
+11955,Joystick Modelo 210,149.64,15,si,2025-03-18
+11956,Impresora Modelo 128,564.87,28,si,2025-03-27
+11957,Smartphone Modelo 616,1568.22,21,si,2025-01-25
+11958,Router Modelo 956,916.44,48,si,2025-06-06
+11959,Hub USB Modelo 214,1306.82,0,no,2025-03-28
+11960,Teclado Modelo 849,576.0,29,si,2025-03-26
+11961,Cooler Modelo 304,1204.3,9,si,2025-02-02
+11962,Smartphone Modelo 729,539.27,1,si,2025-04-18
+11963,Tarjeta de Video Modelo 295,1689.66,27,si,2025-03-02
+11964,Smartwatch Modelo 403,205.27,0,no,2025-04-12
+11965,Escaner Modelo 937,191.13,22,si,2025-02-16
+11966,Camara IP Modelo 164,889.27,25,si,2025-06-09
+11967,Webcam Modelo 722,911.82,7,si,2025-07-13
+11968,Case Modelo 454,1108.78,31,si,2025-07-24
+11969,Tarjeta Madre Modelo 675,1197.59,27,si,2025-05-09
+11970,Memoria RAM Modelo 339,1856.88,38,si,2025-07-22
+11971,Proyector Modelo 152,1113.54,38,si,2025-06-10
+11972,Teclado Modelo 848,992.39,36,si,2025-06-10
+11973,Adaptador Bluetooth Modelo 207,1961.76,18,si,2025-05-07
+11974,Teclado Modelo 474,1762.93,16,si,2025-05-21
+11975,Consola de Juegos Modelo 558,1722.87,34,si,2025-07-20
+11976,Adaptador Bluetooth Modelo 414,13.27,50,si,2025-02-02
+11977,Laptop Modelo 871,567.4,12,si,2025-04-30
+11978,Smartphone Modelo 133,1521.98,38,si,2025-02-20
+11979,Memoria RAM Modelo 446,899.03,11,si,2025-07-13
+11980,Consola de Juegos Modelo 650,552.43,34,si,2025-03-29
+11981,Teclado Modelo 158,442.2,4,si,2025-04-25
+11982,Proyector Modelo 625,666.32,4,si,2025-03-21
+11983,Hub USB Modelo 915,1627.43,31,si,2025-02-14
+11984,Auriculares Modelo 346,855.58,20,si,2025-06-14
+11985,Tablet Modelo 987,474.1,28,si,2025-01-26
+11986,Monitor Modelo 271,125.7,22,si,2025-04-06
+11987,Camara IP Modelo 176,1885.32,14,si,2025-03-18
+11988,Impresora Modelo 845,1586.22,40,si,2025-06-05
+11989,Impresora Modelo 574,1808.4,16,si,2025-03-11
+11990,Case Modelo 575,550.6,46,si,2025-07-13
+11991,Proyector Modelo 931,776.93,41,si,2025-03-14
+11992,Procesador Modelo 865,58.49,39,si,2025-07-23
+11993,Camara IP Modelo 651,1122.63,41,si,2025-06-09
+11994,Auriculares Modelo 762,1798.34,42,si,2025-02-18
+11995,Cable HDMI Modelo 737,218.65,25,si,2025-05-08
+11996,Smartwatch Modelo 866,1078.9,2,si,2025-05-30
+11997,Disco Duro Modelo 992,83.61,21,si,2025-04-30
+11998,Cable HDMI Modelo 189,1431.26,41,si,2025-07-16
+11999,Impresora Modelo 743,1083.29,29,si,2025-03-22
+12000,Disco Duro Modelo 158,1389.92,38,si,2025-06-10
+12001,Smartwatch Modelo 194,1061.38,40,si,2025-06-07
+12002,Laptop Modelo 143,29.43,31,si,2025-04-16
+12003,Smartphone Modelo 930,68.28,36,si,2025-06-28
+12004,Cable HDMI Modelo 337,1803.08,33,si,2025-07-15
+12005,Adaptador Bluetooth Modelo 722,306.94,45,si,2025-02-04
+12006,Laptop Modelo 585,200.97,6,si,2025-02-19
+12007,Smartphone Modelo 160,1534.05,5,si,2025-01-31
+12008,Webcam Modelo 296,283.95,11,si,2025-04-24
+12009,Mouse Modelo 950,1936.88,24,si,2025-01-29
+12010,Joystick Modelo 936,170.88,32,si,2025-03-02
+12011,Laptop Modelo 526,1272.76,2,si,2025-04-27
+12012,Smartphone Modelo 752,1228.82,4,si,2025-04-15
+12013,Parlantes Modelo 570,959.06,14,si,2025-04-12
+12014,Tarjeta de Video Modelo 287,605.17,15,si,2025-04-24
+12015,Router Modelo 620,187.41,37,si,2025-04-12
+12016,Procesador Modelo 167,1935.18,41,si,2025-04-12
+12017,Mouse Modelo 884,1968.54,3,si,2025-04-06
+12018,Escaner Modelo 772,663.1,44,si,2025-03-06
+12019,Camara IP Modelo 938,1361.68,0,no,2025-02-10
+12020,Auriculares Modelo 732,1769.91,10,si,2025-04-09
+12021,Smartphone Modelo 501,1326.35,44,si,2025-02-20
+12022,Laptop Modelo 297,482.08,48,si,2025-02-04
+12023,Mouse Modelo 853,1812.26,2,si,2025-03-15
+12024,SSD Externo Modelo 463,1438.78,48,si,2025-06-03
+12025,Tablet Modelo 405,670.09,27,si,2025-03-12
+12026,Cooler Modelo 488,138.02,48,si,2025-03-30
+12027,Tablet Modelo 453,1963.83,28,si,2025-05-01
+12028,SSD Externo Modelo 973,1283.38,18,si,2025-05-05
+12029,Proyector Modelo 339,427.12,12,si,2025-04-12
+12030,Smartwatch Modelo 228,936.85,6,si,2025-03-05
+12031,Router Modelo 310,615.01,35,si,2025-05-30
+12032,Parlantes Modelo 340,1281.89,43,si,2025-01-27
+12033,Joystick Modelo 662,1932.14,23,si,2025-07-01
+12034,Joystick Modelo 229,1173.91,25,si,2025-03-16
+12035,Tarjeta de Video Modelo 943,70.65,6,si,2025-07-13
+12036,Monitor Modelo 430,1081.53,24,si,2025-03-11
+12037,Teclado Modelo 118,1348.72,45,si,2025-04-06
+12038,Smartphone Modelo 136,1532.8,10,si,2025-07-02
+12039,Joystick Modelo 478,100.44,34,si,2025-07-13
+12040,Cable HDMI Modelo 491,1254.21,3,si,2025-01-26
+12041,Disco Duro Modelo 218,922.69,20,si,2025-06-10
+12042,Smartwatch Modelo 309,1321.64,23,si,2025-04-24
+12043,Procesador Modelo 183,583.11,42,si,2025-03-25
+12044,Microfono Modelo 289,724.7,21,si,2025-06-14
+12045,Memoria RAM Modelo 233,1348.17,19,si,2025-02-08
+12046,Webcam Modelo 290,46.94,21,si,2025-03-31
+12047,Fuente de Poder Modelo 865,266.75,15,si,2025-06-03
+12048,Auriculares Modelo 628,918.54,4,si,2025-04-07
+12049,Consola de Juegos Modelo 403,1705.0,49,si,2025-05-01
+12050,Proyector Modelo 711,1917.06,45,si,2025-01-27
+12051,Tarjeta de Video Modelo 734,1972.26,8,si,2025-07-24
+12052,Router Modelo 638,1775.13,35,si,2025-05-07
+12053,Memoria RAM Modelo 630,931.88,19,si,2025-07-24
+12054,Consola de Juegos Modelo 791,1540.0,2,si,2025-03-14
+12055,Cable HDMI Modelo 702,132.32,40,si,2025-02-10
+12056,Mouse Modelo 605,28.89,47,si,2025-05-23
+12057,Tarjeta de Video Modelo 881,1414.13,15,si,2025-06-17
+12058,Cable HDMI Modelo 569,1685.46,21,si,2025-06-12
+12059,Router Modelo 510,1216.21,10,si,2025-03-14
+12060,Impresora Modelo 201,1257.88,21,si,2025-05-04
+12061,Tablet Modelo 167,1440.35,31,si,2025-02-14
+12062,SSD Externo Modelo 344,513.78,38,si,2025-03-17
+12063,SSD Externo Modelo 123,1009.52,9,si,2025-05-19
+12064,Tablet Modelo 666,307.98,42,si,2025-02-02
+12065,Fuente de Poder Modelo 829,944.07,23,si,2025-02-26
+12066,Memoria RAM Modelo 137,1925.46,2,si,2025-05-17
+12067,Microfono Modelo 682,1590.92,2,si,2025-07-11
+12068,Joystick Modelo 248,1117.76,45,si,2025-06-25
+12069,Hub USB Modelo 773,1781.21,19,si,2025-05-23
+12070,Impresora Modelo 249,427.87,30,si,2025-04-18
+12071,SSD Externo Modelo 750,795.68,26,si,2025-02-08
+12072,Impresora Modelo 783,1150.59,42,si,2025-01-30
+12073,Tablet Modelo 997,778.51,36,si,2025-02-08
+12074,Tarjeta Madre Modelo 960,1613.83,47,si,2025-03-04
+12075,Parlantes Modelo 434,738.83,18,si,2025-04-15
+12076,Camara IP Modelo 771,1408.72,10,si,2025-05-14
+12077,Disco Duro Modelo 503,736.25,30,si,2025-02-03
+12078,Hub USB Modelo 680,1436.18,14,si,2025-05-18
+12079,Tarjeta Madre Modelo 592,1200.5,23,si,2025-07-13
+12080,Memoria RAM Modelo 136,563.68,41,si,2025-06-15
+12081,Joystick Modelo 559,833.88,19,si,2025-05-13
+12082,Cooler Modelo 410,1908.08,45,si,2025-05-03
+12083,Laptop Modelo 647,1094.58,33,si,2025-04-11
+12084,Tablet Modelo 790,1495.98,22,si,2025-06-05
+12085,Escaner Modelo 243,758.29,4,si,2025-04-04
+12086,Auriculares Modelo 277,860.98,36,si,2025-03-21
+12087,Case Modelo 947,746.28,42,si,2025-03-08
+12088,Case Modelo 934,109.52,20,si,2025-07-08
+12089,Consola de Juegos Modelo 763,273.78,42,si,2025-04-22
+12090,Hub USB Modelo 680,630.85,8,si,2025-06-14
+12091,Tarjeta de Video Modelo 466,361.62,50,si,2025-02-19
+12092,Tarjeta Madre Modelo 485,1313.96,43,si,2025-05-31
+12093,Cooler Modelo 964,1808.48,33,si,2025-04-17
+12094,Case Modelo 540,388.89,15,si,2025-05-09
+12095,Smartwatch Modelo 283,1803.74,17,si,2025-04-15
+12096,Fuente de Poder Modelo 845,1166.46,25,si,2025-05-22
+12097,Procesador Modelo 149,1901.05,22,si,2025-07-22
+12098,Cable HDMI Modelo 116,594.67,9,si,2025-05-13
+12099,Router Modelo 383,1276.23,23,si,2025-03-02
+12100,SSD Externo Modelo 794,902.9,28,si,2025-06-16
+12101,Disco Duro Modelo 544,853.59,16,si,2025-01-31
+12102,Memoria RAM Modelo 358,1241.67,42,si,2025-07-17
+12103,Procesador Modelo 132,69.3,25,si,2025-04-30
+12104,Escaner Modelo 251,1730.94,14,si,2025-04-19
+12105,Cable HDMI Modelo 180,1581.49,25,si,2025-03-20
+12106,Auriculares Modelo 205,1953.51,39,si,2025-07-01
+12107,Case Modelo 127,1523.31,30,si,2025-07-20
+12108,Consola de Juegos Modelo 644,1972.97,12,si,2025-06-02
+12109,Cable HDMI Modelo 139,1541.69,29,si,2025-06-07
+12110,Cooler Modelo 875,1146.23,27,si,2025-02-11
+12111,Tablet Modelo 311,1632.46,19,si,2025-05-12
+12112,Cable HDMI Modelo 388,1867.74,44,si,2025-02-22
+12113,Router Modelo 330,118.26,7,si,2025-06-11
+12114,Auriculares Modelo 609,991.83,14,si,2025-06-04
+12115,Consola de Juegos Modelo 674,1179.2,33,si,2025-06-24
+12116,Microfono Modelo 204,1366.41,13,si,2025-03-12
+12117,Tarjeta de Video Modelo 389,1941.19,21,si,2025-05-06
+12118,Tarjeta Madre Modelo 820,1377.33,3,si,2025-06-27
+12119,Camara IP Modelo 133,664.79,13,si,2025-03-31
+12120,Tarjeta Madre Modelo 427,578.08,13,si,2025-07-14
+12121,Fuente de Poder Modelo 132,512.67,44,si,2025-05-29
+12122,Teclado Modelo 857,1950.86,3,si,2025-02-13
+12123,Router Modelo 896,1084.13,28,si,2025-05-28
+12124,Tablet Modelo 447,227.09,13,si,2025-05-15
+12125,Fuente de Poder Modelo 731,476.83,5,si,2025-03-23
+12126,Mouse Modelo 519,1837.89,18,si,2025-02-23
+12127,Adaptador Bluetooth Modelo 958,1175.28,32,si,2025-06-27
+12128,Disco Duro Modelo 605,349.75,28,si,2025-05-11
+12129,Escaner Modelo 583,507.63,10,si,2025-07-19
+12130,Camara IP Modelo 552,1905.34,18,si,2025-04-13
+12131,Fuente de Poder Modelo 232,1298.21,13,si,2025-06-24
+12132,Impresora Modelo 481,199.78,40,si,2025-04-22
+12133,Disco Duro Modelo 725,566.15,6,si,2025-03-19
+12134,Fuente de Poder Modelo 495,583.07,10,si,2025-03-04
+12135,SSD Externo Modelo 568,1194.0,18,si,2025-02-13
+12136,Camara IP Modelo 951,1012.45,34,si,2025-05-26
+12137,Tarjeta de Video Modelo 412,1891.85,28,si,2025-02-24
+12138,Hub USB Modelo 357,533.1,21,si,2025-03-09
+12139,Case Modelo 964,1087.28,25,si,2025-03-18
+12140,Microfono Modelo 844,1950.5,41,si,2025-04-17
+12141,Smartwatch Modelo 519,319.09,32,si,2025-05-28
+12142,Consola de Juegos Modelo 237,142.3,15,si,2025-03-13
+12143,Monitor Modelo 192,670.44,30,si,2025-02-26
+12144,Hub USB Modelo 309,73.67,46,si,2025-06-16
+12145,Auriculares Modelo 384,1768.32,43,si,2025-04-07
+12146,Impresora Modelo 716,1116.39,0,no,2025-06-01
+12147,Memoria RAM Modelo 275,1619.85,5,si,2025-07-08
+12148,Smartphone Modelo 740,64.75,45,si,2025-07-14
+12149,Tablet Modelo 614,398.93,24,si,2025-01-30
+12150,Smartwatch Modelo 403,393.48,3,si,2025-02-21
+12151,Microfono Modelo 321,780.81,32,si,2025-05-09
+12152,Consola de Juegos Modelo 480,1986.16,30,si,2025-06-01
+12153,Adaptador Bluetooth Modelo 646,1751.67,42,si,2025-05-06
+12154,Procesador Modelo 632,994.38,26,si,2025-01-25
+12155,Smartwatch Modelo 868,1462.79,13,si,2025-06-03
+12156,Router Modelo 597,1439.71,39,si,2025-06-11
+12157,Smartwatch Modelo 783,37.77,1,si,2025-03-28
+12158,Consola de Juegos Modelo 288,430.37,0,no,2025-06-22
+12159,Memoria RAM Modelo 767,36.13,24,si,2025-04-16
+12160,Hub USB Modelo 229,537.01,34,si,2025-05-01
+12161,Mouse Modelo 147,782.69,48,si,2025-06-10
+12162,Auriculares Modelo 518,1171.74,6,si,2025-05-31
+12163,Camara IP Modelo 201,1301.83,11,si,2025-03-18
+12164,Disco Duro Modelo 913,1344.86,46,si,2025-06-20
+12165,Joystick Modelo 507,1809.45,19,si,2025-05-24
+12166,Tarjeta de Video Modelo 883,353.6,16,si,2025-05-23
+12167,Disco Duro Modelo 265,726.59,22,si,2025-03-27
+12168,Smartphone Modelo 337,504.71,10,si,2025-04-27
+12169,Disco Duro Modelo 667,746.57,32,si,2025-07-05
+12170,Fuente de Poder Modelo 517,533.85,40,si,2025-06-15
+12171,Tablet Modelo 287,172.76,47,si,2025-03-08
+12172,Memoria RAM Modelo 704,1262.55,26,si,2025-03-30
+12173,Impresora Modelo 171,1592.67,14,si,2025-04-28
+12174,Escaner Modelo 188,269.38,0,no,2025-04-16
+12175,Webcam Modelo 216,1914.3,2,si,2025-07-20
+12176,Router Modelo 263,1823.32,0,no,2025-06-27
+12177,Auriculares Modelo 891,467.72,29,si,2025-06-02
+12178,Adaptador Bluetooth Modelo 298,1532.68,16,si,2025-02-06
+12179,Parlantes Modelo 342,812.43,29,si,2025-06-07
+12180,Hub USB Modelo 327,1783.51,19,si,2025-01-27
+12181,Impresora Modelo 442,562.3,4,si,2025-03-19
+12182,Webcam Modelo 938,1134.28,1,si,2025-07-19
+12183,Memoria RAM Modelo 203,1526.29,5,si,2025-07-13
+12184,Camara IP Modelo 472,1935.58,32,si,2025-03-17
+12185,Auriculares Modelo 601,587.7,46,si,2025-07-04
+12186,Proyector Modelo 998,1048.38,12,si,2025-06-17
+12187,Impresora Modelo 160,1446.71,41,si,2025-06-20
+12188,Router Modelo 943,1597.71,12,si,2025-07-05
+12189,Fuente de Poder Modelo 379,1251.19,36,si,2025-04-04
+12190,Microfono Modelo 306,1557.07,10,si,2025-02-06
+12191,Laptop Modelo 429,856.39,23,si,2025-03-15
+12192,Tarjeta de Video Modelo 784,1644.78,26,si,2025-02-21
+12193,Escaner Modelo 641,1326.35,34,si,2025-06-27
+12194,Mouse Modelo 210,1769.64,23,si,2025-06-08
+12195,Smartwatch Modelo 994,357.96,16,si,2025-05-18
+12196,Tablet Modelo 814,21.2,7,si,2025-04-24
+12197,SSD Externo Modelo 432,1699.46,20,si,2025-04-12
+12198,Webcam Modelo 215,893.97,8,si,2025-05-13
+12199,Smartphone Modelo 949,696.0,28,si,2025-04-18
+12200,Router Modelo 394,1216.13,7,si,2025-03-20
+12201,Monitor Modelo 394,471.32,32,si,2025-04-21
+12202,Impresora Modelo 677,1734.33,0,no,2025-06-16
+12203,Tarjeta Madre Modelo 146,1620.33,38,si,2025-03-13
+12204,SSD Externo Modelo 448,243.46,1,si,2025-04-10
+12205,Tarjeta de Video Modelo 721,970.11,6,si,2025-04-12
+12206,Memoria RAM Modelo 498,827.61,22,si,2025-07-12
+12207,Tarjeta Madre Modelo 638,1022.2,7,si,2025-01-29
+12208,Router Modelo 255,1647.12,23,si,2025-07-21
+12209,Microfono Modelo 111,1240.24,36,si,2025-07-21
+12210,Monitor Modelo 867,10.33,1,si,2025-03-09
+12211,Laptop Modelo 742,831.99,23,si,2025-02-07
+12212,Auriculares Modelo 675,668.81,41,si,2025-06-13
+12213,Adaptador Bluetooth Modelo 122,722.29,30,si,2025-06-18
+12214,Impresora Modelo 998,1289.91,9,si,2025-03-31
+12215,Cooler Modelo 271,1139.86,43,si,2025-03-23
+12216,Router Modelo 758,928.66,40,si,2025-04-22
+12217,Procesador Modelo 332,1299.98,5,si,2025-06-13
+12218,Camara IP Modelo 433,1997.77,38,si,2025-04-21
+12219,Disco Duro Modelo 725,57.04,11,si,2025-03-18
+12220,Webcam Modelo 279,1911.1,15,si,2025-02-01
+12221,Monitor Modelo 431,1941.21,33,si,2025-04-06
+12222,Proyector Modelo 421,1690.25,42,si,2025-07-21
+12223,Procesador Modelo 568,343.67,50,si,2025-03-17
+12224,Smartwatch Modelo 113,1919.13,16,si,2025-06-05
+12225,SSD Externo Modelo 425,662.7,42,si,2025-01-30
+12226,Webcam Modelo 574,1569.77,10,si,2025-07-15
+12227,Tablet Modelo 391,1585.2,11,si,2025-03-21
+12228,Procesador Modelo 292,26.23,8,si,2025-05-29
+12229,Memoria RAM Modelo 313,1559.48,7,si,2025-07-08
+12230,Tarjeta Madre Modelo 572,1046.99,14,si,2025-04-03
+12231,Cable HDMI Modelo 755,180.32,3,si,2025-05-22
+12232,Teclado Modelo 886,729.87,9,si,2025-05-03
+12233,Case Modelo 816,486.9,9,si,2025-06-25
+12234,Joystick Modelo 278,197.38,43,si,2025-06-04
+12235,Disco Duro Modelo 984,644.79,32,si,2025-06-12
+12236,Hub USB Modelo 118,746.5,46,si,2025-06-27
+12237,Camara IP Modelo 371,1827.58,6,si,2025-04-16
+12238,Case Modelo 416,1099.0,37,si,2025-05-16
+12239,Laptop Modelo 596,1693.24,40,si,2025-07-19
+12240,Proyector Modelo 214,119.01,27,si,2025-04-03
+12241,Proyector Modelo 760,928.7,0,no,2025-06-10
+12242,Proyector Modelo 222,171.86,48,si,2025-03-29
+12243,Tablet Modelo 240,299.11,37,si,2025-05-12
+12244,Hub USB Modelo 888,1345.82,5,si,2025-01-29
+12245,Cable HDMI Modelo 418,994.2,36,si,2025-06-24
+12246,Router Modelo 561,74.13,24,si,2025-05-27
+12247,Mouse Modelo 168,1550.5,44,si,2025-04-17
+12248,SSD Externo Modelo 125,211.08,35,si,2025-02-21
+12249,Case Modelo 378,1821.22,25,si,2025-04-18
+12250,Smartwatch Modelo 668,208.03,39,si,2025-03-30
+12251,Impresora Modelo 876,1970.39,46,si,2025-05-28
+12252,Tablet Modelo 359,288.98,2,si,2025-05-02
+12253,Fuente de Poder Modelo 161,1071.23,0,no,2025-05-29
+12254,Mouse Modelo 675,681.65,42,si,2025-04-24
+12255,Joystick Modelo 868,230.09,3,si,2025-02-26
+12256,Tarjeta de Video Modelo 692,228.49,43,si,2025-06-03
+12257,Adaptador Bluetooth Modelo 427,766.2,15,si,2025-05-03
+12258,Parlantes Modelo 578,1387.16,21,si,2025-06-01
+12259,Tarjeta Madre Modelo 245,74.2,10,si,2025-07-04
+12260,Proyector Modelo 785,614.11,39,si,2025-06-19
+12261,Fuente de Poder Modelo 208,588.42,29,si,2025-04-05
+12262,Disco Duro Modelo 291,124.91,43,si,2025-06-05
+12263,Camara IP Modelo 478,148.35,14,si,2025-03-04
+12264,Webcam Modelo 452,954.77,4,si,2025-07-24
+12265,Auriculares Modelo 578,1935.2,24,si,2025-04-15
+12266,SSD Externo Modelo 581,1217.33,32,si,2025-07-12
+12267,Joystick Modelo 158,98.83,37,si,2025-04-28
+12268,Procesador Modelo 429,1543.96,40,si,2025-07-20
+12269,Smartwatch Modelo 502,1799.41,23,si,2025-05-12
+12270,Disco Duro Modelo 555,1787.87,26,si,2025-01-26
+12271,Disco Duro Modelo 586,1421.5,29,si,2025-03-24
+12272,Joystick Modelo 720,817.67,30,si,2025-04-17
+12273,Camara IP Modelo 645,1652.73,2,si,2025-01-29
+12274,Microfono Modelo 956,472.8,47,si,2025-06-27
+12275,Adaptador Bluetooth Modelo 268,1385.5,49,si,2025-02-16
+12276,Laptop Modelo 840,1390.2,46,si,2025-02-20
+12277,Escaner Modelo 826,631.33,50,si,2025-05-22
+12278,Consola de Juegos Modelo 948,1468.91,11,si,2025-03-03
+12279,Laptop Modelo 836,199.14,20,si,2025-04-20
+12280,Webcam Modelo 865,774.59,7,si,2025-06-13
+12281,Webcam Modelo 571,1123.85,40,si,2025-03-09
+12282,Tarjeta de Video Modelo 897,1251.63,6,si,2025-07-16
+12283,Camara IP Modelo 416,1096.82,14,si,2025-03-12
+12284,Adaptador Bluetooth Modelo 414,1272.52,12,si,2025-03-11
+12285,Proyector Modelo 928,754.56,49,si,2025-02-19
+12286,Hub USB Modelo 116,890.21,43,si,2025-06-27
+12287,Teclado Modelo 461,615.18,7,si,2025-04-08
+12288,Proyector Modelo 589,400.42,21,si,2025-02-26
+12289,Joystick Modelo 968,1631.61,3,si,2025-04-13
+12290,Consola de Juegos Modelo 281,927.35,26,si,2025-03-31
+12291,Webcam Modelo 295,954.03,20,si,2025-05-13
+12292,Cooler Modelo 943,862.85,5,si,2025-01-25
+12293,Consola de Juegos Modelo 374,1694.17,17,si,2025-02-20
+12294,Tablet Modelo 985,1599.14,44,si,2025-03-31
+12295,Adaptador Bluetooth Modelo 426,174.57,3,si,2025-04-05
+12296,Disco Duro Modelo 629,1698.57,11,si,2025-07-01
+12297,Teclado Modelo 401,1996.45,2,si,2025-07-14
+12298,SSD Externo Modelo 919,1784.96,30,si,2025-05-22
+12299,Fuente de Poder Modelo 934,42.63,49,si,2025-02-20
+12300,Smartphone Modelo 577,1250.74,25,si,2025-06-03
+12301,SSD Externo Modelo 782,1696.71,38,si,2025-04-27
+12302,Auriculares Modelo 312,509.11,49,si,2025-07-13
+12303,Fuente de Poder Modelo 318,1878.44,36,si,2025-04-11
+12304,Escaner Modelo 271,1746.78,28,si,2025-04-02
+12305,SSD Externo Modelo 112,437.24,27,si,2025-05-30
+12306,Escaner Modelo 535,214.08,5,si,2025-05-06
+12307,Tablet Modelo 883,1952.59,16,si,2025-04-14
+12308,Adaptador Bluetooth Modelo 849,598.51,11,si,2025-02-27
+12309,Webcam Modelo 684,1523.9,32,si,2025-02-10
+12310,Microfono Modelo 812,957.01,9,si,2025-05-28
+12311,Tarjeta Madre Modelo 564,685.83,46,si,2025-03-04
+12312,Parlantes Modelo 867,297.41,9,si,2025-04-27
+12313,Consola de Juegos Modelo 546,95.86,14,si,2025-03-09
+12314,Hub USB Modelo 987,1950.1,13,si,2025-02-18
+12315,Smartwatch Modelo 674,910.26,5,si,2025-02-24
+12316,Adaptador Bluetooth Modelo 871,1815.08,4,si,2025-04-10
+12317,Joystick Modelo 738,937.74,2,si,2025-04-01
+12318,Auriculares Modelo 634,1467.17,1,si,2025-03-09
+12319,Monitor Modelo 145,1621.37,38,si,2025-04-09
+12320,Escaner Modelo 367,1055.12,30,si,2025-03-16
+12321,Smartphone Modelo 848,934.7,32,si,2025-03-11
+12322,Smartwatch Modelo 189,1866.83,45,si,2025-03-22
+12323,Tarjeta de Video Modelo 825,1179.45,28,si,2025-07-18
+12324,Escaner Modelo 765,861.25,42,si,2025-04-05
+12325,Router Modelo 686,1025.12,1,si,2025-05-15
+12326,Memoria RAM Modelo 711,630.84,36,si,2025-02-12
+12327,Escaner Modelo 153,271.99,20,si,2025-06-16
+12328,Disco Duro Modelo 819,116.57,21,si,2025-05-02
+12329,Fuente de Poder Modelo 520,1014.43,45,si,2025-02-22
+12330,Microfono Modelo 483,191.05,12,si,2025-04-18
+12331,Camara IP Modelo 580,751.85,47,si,2025-03-02
+12332,Escaner Modelo 252,1564.15,16,si,2025-02-19
+12333,Auriculares Modelo 149,364.73,44,si,2025-04-24
+12334,Monitor Modelo 343,211.43,7,si,2025-06-28
+12335,Tarjeta de Video Modelo 941,805.07,20,si,2025-04-28
+12336,Joystick Modelo 410,1554.45,50,si,2025-06-11
+12337,Cooler Modelo 152,840.38,4,si,2025-02-25
+12338,SSD Externo Modelo 456,524.43,5,si,2025-04-11
+12339,Proyector Modelo 302,33.03,25,si,2025-03-23
+12340,Cooler Modelo 728,1952.1,48,si,2025-06-21
+12341,Memoria RAM Modelo 967,817.72,18,si,2025-06-16
+12342,Escaner Modelo 954,1207.0,47,si,2025-04-20
+12343,SSD Externo Modelo 607,239.38,20,si,2025-06-24
+12344,Smartwatch Modelo 852,1764.17,7,si,2025-02-05
+12345,Camara IP Modelo 410,765.12,24,si,2025-07-04
+12346,Joystick Modelo 662,1161.4,7,si,2025-04-28
+12347,Monitor Modelo 511,1873.46,16,si,2025-03-02
+12348,Escaner Modelo 213,1023.9,13,si,2025-07-23
+12349,Auriculares Modelo 309,259.94,11,si,2025-06-14
+12350,Mouse Modelo 393,960.86,10,si,2025-06-09
+12351,Case Modelo 197,682.09,19,si,2025-02-28
+12352,Tablet Modelo 892,1875.34,32,si,2025-03-12
+12353,Adaptador Bluetooth Modelo 324,538.62,21,si,2025-06-05
+12354,Proyector Modelo 568,1419.47,48,si,2025-05-06
+12355,Cable HDMI Modelo 216,1621.98,32,si,2025-05-31
+12356,Microfono Modelo 296,438.96,21,si,2025-02-19
+12357,Consola de Juegos Modelo 699,647.57,8,si,2025-06-18
+12358,Webcam Modelo 998,1892.68,24,si,2025-02-12
+12359,Tarjeta Madre Modelo 804,29.69,31,si,2025-03-15
+12360,Auriculares Modelo 302,1070.83,35,si,2025-03-22
+12361,Microfono Modelo 652,92.63,32,si,2025-01-31
+12362,Disco Duro Modelo 150,1801.72,30,si,2025-04-10
+12363,Camara IP Modelo 882,822.6,0,no,2025-02-22
+12364,SSD Externo Modelo 721,192.07,19,si,2025-07-07
+12365,Auriculares Modelo 728,115.46,39,si,2025-05-26
+12366,Fuente de Poder Modelo 170,1946.97,22,si,2025-03-18
+12367,Case Modelo 914,1509.24,29,si,2025-03-09
+12368,Smartwatch Modelo 288,1345.5,29,si,2025-01-29
+12369,SSD Externo Modelo 522,560.22,25,si,2025-02-22
+12370,Tablet Modelo 739,1340.8,10,si,2025-07-15
+12371,Monitor Modelo 706,158.59,0,no,2025-02-18
+12372,Laptop Modelo 428,1746.59,29,si,2025-07-18
+12373,Escaner Modelo 983,1786.67,24,si,2025-04-30
+12374,Parlantes Modelo 282,378.98,10,si,2025-05-20
+12375,Smartphone Modelo 287,19.61,22,si,2025-02-04
+12376,Joystick Modelo 894,716.28,6,si,2025-05-18
+12377,Tablet Modelo 190,1857.69,9,si,2025-06-19
+12378,Cooler Modelo 900,1868.8,22,si,2025-05-29
+12379,Hub USB Modelo 912,1962.88,37,si,2025-06-24
+12380,Webcam Modelo 552,950.18,35,si,2025-05-13
+12381,Monitor Modelo 729,1432.39,30,si,2025-06-09
+12382,Consola de Juegos Modelo 216,1304.37,28,si,2025-05-23
+12383,Cable HDMI Modelo 855,868.28,42,si,2025-06-25
+12384,Smartwatch Modelo 370,1366.19,28,si,2025-06-27
+12385,Adaptador Bluetooth Modelo 412,180.61,3,si,2025-04-20
+12386,Adaptador Bluetooth Modelo 652,931.26,46,si,2025-05-19
+12387,Parlantes Modelo 120,1022.12,38,si,2025-07-15
+12388,Teclado Modelo 121,176.23,48,si,2025-02-16
+12389,Disco Duro Modelo 228,195.61,44,si,2025-03-14
+12390,Hub USB Modelo 460,1907.11,7,si,2025-02-27
+12391,SSD Externo Modelo 373,833.6,46,si,2025-06-04
+12392,Procesador Modelo 759,1218.28,34,si,2025-05-15
+12393,Camara IP Modelo 420,1703.88,2,si,2025-04-30
+12394,Adaptador Bluetooth Modelo 563,930.56,8,si,2025-05-30
+12395,Tarjeta Madre Modelo 277,1047.53,7,si,2025-02-16
+12396,Case Modelo 732,1538.3,22,si,2025-02-03
+12397,SSD Externo Modelo 659,1748.7,32,si,2025-05-13
+12398,Tablet Modelo 915,1366.55,46,si,2025-03-08
+12399,Mouse Modelo 255,326.54,11,si,2025-04-18
+12400,Auriculares Modelo 387,1353.25,29,si,2025-05-12
+12401,Cable HDMI Modelo 477,1012.4,7,si,2025-03-23
+12402,Consola de Juegos Modelo 459,135.51,36,si,2025-03-31
+12403,Cable HDMI Modelo 291,1463.42,43,si,2025-04-21
+12404,Smartwatch Modelo 967,178.18,25,si,2025-07-19
+12405,Tarjeta de Video Modelo 583,374.71,50,si,2025-06-23
+12406,Cable HDMI Modelo 991,661.12,48,si,2025-04-19
+12407,Smartwatch Modelo 156,419.68,33,si,2025-06-23
+12408,Laptop Modelo 206,1141.39,22,si,2025-03-24
+12409,Joystick Modelo 241,1752.47,23,si,2025-02-04
+12410,Cable HDMI Modelo 612,847.41,27,si,2025-07-05
+12411,Camara IP Modelo 545,1747.72,19,si,2025-07-18
+12412,Parlantes Modelo 667,1625.6,29,si,2025-04-11
+12413,Escaner Modelo 861,1961.95,16,si,2025-03-04
+12414,Camara IP Modelo 750,158.41,40,si,2025-03-11
+12415,Laptop Modelo 401,1430.07,40,si,2025-02-27
+12416,Hub USB Modelo 918,1876.11,34,si,2025-05-14
+12417,Disco Duro Modelo 414,1833.24,14,si,2025-02-18
+12418,Router Modelo 862,344.91,24,si,2025-03-12
+12419,Teclado Modelo 497,1098.55,35,si,2025-03-24
+12420,Camara IP Modelo 907,439.62,29,si,2025-06-30
+12421,Hub USB Modelo 397,1728.34,1,si,2025-03-19
+12422,Teclado Modelo 564,1373.19,26,si,2025-05-30
+12423,Parlantes Modelo 151,275.66,46,si,2025-03-09
+12424,Camara IP Modelo 245,1176.98,25,si,2025-07-23
+12425,Procesador Modelo 565,1709.57,35,si,2025-07-14
+12426,Consola de Juegos Modelo 347,1296.77,41,si,2025-04-16
+12427,Camara IP Modelo 380,1574.27,32,si,2025-02-07
+12428,Joystick Modelo 735,834.98,14,si,2025-07-06
+12429,Adaptador Bluetooth Modelo 278,655.75,35,si,2025-03-18
+12430,Procesador Modelo 469,1049.04,49,si,2025-02-18
+12431,Tablet Modelo 211,1731.32,47,si,2025-06-25
+12432,Case Modelo 791,735.39,26,si,2025-02-16
+12433,Smartphone Modelo 804,132.6,49,si,2025-02-14
+12434,Disco Duro Modelo 298,309.91,38,si,2025-04-10
+12435,Cable HDMI Modelo 975,276.32,7,si,2025-04-12
+12436,Camara IP Modelo 593,1958.24,21,si,2025-06-04
+12437,Monitor Modelo 618,1514.32,17,si,2025-05-28
+12438,Parlantes Modelo 411,1370.5,48,si,2025-02-13
+12439,Cooler Modelo 709,29.31,41,si,2025-02-28
+12440,Procesador Modelo 206,1817.69,19,si,2025-06-17
+12441,Tarjeta Madre Modelo 949,1085.34,36,si,2025-02-10
+12442,Joystick Modelo 917,1085.77,20,si,2025-02-16
+12443,Escaner Modelo 218,1620.24,3,si,2025-03-15
+12444,Smartphone Modelo 130,780.33,50,si,2025-07-15
+12445,Microfono Modelo 480,96.01,42,si,2025-05-10
+12446,Teclado Modelo 744,367.83,10,si,2025-04-19
+12447,Impresora Modelo 937,1169.8,32,si,2025-05-15
+12448,Laptop Modelo 629,839.9,45,si,2025-05-06
+12449,Memoria RAM Modelo 357,436.99,3,si,2025-04-04
+12450,Microfono Modelo 216,125.8,30,si,2025-05-03
+12451,Cable HDMI Modelo 820,830.38,1,si,2025-05-02
+12452,Auriculares Modelo 180,10.88,4,si,2025-05-03
+12453,Hub USB Modelo 290,1414.84,49,si,2025-01-25
+12454,Smartwatch Modelo 454,1886.87,29,si,2025-04-26
+12455,Memoria RAM Modelo 404,71.19,9,si,2025-05-21
+12456,Laptop Modelo 638,1475.86,29,si,2025-07-10
+12457,Proyector Modelo 705,857.3,19,si,2025-05-22
+12458,Impresora Modelo 482,1186.2,27,si,2025-04-02
+12459,Tarjeta de Video Modelo 296,1832.26,12,si,2025-03-02
+12460,Router Modelo 604,1386.89,37,si,2025-05-16
+12461,Auriculares Modelo 765,351.88,22,si,2025-02-15
+12462,Disco Duro Modelo 892,904.08,21,si,2025-06-06
+12463,Joystick Modelo 799,529.46,38,si,2025-04-21
+12464,Tablet Modelo 472,1431.04,1,si,2025-04-26
+12465,Escaner Modelo 303,500.88,20,si,2025-02-02
+12466,Router Modelo 430,159.55,44,si,2025-06-25
+12467,Adaptador Bluetooth Modelo 982,142.76,46,si,2025-06-08
+12468,Smartwatch Modelo 381,1233.04,32,si,2025-02-03
+12469,Webcam Modelo 304,383.31,35,si,2025-07-06
+12470,Teclado Modelo 167,189.79,35,si,2025-06-28
+12471,Webcam Modelo 205,966.0,22,si,2025-06-22
+12472,Tablet Modelo 349,958.63,29,si,2025-02-22
+12473,Parlantes Modelo 730,1080.21,17,si,2025-04-17
+12474,Teclado Modelo 164,1316.86,31,si,2025-04-17
+12475,Smartphone Modelo 324,369.49,17,si,2025-03-04
+12476,Consola de Juegos Modelo 772,948.66,39,si,2025-04-30
+12477,Teclado Modelo 510,1562.12,6,si,2025-05-02
+12478,SSD Externo Modelo 193,1132.97,2,si,2025-07-08
+12479,Fuente de Poder Modelo 756,1541.47,12,si,2025-02-05
+12480,Tarjeta Madre Modelo 667,1478.8,42,si,2025-07-04
+12481,Tablet Modelo 998,1628.04,27,si,2025-06-09
+12482,Microfono Modelo 595,71.9,5,si,2025-02-15
+12483,Disco Duro Modelo 163,22.57,3,si,2025-04-20
+12484,Camara IP Modelo 474,884.7,15,si,2025-01-30
+12485,Case Modelo 825,1599.25,14,si,2025-04-13
+12486,Proyector Modelo 469,1977.58,45,si,2025-05-29
+12487,Teclado Modelo 642,1239.21,16,si,2025-02-21
+12488,Microfono Modelo 821,126.32,25,si,2025-01-26
+12489,Procesador Modelo 724,684.61,15,si,2025-06-20
+12490,Tablet Modelo 212,627.81,19,si,2025-02-21
+12491,Tablet Modelo 352,1773.44,37,si,2025-03-16
+12492,Auriculares Modelo 492,1299.61,19,si,2025-02-20
+12493,Microfono Modelo 145,1355.81,22,si,2025-05-03
+12494,Tarjeta Madre Modelo 887,1095.11,9,si,2025-03-09
+12495,Smartphone Modelo 467,680.33,37,si,2025-01-30
+12496,Hub USB Modelo 190,263.75,39,si,2025-04-02
+12497,Camara IP Modelo 814,1444.32,3,si,2025-02-12
+12498,Monitor Modelo 190,663.81,23,si,2025-06-13
+12499,Mouse Modelo 765,1007.9,17,si,2025-04-01
+12500,Auriculares Modelo 774,99.89,34,si,2025-06-23
+12501,Mouse Modelo 925,651.51,10,si,2025-03-20
+12502,Impresora Modelo 837,1141.99,12,si,2025-02-01
+12503,Escaner Modelo 737,1489.05,35,si,2025-05-10
+12504,Memoria RAM Modelo 324,814.15,21,si,2025-04-01
+12505,Fuente de Poder Modelo 641,1219.72,20,si,2025-07-11
+12506,Disco Duro Modelo 677,1129.1,32,si,2025-01-27
+12507,Tarjeta Madre Modelo 534,710.07,11,si,2025-02-11
+12508,Procesador Modelo 222,1775.04,32,si,2025-05-29
+12509,Smartphone Modelo 441,1660.26,50,si,2025-06-26
+12510,Tablet Modelo 625,407.85,37,si,2025-02-18
+12511,Memoria RAM Modelo 976,1181.66,4,si,2025-02-25
+12512,Impresora Modelo 935,455.86,7,si,2025-04-11
+12513,Adaptador Bluetooth Modelo 499,1939.58,40,si,2025-02-21
+12514,SSD Externo Modelo 678,646.54,13,si,2025-05-01
+12515,Smartphone Modelo 865,304.47,32,si,2025-05-28
+12516,Teclado Modelo 797,1816.07,35,si,2025-03-31
+12517,Smartphone Modelo 600,1452.17,45,si,2025-02-23
+12518,Memoria RAM Modelo 295,559.47,19,si,2025-07-01
+12519,Mouse Modelo 942,1560.1,19,si,2025-06-14
+12520,Tarjeta Madre Modelo 382,564.34,14,si,2025-02-28
+12521,Proyector Modelo 856,16.93,48,si,2025-07-05
+12522,Tablet Modelo 789,288.8,27,si,2025-03-14
+12523,SSD Externo Modelo 739,1986.23,48,si,2025-06-24
+12524,Laptop Modelo 478,1673.29,4,si,2025-03-25
+12525,Laptop Modelo 507,1667.88,27,si,2025-01-31
+12526,Consola de Juegos Modelo 205,1762.43,13,si,2025-01-31
+12527,Procesador Modelo 309,1380.04,24,si,2025-06-22
+12528,Fuente de Poder Modelo 654,879.24,45,si,2025-04-03
+12529,Smartwatch Modelo 857,1282.91,33,si,2025-02-22
+12530,Cable HDMI Modelo 256,1338.15,49,si,2025-05-19
+12531,Parlantes Modelo 510,202.21,34,si,2025-05-12
+12532,Adaptador Bluetooth Modelo 471,45.32,37,si,2025-02-12
+12533,Auriculares Modelo 284,1949.26,37,si,2025-02-27
+12534,Auriculares Modelo 184,181.15,42,si,2025-02-15
+12535,Memoria RAM Modelo 391,684.9,21,si,2025-02-20
+12536,Joystick Modelo 780,526.13,39,si,2025-07-02
+12537,Parlantes Modelo 326,608.03,12,si,2025-03-28
+12538,Laptop Modelo 975,786.85,38,si,2025-02-13
+12539,Procesador Modelo 327,457.1,18,si,2025-03-28
+12540,Case Modelo 999,1658.05,48,si,2025-04-23
+12541,Disco Duro Modelo 536,1900.46,31,si,2025-06-18
+12542,Teclado Modelo 167,311.99,49,si,2025-03-17
+12543,Teclado Modelo 447,39.02,49,si,2025-02-13
+12544,Monitor Modelo 124,1324.22,30,si,2025-03-17
+12545,Smartphone Modelo 599,1314.5,11,si,2025-05-15
+12546,Escaner Modelo 409,950.48,49,si,2025-01-27
+12547,Adaptador Bluetooth Modelo 393,885.64,35,si,2025-03-14
+12548,Laptop Modelo 221,448.97,7,si,2025-02-01
+12549,Smartphone Modelo 770,1575.86,14,si,2025-05-30
+12550,Fuente de Poder Modelo 683,387.17,50,si,2025-04-24
+12551,Tablet Modelo 452,420.45,26,si,2025-01-30
+12552,Router Modelo 336,1430.85,28,si,2025-03-10
+12553,Router Modelo 135,1449.75,35,si,2025-03-14
+12554,Auriculares Modelo 247,590.08,49,si,2025-02-02
+12555,Teclado Modelo 208,314.75,47,si,2025-04-30
+12556,Adaptador Bluetooth Modelo 169,629.22,50,si,2025-06-24
+12557,Auriculares Modelo 568,903.45,47,si,2025-02-26
+12558,Tarjeta de Video Modelo 494,1439.1,29,si,2025-06-10
+12559,Proyector Modelo 731,1861.62,32,si,2025-02-07
+12560,Teclado Modelo 583,644.84,41,si,2025-04-22
+12561,Tarjeta de Video Modelo 269,218.37,0,no,2025-07-24
+12562,Router Modelo 379,1019.39,17,si,2025-07-04
+12563,Escaner Modelo 383,1712.73,32,si,2025-07-12
+12564,Auriculares Modelo 242,387.28,26,si,2025-01-31
+12565,Microfono Modelo 194,1807.95,31,si,2025-03-27
+12566,Joystick Modelo 780,1429.66,30,si,2025-02-21
+12567,Case Modelo 349,1599.94,6,si,2025-04-07
+12568,Fuente de Poder Modelo 402,877.26,43,si,2025-07-21
+12569,Joystick Modelo 638,1137.46,20,si,2025-03-23
+12570,Laptop Modelo 986,528.67,43,si,2025-07-07
+12571,Parlantes Modelo 260,1067.8,10,si,2025-02-09
+12572,Tarjeta Madre Modelo 577,1062.47,24,si,2025-01-25
+12573,Tablet Modelo 547,737.9,4,si,2025-03-01
+12574,Fuente de Poder Modelo 204,1431.72,36,si,2025-04-08
+12575,Consola de Juegos Modelo 288,625.85,25,si,2025-03-07
+12576,Tarjeta Madre Modelo 750,1953.33,15,si,2025-04-15
+12577,Impresora Modelo 485,356.07,46,si,2025-01-31
+12578,Proyector Modelo 713,939.99,18,si,2025-02-08
+12579,Tarjeta de Video Modelo 839,924.16,17,si,2025-02-09
+12580,Cooler Modelo 652,1140.35,39,si,2025-03-20
+12581,Procesador Modelo 530,499.72,49,si,2025-05-02
+12582,Router Modelo 193,541.61,43,si,2025-06-20
+12583,Tarjeta Madre Modelo 669,1170.26,21,si,2025-04-06
+12584,Consola de Juegos Modelo 310,1360.75,1,si,2025-05-24
+12585,Laptop Modelo 460,1926.74,46,si,2025-06-05
+12586,Auriculares Modelo 562,1106.68,50,si,2025-05-22
+12587,Mouse Modelo 912,1820.77,19,si,2025-05-09
+12588,Fuente de Poder Modelo 980,1198.45,14,si,2025-03-22
+12589,Tablet Modelo 295,610.61,45,si,2025-07-15
+12590,Tablet Modelo 639,465.1,27,si,2025-02-07
+12591,Cable HDMI Modelo 314,1837.38,44,si,2025-05-23
+12592,Microfono Modelo 746,1756.42,8,si,2025-07-23
+12593,Tarjeta Madre Modelo 232,1572.69,40,si,2025-05-06
+12594,Adaptador Bluetooth Modelo 255,995.5,25,si,2025-03-18
+12595,Proyector Modelo 671,235.53,42,si,2025-02-10
+12596,Tarjeta Madre Modelo 803,1602.62,42,si,2025-05-07
+12597,Teclado Modelo 630,179.19,44,si,2025-02-23
+12598,Proyector Modelo 704,475.64,21,si,2025-03-17
+12599,Monitor Modelo 798,760.71,28,si,2025-05-30
+12600,Laptop Modelo 884,1373.72,22,si,2025-02-06
+12601,Fuente de Poder Modelo 829,884.65,36,si,2025-07-14
+12602,Router Modelo 507,1628.6,6,si,2025-02-24
+12603,Mouse Modelo 452,1589.21,44,si,2025-07-18
+12604,Tarjeta de Video Modelo 378,595.87,2,si,2025-04-16
+12605,Cable HDMI Modelo 942,989.3,29,si,2025-03-06
+12606,Proyector Modelo 324,205.98,27,si,2025-02-08
+12607,Procesador Modelo 586,1959.2,11,si,2025-06-24
+12608,Consola de Juegos Modelo 416,450.96,13,si,2025-07-12
+12609,Cooler Modelo 777,292.38,33,si,2025-07-22
+12610,Webcam Modelo 445,484.0,0,no,2025-04-29
+12611,Webcam Modelo 286,485.98,6,si,2025-06-19
+12612,Tarjeta de Video Modelo 151,491.07,37,si,2025-06-28
+12613,Adaptador Bluetooth Modelo 701,338.18,38,si,2025-05-31
+12614,Laptop Modelo 556,809.9,0,no,2025-06-16
+12615,Proyector Modelo 979,1050.6,43,si,2025-02-23
+12616,Tablet Modelo 436,1528.45,44,si,2025-03-25
+12617,Tarjeta Madre Modelo 423,1787.35,31,si,2025-07-16
+12618,Adaptador Bluetooth Modelo 651,1979.37,31,si,2025-06-02
+12619,Teclado Modelo 119,1193.35,47,si,2025-06-03
+12620,Escaner Modelo 975,1068.68,21,si,2025-07-09
+12621,Laptop Modelo 594,931.67,42,si,2025-05-19
+12622,Parlantes Modelo 761,923.07,28,si,2025-06-25
+12623,Cable HDMI Modelo 735,229.22,28,si,2025-03-24
+12624,Parlantes Modelo 696,1376.89,41,si,2025-02-21
+12625,Joystick Modelo 828,1636.39,21,si,2025-04-23
+12626,Escaner Modelo 877,204.7,12,si,2025-05-24
+12627,Disco Duro Modelo 471,206.14,40,si,2025-06-04
+12628,Parlantes Modelo 966,215.21,2,si,2025-02-04
+12629,Camara IP Modelo 470,1940.67,46,si,2025-03-10
+12630,Memoria RAM Modelo 884,872.75,46,si,2025-03-04
+12631,Impresora Modelo 648,1248.04,50,si,2025-02-14
+12632,Parlantes Modelo 487,580.99,28,si,2025-03-10
+12633,Memoria RAM Modelo 387,899.79,45,si,2025-05-16
+12634,Proyector Modelo 898,226.25,12,si,2025-06-10
+12635,Consola de Juegos Modelo 292,578.11,39,si,2025-02-04
+12636,Cooler Modelo 278,694.68,12,si,2025-04-16
+12637,Auriculares Modelo 441,1707.78,29,si,2025-05-26
+12638,Fuente de Poder Modelo 435,455.0,46,si,2025-05-02
+12639,Joystick Modelo 155,1314.27,39,si,2025-05-16
+12640,Tarjeta de Video Modelo 984,1430.45,38,si,2025-02-15
+12641,Monitor Modelo 790,449.76,20,si,2025-04-05
+12642,Webcam Modelo 201,865.72,41,si,2025-03-21
+12643,Smartwatch Modelo 430,677.84,20,si,2025-07-20
+12644,Fuente de Poder Modelo 741,1031.95,50,si,2025-05-01
+12645,Tarjeta Madre Modelo 774,444.95,36,si,2025-07-07
+12646,Cooler Modelo 544,1714.47,45,si,2025-06-09
+12647,Tablet Modelo 403,506.34,1,si,2025-02-28
+12648,Webcam Modelo 357,1835.44,18,si,2025-06-08
+12649,Monitor Modelo 756,754.31,7,si,2025-03-31
+12650,Tablet Modelo 317,376.51,25,si,2025-07-19
+12651,Joystick Modelo 901,1498.5,14,si,2025-06-25
+12652,Impresora Modelo 359,512.17,44,si,2025-04-06
+12653,Cable HDMI Modelo 955,191.3,38,si,2025-06-19
+12654,Tarjeta Madre Modelo 179,254.79,15,si,2025-04-02
+12655,Smartphone Modelo 372,1024.65,27,si,2025-02-26
+12656,Tablet Modelo 946,1498.53,36,si,2025-07-17
+12657,Case Modelo 826,1497.54,14,si,2025-01-28
+12658,Tarjeta de Video Modelo 264,1169.77,42,si,2025-03-01
+12659,Parlantes Modelo 994,1588.85,37,si,2025-05-07
+12660,Adaptador Bluetooth Modelo 132,560.97,39,si,2025-02-12
+12661,Cable HDMI Modelo 853,536.11,0,no,2025-05-21
+12662,Microfono Modelo 348,1604.37,24,si,2025-06-17
+12663,Proyector Modelo 196,1238.92,17,si,2025-03-05
+12664,Parlantes Modelo 230,1858.42,34,si,2025-03-16
+12665,Adaptador Bluetooth Modelo 449,697.05,15,si,2025-02-24
+12666,Escaner Modelo 583,1500.36,42,si,2025-03-20
+12667,Mouse Modelo 586,427.4,0,no,2025-05-14
+12668,Camara IP Modelo 418,691.11,17,si,2025-06-17
+12669,Tablet Modelo 762,277.13,17,si,2025-02-20
+12670,Escaner Modelo 487,910.56,1,si,2025-02-22
+12671,Disco Duro Modelo 358,1214.37,10,si,2025-02-16
+12672,SSD Externo Modelo 658,1088.85,47,si,2025-05-28
+12673,Auriculares Modelo 511,515.78,5,si,2025-07-22
+12674,Impresora Modelo 555,1785.88,16,si,2025-05-16
+12675,Smartphone Modelo 464,1347.5,36,si,2025-07-06
+12676,Webcam Modelo 527,1544.17,11,si,2025-04-24
+12677,Cable HDMI Modelo 361,158.36,41,si,2025-06-10
+12678,Smartphone Modelo 912,1465.1,8,si,2025-02-07
+12679,Tarjeta Madre Modelo 852,1884.75,2,si,2025-06-09
+12680,Webcam Modelo 570,755.48,47,si,2025-05-22
+12681,Memoria RAM Modelo 139,1473.81,29,si,2025-05-16
+12682,Smartwatch Modelo 968,1170.44,48,si,2025-07-02
+12683,Hub USB Modelo 667,995.75,27,si,2025-04-12
+12684,Hub USB Modelo 650,1207.45,29,si,2025-06-07
+12685,Tarjeta Madre Modelo 244,203.22,10,si,2025-06-11
+12686,Impresora Modelo 284,1311.4,35,si,2025-06-06
+12687,Smartphone Modelo 710,1453.9,5,si,2025-04-06
+12688,Parlantes Modelo 912,1809.36,27,si,2025-03-07
+12689,Laptop Modelo 895,935.44,47,si,2025-07-15
+12690,Proyector Modelo 872,1557.96,26,si,2025-04-29
+12691,Hub USB Modelo 708,970.25,24,si,2025-06-29
+12692,Router Modelo 201,544.09,35,si,2025-02-02
+12693,Auriculares Modelo 142,127.84,13,si,2025-07-06
+12694,Procesador Modelo 963,1432.82,47,si,2025-06-13
+12695,Disco Duro Modelo 420,305.33,21,si,2025-03-13
+12696,Tarjeta Madre Modelo 799,1577.72,45,si,2025-07-10
+12697,Consola de Juegos Modelo 890,300.25,8,si,2025-07-03
+12698,Smartphone Modelo 477,921.79,40,si,2025-04-24
+12699,Laptop Modelo 373,735.85,34,si,2025-04-17
+12700,Webcam Modelo 157,910.58,6,si,2025-06-05
+12701,Impresora Modelo 113,1919.74,8,si,2025-01-31
+12702,Monitor Modelo 829,1833.0,24,si,2025-02-22
+12703,Webcam Modelo 166,1590.01,9,si,2025-05-12
+12704,Tarjeta Madre Modelo 487,1948.45,3,si,2025-07-04
+12705,Smartphone Modelo 608,1915.57,17,si,2025-05-29
+12706,Microfono Modelo 231,1472.8,13,si,2025-06-25
+12707,Memoria RAM Modelo 173,1074.98,49,si,2025-04-21
+12708,Memoria RAM Modelo 642,1755.14,27,si,2025-04-12
+12709,Adaptador Bluetooth Modelo 683,304.09,48,si,2025-06-01
+12710,Smartphone Modelo 165,984.32,29,si,2025-05-27
+12711,Webcam Modelo 999,550.4,47,si,2025-04-09
+12712,Camara IP Modelo 765,1116.2,42,si,2025-07-10
+12713,Tarjeta de Video Modelo 770,714.27,34,si,2025-05-23
+12714,Smartwatch Modelo 751,1276.25,10,si,2025-02-25
+12715,Smartwatch Modelo 289,1988.5,42,si,2025-03-06
+12716,Auriculares Modelo 111,1769.21,14,si,2025-05-21
+12717,Tablet Modelo 848,1617.89,20,si,2025-04-23
+12718,Mouse Modelo 880,1260.79,45,si,2025-04-18
+12719,Joystick Modelo 471,1088.03,45,si,2025-02-10
+12720,Escaner Modelo 970,1388.56,48,si,2025-06-01
+12721,Parlantes Modelo 617,1734.09,38,si,2025-06-14
+12722,Auriculares Modelo 672,477.72,0,no,2025-01-30
+12723,SSD Externo Modelo 488,722.8,25,si,2025-02-23
+12724,Escaner Modelo 827,364.4,5,si,2025-05-15
+12725,Consola de Juegos Modelo 116,1372.07,21,si,2025-04-23
+12726,Router Modelo 171,943.87,12,si,2025-06-17
+12727,Impresora Modelo 127,1301.66,4,si,2025-06-15
+12728,Impresora Modelo 668,1013.93,18,si,2025-04-11
+12729,Impresora Modelo 818,129.78,10,si,2025-04-02
+12730,Impresora Modelo 340,659.31,32,si,2025-04-29
+12731,Tarjeta Madre Modelo 179,558.22,6,si,2025-02-01
+12732,Impresora Modelo 246,589.96,7,si,2025-05-11
+12733,Proyector Modelo 105,1813.87,35,si,2025-05-18
+12734,Joystick Modelo 997,1755.19,39,si,2025-05-29
+12735,Parlantes Modelo 824,1375.39,43,si,2025-06-04
+12736,Smartwatch Modelo 502,728.32,29,si,2025-04-06
+12737,Adaptador Bluetooth Modelo 896,1378.53,38,si,2025-03-20
+12738,Joystick Modelo 368,720.79,49,si,2025-06-12
+12739,Hub USB Modelo 281,689.73,14,si,2025-04-06
+12740,Impresora Modelo 316,431.21,16,si,2025-02-25
+12741,Mouse Modelo 419,235.03,45,si,2025-03-02
+12742,Teclado Modelo 662,331.4,17,si,2025-03-27
+12743,Escaner Modelo 903,450.59,21,si,2025-05-27
+12744,Parlantes Modelo 802,1139.68,24,si,2025-06-02
+12745,Laptop Modelo 892,484.93,9,si,2025-03-16
+12746,Teclado Modelo 224,663.9,30,si,2025-06-01
+12747,Adaptador Bluetooth Modelo 364,237.9,48,si,2025-05-24
+12748,Parlantes Modelo 351,313.52,6,si,2025-02-08
+12749,Mouse Modelo 346,266.54,34,si,2025-06-12
+12750,Smartwatch Modelo 998,166.33,41,si,2025-02-03
+12751,Smartwatch Modelo 803,1549.11,8,si,2025-07-21
+12752,Auriculares Modelo 717,30.6,38,si,2025-01-26
+12753,Cooler Modelo 970,1591.97,41,si,2025-05-06
+12754,Camara IP Modelo 471,655.07,1,si,2025-03-07
+12755,Proyector Modelo 806,1947.76,10,si,2025-04-13
+12756,Mouse Modelo 830,655.14,27,si,2025-03-22
+12757,Router Modelo 318,1451.26,13,si,2025-07-10
+12758,Camara IP Modelo 584,1841.45,10,si,2025-02-23
+12759,SSD Externo Modelo 680,407.72,43,si,2025-05-07
+12760,Disco Duro Modelo 749,242.63,23,si,2025-03-04
+12761,Joystick Modelo 911,386.07,41,si,2025-03-27
+12762,Auriculares Modelo 235,1407.87,22,si,2025-02-13
+12763,Camara IP Modelo 462,954.5,41,si,2025-05-09
+12764,Procesador Modelo 891,1554.86,5,si,2025-01-31
+12765,Router Modelo 969,1577.22,30,si,2025-02-10
+12766,Teclado Modelo 624,1080.11,39,si,2025-05-01
+12767,Escaner Modelo 225,1020.95,41,si,2025-03-21
+12768,Router Modelo 565,110.14,30,si,2025-06-16
+12769,Webcam Modelo 873,915.58,30,si,2025-06-12
+12770,Router Modelo 241,1252.15,19,si,2025-04-22
+12771,Router Modelo 258,988.99,34,si,2025-03-08
+12772,SSD Externo Modelo 651,1811.41,21,si,2025-01-28
+12773,Parlantes Modelo 418,230.41,24,si,2025-07-06
+12774,Joystick Modelo 532,796.17,0,no,2025-05-30
+12775,SSD Externo Modelo 617,131.1,36,si,2025-05-10
+12776,Joystick Modelo 393,976.03,9,si,2025-06-26
+12777,Smartphone Modelo 191,913.02,15,si,2025-02-01
+12778,Adaptador Bluetooth Modelo 497,1759.82,43,si,2025-02-20
+12779,Tarjeta Madre Modelo 379,968.83,18,si,2025-02-27
+12780,Monitor Modelo 973,938.83,4,si,2025-03-06
+12781,SSD Externo Modelo 376,230.78,45,si,2025-07-04
+12782,Microfono Modelo 750,1595.17,15,si,2025-03-03
+12783,Escaner Modelo 842,931.91,3,si,2025-07-15
+12784,Impresora Modelo 178,396.08,3,si,2025-02-01
+12785,Consola de Juegos Modelo 637,749.0,9,si,2025-06-21
+12786,Tablet Modelo 152,1464.25,49,si,2025-05-28
+12787,Fuente de Poder Modelo 667,1615.38,46,si,2025-04-25
+12788,Tablet Modelo 342,196.12,36,si,2025-03-01
+12789,Router Modelo 165,536.79,45,si,2025-03-17
+12790,Webcam Modelo 952,1486.59,10,si,2025-05-06
+12791,Case Modelo 363,874.42,49,si,2025-01-29
+12792,SSD Externo Modelo 288,919.1,22,si,2025-03-24
+12793,Teclado Modelo 664,1332.31,20,si,2025-03-29
+12794,Tarjeta Madre Modelo 741,632.25,0,no,2025-04-08
+12795,Smartphone Modelo 501,955.9,36,si,2025-05-08
+12796,Cooler Modelo 469,836.54,14,si,2025-02-21
+12797,Procesador Modelo 172,1899.79,24,si,2025-06-02
+12798,Tarjeta de Video Modelo 128,106.91,38,si,2025-07-04
+12799,Webcam Modelo 452,277.47,38,si,2025-04-04
+12800,Auriculares Modelo 596,1374.64,37,si,2025-06-17
+12801,Adaptador Bluetooth Modelo 321,1072.02,44,si,2025-05-25
+12802,Escaner Modelo 129,171.0,8,si,2025-07-22
+12803,SSD Externo Modelo 314,727.07,18,si,2025-05-25
+12804,Memoria RAM Modelo 871,197.21,20,si,2025-03-05
+12805,Joystick Modelo 511,1387.12,38,si,2025-02-09
+12806,Router Modelo 164,923.38,11,si,2025-04-18
+12807,Tarjeta Madre Modelo 712,833.36,49,si,2025-07-05
+12808,Procesador Modelo 367,127.2,13,si,2025-04-24
+12809,Auriculares Modelo 901,621.29,9,si,2025-05-21
+12810,Hub USB Modelo 612,1862.97,29,si,2025-04-12
+12811,Microfono Modelo 160,1257.17,29,si,2025-02-09
+12812,Tarjeta de Video Modelo 164,1139.62,7,si,2025-04-20
+12813,Microfono Modelo 358,474.63,28,si,2025-03-06
+12814,Hub USB Modelo 663,1776.38,20,si,2025-07-06
+12815,Tarjeta de Video Modelo 741,1411.85,48,si,2025-02-13
+12816,Auriculares Modelo 895,896.43,14,si,2025-01-31
+12817,Case Modelo 457,844.6,33,si,2025-05-14
+12818,Teclado Modelo 804,1262.07,47,si,2025-03-14
+12819,Fuente de Poder Modelo 464,1403.61,34,si,2025-06-23
+12820,Camara IP Modelo 385,939.94,39,si,2025-03-25
+12821,Microfono Modelo 914,1957.15,36,si,2025-05-01
+12822,Proyector Modelo 235,1249.83,44,si,2025-04-21
+12823,Webcam Modelo 114,1976.2,36,si,2025-06-17
+12824,Fuente de Poder Modelo 361,1595.7,5,si,2025-03-27
+12825,Memoria RAM Modelo 631,1191.68,22,si,2025-06-07
+12826,Webcam Modelo 969,1519.75,27,si,2025-03-17
+12827,Disco Duro Modelo 766,574.71,46,si,2025-03-31
+12828,Impresora Modelo 846,1183.67,40,si,2025-07-14
+12829,Router Modelo 437,1293.49,16,si,2025-02-20
+12830,Monitor Modelo 154,1468.52,12,si,2025-05-20
+12831,Joystick Modelo 363,679.75,6,si,2025-06-08
+12832,SSD Externo Modelo 143,761.74,45,si,2025-04-22
+12833,Router Modelo 480,310.08,25,si,2025-03-30
+12834,Proyector Modelo 291,1432.84,19,si,2025-05-04
+12835,Fuente de Poder Modelo 724,1461.02,42,si,2025-05-19
+12836,Camara IP Modelo 498,1482.0,19,si,2025-05-06
+12837,Parlantes Modelo 779,443.34,25,si,2025-03-09
+12838,Consola de Juegos Modelo 463,1141.05,23,si,2025-03-14
+12839,Monitor Modelo 387,1886.49,45,si,2025-05-27
+12840,Router Modelo 307,1087.97,0,no,2025-04-07
+12841,Memoria RAM Modelo 386,578.22,44,si,2025-06-18
+12842,Microfono Modelo 271,1688.61,19,si,2025-05-01
+12843,Escaner Modelo 256,1057.37,33,si,2025-04-21
+12844,Smartwatch Modelo 311,96.67,31,si,2025-03-14
+12845,Microfono Modelo 436,958.32,26,si,2025-06-15
+12846,Webcam Modelo 410,666.62,27,si,2025-02-27
+12847,Tablet Modelo 811,610.66,10,si,2025-02-19
+12848,Joystick Modelo 777,872.64,19,si,2025-06-06
+12849,Monitor Modelo 361,462.65,13,si,2025-05-04
+12850,Disco Duro Modelo 564,954.94,36,si,2025-02-18
+12851,Smartwatch Modelo 158,1777.8,1,si,2025-06-29
+12852,Webcam Modelo 593,1478.46,21,si,2025-05-09
+12853,Webcam Modelo 410,1651.6,11,si,2025-05-23
+12854,Cooler Modelo 450,1932.3,26,si,2025-04-04
+12855,Memoria RAM Modelo 808,1703.04,38,si,2025-04-19
+12856,Smartphone Modelo 197,1538.8,44,si,2025-07-01
+12857,Adaptador Bluetooth Modelo 353,345.06,19,si,2025-05-15
+12858,Mouse Modelo 558,1955.3,7,si,2025-04-27
+12859,Parlantes Modelo 283,444.02,48,si,2025-07-08
+12860,Auriculares Modelo 794,47.08,21,si,2025-02-25
+12861,Laptop Modelo 205,1675.9,25,si,2025-07-07
+12862,Cooler Modelo 848,1703.67,19,si,2025-06-04
+12863,Laptop Modelo 372,11.66,41,si,2025-07-07
+12864,Tarjeta Madre Modelo 787,973.7,22,si,2025-05-18
+12865,Memoria RAM Modelo 102,1466.72,1,si,2025-07-14
+12866,Cooler Modelo 287,1296.8,28,si,2025-07-15
+12867,Consola de Juegos Modelo 426,1956.61,24,si,2025-04-17
+12868,Cooler Modelo 817,1728.26,43,si,2025-02-23
+12869,Tablet Modelo 457,192.05,33,si,2025-06-30
+12870,Tarjeta de Video Modelo 525,1989.62,15,si,2025-06-16
+12871,Teclado Modelo 109,1481.27,7,si,2025-07-03
+12872,Impresora Modelo 296,788.1,15,si,2025-03-16
+12873,Tarjeta Madre Modelo 719,257.14,24,si,2025-06-17
+12874,Cooler Modelo 665,1090.59,28,si,2025-02-17
+12875,Teclado Modelo 427,398.02,23,si,2025-07-12
+12876,Mouse Modelo 942,1114.83,12,si,2025-07-22
+12877,Memoria RAM Modelo 784,1009.78,35,si,2025-04-21
+12878,Proyector Modelo 949,252.56,22,si,2025-03-08
+12879,Monitor Modelo 537,325.21,25,si,2025-03-12
+12880,Case Modelo 815,1594.82,48,si,2025-05-31
+12881,SSD Externo Modelo 172,229.19,35,si,2025-01-31
+12882,Joystick Modelo 824,77.5,13,si,2025-05-10
+12883,Camara IP Modelo 683,1310.81,4,si,2025-04-11
+12884,Proyector Modelo 914,1428.87,2,si,2025-07-24
+12885,Smartphone Modelo 295,460.39,2,si,2025-02-13
+12886,Smartwatch Modelo 140,1838.04,48,si,2025-06-13
+12887,Adaptador Bluetooth Modelo 185,227.78,8,si,2025-05-08
+12888,Joystick Modelo 594,742.77,37,si,2025-02-21
+12889,SSD Externo Modelo 879,1425.44,15,si,2025-06-19
+12890,Cooler Modelo 516,905.28,30,si,2025-04-01
+12891,Microfono Modelo 172,431.72,42,si,2025-06-08
+12892,Disco Duro Modelo 894,515.48,6,si,2025-06-02
+12893,Teclado Modelo 765,1663.03,43,si,2025-01-31
+12894,Teclado Modelo 944,974.04,47,si,2025-05-20
+12895,Procesador Modelo 766,1538.28,4,si,2025-02-23
+12896,Joystick Modelo 585,95.13,34,si,2025-02-27
+12897,Case Modelo 248,652.67,29,si,2025-04-17
+12898,Joystick Modelo 918,1384.12,43,si,2025-07-20
+12899,Procesador Modelo 371,1091.71,11,si,2025-04-24
+12900,SSD Externo Modelo 393,1628.73,42,si,2025-03-05
+12901,Procesador Modelo 262,468.32,13,si,2025-03-13
+12902,Impresora Modelo 818,1239.77,33,si,2025-07-01
+12903,Auriculares Modelo 956,652.92,46,si,2025-06-26
+12904,Procesador Modelo 760,974.56,2,si,2025-02-28
+12905,Laptop Modelo 251,1417.17,23,si,2025-04-29
+12906,Fuente de Poder Modelo 862,508.38,10,si,2025-02-11
+12907,Microfono Modelo 966,1161.49,1,si,2025-02-03
+12908,Tablet Modelo 177,507.7,14,si,2025-03-31
+12909,Impresora Modelo 372,1117.6,6,si,2025-04-02
+12910,Hub USB Modelo 890,1368.41,50,si,2025-02-05
+12911,Case Modelo 973,408.47,15,si,2025-07-24
+12912,Camara IP Modelo 974,69.0,4,si,2025-05-28
+12913,Microfono Modelo 727,910.47,26,si,2025-05-13
+12914,Impresora Modelo 432,88.4,10,si,2025-03-31
+12915,Camara IP Modelo 466,1840.61,18,si,2025-07-15
+12916,Proyector Modelo 849,1845.19,24,si,2025-02-16
+12917,Camara IP Modelo 428,948.27,39,si,2025-03-17
+12918,Camara IP Modelo 428,1422.42,46,si,2025-03-19
+12919,Webcam Modelo 645,102.31,47,si,2025-04-21
+12920,Proyector Modelo 248,466.67,10,si,2025-07-08
+12921,Laptop Modelo 510,145.49,32,si,2025-06-17
+12922,Parlantes Modelo 496,50.87,6,si,2025-04-16
+12923,Escaner Modelo 166,667.35,21,si,2025-02-27
+12924,Case Modelo 125,650.91,25,si,2025-07-03
+12925,Escaner Modelo 269,1079.22,39,si,2025-02-18
+12926,Smartwatch Modelo 704,930.85,13,si,2025-03-09
+12927,Camara IP Modelo 596,1848.27,41,si,2025-03-06
+12928,Escaner Modelo 939,581.49,42,si,2025-05-26
+12929,Laptop Modelo 343,1268.72,30,si,2025-01-26
+12930,Router Modelo 187,557.5,21,si,2025-05-03
+12931,Teclado Modelo 928,132.28,17,si,2025-07-15
+12932,Memoria RAM Modelo 163,783.65,4,si,2025-06-04
+12933,Cooler Modelo 783,787.35,40,si,2025-02-16
+12934,Teclado Modelo 226,1524.1,17,si,2025-04-07
+12935,Microfono Modelo 135,399.2,47,si,2025-05-14
+12936,Disco Duro Modelo 375,677.3,39,si,2025-06-09
+12937,SSD Externo Modelo 260,424.12,3,si,2025-05-21
+12938,Smartphone Modelo 743,713.03,8,si,2025-07-07
+12939,Impresora Modelo 445,71.27,24,si,2025-05-20
+12940,Cooler Modelo 426,328.23,43,si,2025-06-24
+12941,Memoria RAM Modelo 824,1192.88,10,si,2025-05-26
+12942,Monitor Modelo 290,1733.8,18,si,2025-04-30
+12943,Auriculares Modelo 352,1752.24,1,si,2025-04-09
+12944,Monitor Modelo 882,1631.39,46,si,2025-07-11
+12945,Adaptador Bluetooth Modelo 851,1082.28,8,si,2025-07-09
+12946,Escaner Modelo 321,1161.81,46,si,2025-01-29
+12947,Microfono Modelo 447,1237.62,2,si,2025-07-01
+12948,Monitor Modelo 546,1186.66,32,si,2025-02-16
+12949,Escaner Modelo 689,996.35,40,si,2025-03-11
+12950,Joystick Modelo 830,1743.6,1,si,2025-07-01
+12951,SSD Externo Modelo 745,552.18,5,si,2025-03-26
+12952,Webcam Modelo 463,405.38,43,si,2025-05-23
+12953,Cooler Modelo 927,1875.04,22,si,2025-05-20
+12954,Adaptador Bluetooth Modelo 857,170.41,7,si,2025-03-16
+12955,Teclado Modelo 645,1686.37,8,si,2025-03-06
+12956,Procesador Modelo 719,184.01,43,si,2025-04-29
+12957,Memoria RAM Modelo 945,772.4,8,si,2025-04-14
+12958,Fuente de Poder Modelo 373,1445.72,44,si,2025-03-31
+12959,Mouse Modelo 191,1468.38,49,si,2025-03-28
+12960,Auriculares Modelo 135,1643.53,13,si,2025-04-20
+12961,Router Modelo 638,113.43,6,si,2025-03-27
+12962,Memoria RAM Modelo 219,972.25,0,no,2025-04-27
+12963,Monitor Modelo 170,1676.79,12,si,2025-05-01
+12964,Camara IP Modelo 238,1829.41,13,si,2025-03-17
+12965,Monitor Modelo 325,806.98,23,si,2025-04-12
+12966,Smartwatch Modelo 537,206.12,45,si,2025-06-15
+12967,Camara IP Modelo 596,1348.01,1,si,2025-07-21
+12968,Proyector Modelo 946,439.54,42,si,2025-03-19
+12969,Microfono Modelo 650,354.59,6,si,2025-03-01
+12970,Mouse Modelo 204,1359.16,38,si,2025-02-26
+12971,Consola de Juegos Modelo 244,105.55,46,si,2025-06-18
+12972,Hub USB Modelo 724,1951.73,6,si,2025-05-22
+12973,Joystick Modelo 614,612.26,1,si,2025-02-12
+12974,Memoria RAM Modelo 538,564.09,21,si,2025-04-13
+12975,SSD Externo Modelo 570,1335.91,29,si,2025-04-20
+12976,Smartwatch Modelo 502,959.16,38,si,2025-02-09
+12977,Adaptador Bluetooth Modelo 718,1560.75,42,si,2025-06-11
+12978,Parlantes Modelo 146,1605.12,49,si,2025-03-25
+12979,Escaner Modelo 213,410.12,11,si,2025-05-18
+12980,Parlantes Modelo 444,82.47,6,si,2025-05-05
+12981,Microfono Modelo 591,730.61,7,si,2025-06-03
+12982,Hub USB Modelo 819,206.06,24,si,2025-05-08
+12983,Webcam Modelo 630,1081.85,13,si,2025-02-19
+12984,Webcam Modelo 235,1571.62,17,si,2025-03-17
+12985,Camara IP Modelo 903,461.54,18,si,2025-06-30
+12986,Cable HDMI Modelo 950,353.19,28,si,2025-03-29
+12987,Joystick Modelo 452,445.31,17,si,2025-03-29
+12988,Cooler Modelo 141,1735.07,17,si,2025-06-12
+12989,Cooler Modelo 796,1451.02,32,si,2025-05-11
+12990,Smartwatch Modelo 340,470.56,46,si,2025-02-20
+12991,Memoria RAM Modelo 399,1179.32,22,si,2025-05-01
+12992,Laptop Modelo 402,692.53,35,si,2025-04-01
+12993,Joystick Modelo 675,754.09,32,si,2025-01-27
+12994,Consola de Juegos Modelo 932,150.07,27,si,2025-02-21
+12995,SSD Externo Modelo 224,1826.68,13,si,2025-06-03
+12996,Smartwatch Modelo 387,1199.61,46,si,2025-02-23
+12997,Consola de Juegos Modelo 900,1618.19,15,si,2025-04-21
+12998,Parlantes Modelo 913,17.07,48,si,2025-02-06
+12999,Procesador Modelo 930,1754.06,6,si,2025-07-06

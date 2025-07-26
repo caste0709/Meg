@@ -1,0 +1,11 @@
+ID:21#R:19#Lib:3127#Tam_fijo:100
+cantidad#int#en_stock#string#fecha_ingreso#string#ISBN#int
+10980     Camara IP Modelo 872345.73    11        si                  2025-07-13          60041740  
+10981     Escaner Modelo 849  678.93    49        si                  2025-02-19          16818152  
+10982     Camara IP Modelo 2131747.32   18        si                  2025-06-04          16119919  
+10983     Auriculares Modelo 31798.02   49        si                  2025-05-31          59872865  
+10984     Microfono Modelo 5731125.19   48        si                  2025-07-16          25241414  
+10985     Disco Duro Modelo 981106.02   46        si                  2025-03-24          40268632  
+10986     Webcam Modelo 736   1002.44   45        si                  2025-05-20          60243648  
+10987     Tablet Modelo 977   809.73    30        si                  2025-02-07          44055974  
+10988     Cooler Modelo 293   1460.32   9         si                  2025-02-28          45015307  

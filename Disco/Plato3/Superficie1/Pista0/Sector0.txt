@@ -1,0 +1,11 @@
+ID:7#R:49#Lib:0#Tam_fijo:100
+oat#cantidad#int#en_stock#string#fecha_ingreso#string#ISBN#int
+10294     Impresora Modelo 8541187.38   30        si                  2025-05-14          56159241  
+10295     Mouse Modelo 824    944.27    14        si                  2025-05-15          68085319  
+10296     Webcam Modelo 592   1827.96   38        si                  2025-02-12          34275399  
+10297     Memoria RAM Modelo 91629.28   34        si                  2025-02-06          22059456  
+10298     Auriculares Modelo 81574.63   28        si                  2025-06-09          52813438  
+10299     Consola de Juegos Mo192.66    7         si                  2025-05-13          75004049  
+10300     Cooler Modelo 963   1643.13   37        si                  2025-06-27          57528716  
+10301     Case Modelo 759     470.44    2         si                  2025-01-27          82179320  
+10302     Cooler Modelo 217   391.97    31        si                  2025-02-28          34937165  

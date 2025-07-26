@@ -1,0 +1,10 @@
+10186     Auriculares Modelo 91765.46   49        si                  2025-05-05          52245769  
+10187     Cable HDMI Modelo 20509.19    4         si                  2025-04-15          49786821  
+10188     Parlantes Modelo 6441872.8    32        si                  2025-07-09          28535994  
+10189     Monitor Modelo 889  1403.67   30        si                  2025-01-31          39943499  
+10190     Proyector Modelo 42698.05     15        si                  2025-02-24          48605774  
+10191     Smartwatch Modelo 471075.22   23        si                  2025-03-26          17457628  
+10192     Hub USB Modelo 502  1104.46   4         si                  2025-07-04          16042631  
+10193     Camara IP Modelo 8861354.44   43        si                  2025-02-17          74098352  
+10194     Tablet Modelo 130   797.16    3         si                  2025-06-12          42576298  
+10195     Consola de Juegos Mo1863.96   14        si                  2025-05-27          37530776  

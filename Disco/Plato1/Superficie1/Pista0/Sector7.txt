@@ -1,0 +1,10 @@
+10509     Teclado Modelo 295  406.65    14        si                  2025-07-18          46963457  
+10510     Escaner Modelo 297  584.18    15        si                  2025-07-23          35497350  
+10511     Fuente de Poder Mode135.34    28        si                  2025-02-18          59713830  
+10512     Parlantes Modelo 247160.61    10        si                  2025-05-15          76389209  
+10513     Hub USB Modelo 157  1761.2    33        si                  2025-04-09          40106108  
+10514     Tarjeta Madre Modelo1142.95   33        si                  2025-04-19          54377319  
+10515     Case Modelo 254     1203.5    22        si                  2025-05-29          71532214  
+10516     Hub USB Modelo 684  1313.21   1         si                  2025-06-09          11981255  
+10517     Impresora Modelo 3841900.81   6         si                  2025-03-07          31455073  
+10518     Tablet Modelo 865   123.13    25        si                  2025-06-20          75028170  

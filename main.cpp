@@ -6,11 +6,23 @@
 #include <sstream>
 #include <cstring>
 #include <cstdlib>
+#include <unordered_map>
+#include <unordered_set>
+#include <list>
+#include <algorithm>
+#include <bitset>
+#include <iomanip>
+#include <string>
+#include "buffer_clock.h"
+#include "arbol.h"
+
+
+// arbol B+ global para IDs
+BPlusTree<int> bpt_id(4); // grado 4 (max. 3 claves por nodo)
 
 
 using namespace std;
-
-const int platos = 5;
+const int platos = 4;
 const int superficies = 2;
 const int pistas = 10;
 const int sectores = 10;
@@ -107,16 +119,293 @@ public:
     }
 };
 
-void header(const char rutas_bloque[][TAM_CH], int n_b, int bloque_id, int tam_bloque){
-    if(n_b <= 0){
+struct Registro {
+    vector<string> campos; // Campos originales de la linea CSV
+};
+
+struct Bucket {
+    int local_depth;
+    vector<Registro> registros;
+    static const int CAPACIDAD = 4;
+
+    Bucket(int d = 1) : local_depth(d) {}
+};
+
+int global_depth = 1;
+vector<Bucket*> directorio;
+int ID_INDEX = -1;
+vector<Registro> registros_csv;
+
+int detectar_columna_id(const string& header_line) {
+    stringstream ss(header_line);
+    string campo;
+    int index = 0;
+    while (getline(ss, campo, ',')) {
+        string campo_lower = campo;
+        transform(campo_lower.begin(), campo_lower.end(), campo_lower.begin(), ::tolower);
+        if (campo_lower.find("id") != string::npos) return index;
+        index++;
+    }
+    return -1;
+}
+
+// Obtener los ultimos `bits` del numero
+int obtener_bits(int valor, int bits) {
+    return valor & ((1 << bits) - 1);
+}
+
+int hash_func(int id) {
+    return id;
+}
+
+void insertar_en_hash(const Registro& reg) {
+    int id = stoi(reg.campos[ID_INDEX]);
+    int index = obtener_bits(hash_func(id), global_depth);
+    Bucket* bucket = directorio[index];
+
+    // Si hay espacio, insertar normalmente
+    if (bucket->registros.size() < Bucket::CAPACIDAD) {
+        bucket->registros.push_back(reg);
         return;
     }
 
+    // Si el bucket esta lleno
+
+    // Caso 2: Duplicar el directorio si es necesario
+    if (bucket->local_depth == global_depth) {
+        int size = directorio.size();
+        directorio.resize(size * 2);
+        for (int i = 0; i < size; ++i)
+            directorio[i + size] = directorio[i];
+        global_depth++;
+    }
+
+    // Crear un nuevo bucket (split)
+    Bucket* nuevo_bucket = new Bucket(bucket->local_depth + 1);
+    int nueva_ld = nuevo_bucket->local_depth;
+
+    // Guardar registros antiguos + el nuevo registro
+    vector<Registro> temp = bucket->registros;
+    temp.push_back(reg);
+
+    bucket->registros.clear();
+    bucket->local_depth = nueva_ld;
+
+    // Redistribuir registros entre el bucket original y el nuevo
+    for (const Registro& r : temp) {
+        int rid = stoi(r.campos[ID_INDEX]);
+        int idx = obtener_bits(hash_func(rid), global_depth);
+        if ((idx & (1 << (nueva_ld - 1))) != 0)
+            nuevo_bucket->registros.push_back(r);
+        else
+            bucket->registros.push_back(r);
+    }
+
+    // Actualizar el directorio SOLO en las posiciones correspondientes
+    for (int i = 0; i < (int)directorio.size(); ++i) {
+        int prefix_i = obtener_bits(i, nueva_ld - 1);
+        int prefix_bucket = obtener_bits(index, nueva_ld - 1);
+
+        if (prefix_i == prefix_bucket) {
+            if ((i & (1 << (nueva_ld - 1))) != 0)
+                directorio[i] = nuevo_bucket;
+            else
+                directorio[i] = bucket;
+        }
+    }
+}
+
+
+
+
+void construir_hash_extendible() {
+    global_depth = 1;
+    directorio = { new Bucket(1), new Bucket(1) };
+    for (const auto& r : registros_csv) {
+        insertar_en_hash(r);
+    }
+}
+
+void buscar_en_hash_clock(int clave, Buffer*& global_clock_buffer, const vector<pair<string, vector<string>>>& bloques) {
+    int index = obtener_bits(hash_func(clave), global_depth);
+    Bucket* b = directorio[index];
+
+    for (const auto& r : b->registros) {
+        if (stoi(r.campos[ID_INDEX]) == clave) {
+            cout << "\n==================== RESULTADO DE BUSQUEDA ====================\n";
+            cout << "Registro encontrado:\n";
+            for (int i = 0; i < (int)r.campos.size(); ++i)
+                cout << r.campos[i] << (i < (int)r.campos.size() - 1 ? " | " : "\n");
+
+            // Buscar el primer bloque que contenga el ID en su contenido
+            for (const auto& bloque : bloques) {
+                const string& nombre_bloque = bloque.first;
+                const vector<string>& sectores = bloque.second;
+
+                for (const string& ruta : sectores) {
+                    ifstream in(ruta);
+                    if (!in.is_open()) continue;
+
+                    string linea;
+                    while (getline(in, linea)) {
+                        if (linea.find(to_string(clave)) != string::npos) {
+                            cout << "El registro esta en el bloque: " << nombre_bloque << endl;
+
+                            int page_id = stoi(nombre_bloque.substr(1));
+                            if (global_clock_buffer != nullptr)
+                                global_clock_buffer->loadPage(page_id, 0, false);
+
+                            return; 
+                        }
+                    }
+                }
+            }
+
+            cout << "Advertencia: El registro existe en el hash, pero no se hallo en bloques del disco.\n";
+            return;
+        }
+    }
+
+    cout << "Registro no encontrado en el hash.\n";
+}
+
+
+
+bool cargar_registros_csv(const char* archivo_csv) {
+    ifstream archivo(archivo_csv);
+    if (!archivo.is_open()) {
+        cout << "Error al abrir el CSV.\n";
+        return false;
+    }
+
+    string linea;
+    getline(archivo, linea); // Saltar encabezado
+
+    ID_INDEX = detectar_columna_id(linea);
+    if (ID_INDEX == -1) {
+        cout << "Error: No se encontro una columna ID en el CSV.\n";
+        return false;
+    }
+
+    registros_csv.clear();
+
+    while (getline(archivo, linea)) {
+        if (linea.empty()) continue;
+        stringstream ss(linea);
+        string campo;
+        Registro r;
+        while (getline(ss, campo, ',')) {
+            r.campos.push_back(campo);
+        }
+        registros_csv.push_back(r);
+        if (ID_INDEX >= 0) {
+            try {
+                int id = stoi(r.campos[ID_INDEX]);
+                bpt_id.insert(id);
+            } catch (...) {
+                cerr << "ID invalido en registro: " << r.campos[ID_INDEX] << endl;
+            }
+        }
+    }
+
+    archivo.close();
+    return true;
+}
+
+
+void mostrar_buckets_binario() {
+    cout << "======= BUCKETS DEL HASH EXTENDIBLE =======\n";
+    cout << "Global Depth: " << global_depth << endl;
+
+    unordered_set<Bucket*> mostrados;
+
+    for (int i = 0; i < (int)directorio.size(); ++i) {
+        string bin = bitset<16>(i).to_string().substr(16 - global_depth);
+        Bucket* b = directorio[i];
+
+        if (mostrados.count(b)) continue;
+
+        mostrados.insert(b);
+        cout << "Bucket (binario): " << bin
+             << " | Local Depth: " << b->local_depth
+             << " | Registros (IDs): ";
+
+        for (const auto& r : b->registros) {
+            cout << r.campos[ID_INDEX] << " ";
+        }
+
+        cout << "\n";
+    }
+
+    cout << "===========================================\n";
+}
+
+void insertar_numeros_manual() {
+    if (directorio.empty()) {
+        // Inicializar si aun no se construyo
+        directorio = { new Bucket(1), new Bucket(1) };
+        global_depth = 1;
+    }
+
+    cout << "Modo insercion manual al Hash Extendible:\n";
+    cout << "Ingresa valores enteros uno por uno. Escribe -1 para terminar.\n";
+
+    ID_INDEX = 0;  // fuerza a que el campo 0 sea el ID
+
+    while (true) {
+        int id;
+        cout << "ID: ";
+        cin >> id;
+
+        if (id == -1) break;
+
+        Registro r;
+        r.campos.push_back(to_string(id));
+
+        insertar_en_hash(r);
+        mostrar_buckets_binario();  // mostrar despues de cada insercion
+    }
+}
+
+
+// Mostrar el estado del hash (para debug)
+void mostrar_estado() {
+    cout << "==== ESTADO DEL HASH EXTENDIBLE ====" << endl;
+    cout << "Global Depth: " << global_depth << endl;
+
+    vector<Bucket*> ya_mostrados;
+
+    for (int i = 0; i < directorio.size(); ++i) {
+        cout << "Directorio[" << i << "] → Bucket con Local Depth = "
+             << directorio[i]->local_depth << ", registros: ";
+
+        if (find(ya_mostrados.begin(), ya_mostrados.end(), directorio[i]) == ya_mostrados.end()) {
+            ya_mostrados.push_back(directorio[i]);
+            for (const auto& reg : directorio[i]->registros) {
+                cout << reg.campos[ID_INDEX] << " ";
+            }
+        } else {
+            cout << "(repetido)";
+        }
+
+        cout << endl;
+    }
+    cout << "====================================" << endl;
+}
+
+
+
+
+
+
+void header(const vector<string>& rutas_bloque, int bloque_id, int tam_bloque) {
+    if (rutas_bloque.empty()) return;
+
     stringstream header;
-    header << "ID:" << bloque_id + 1 << "#R:0" << "#Lib:" << tam_bloque << '\n';
+    header << "ID:" << bloque_id << "#R:0#Lib:" << tam_bloque << '\n';
 
     ofstream sector0(rutas_bloque[0]);
-    if(!sector0.is_open()){
+    if (!sector0.is_open()) {
         cerr << "No se coloco el header: " << rutas_bloque[0] << endl;
         return;
     }
@@ -124,6 +413,7 @@ void header(const char rutas_bloque[][TAM_CH], int n_b, int bloque_id, int tam_b
     sector0 << header.str();
     sector0.close();
 }
+
 
 void actualizar_header(const char* ruta_sector0, int id_bloque, int registros, int espacio, int tam_fijo) {
     fstream archivo(ruta_sector0, ios::in | ios::out);
@@ -133,27 +423,21 @@ void actualizar_header(const char* ruta_sector0, int id_bloque, int registros, i
     }
 
     stringstream header_nuevo;
-    header_nuevo << "ID:" << id_bloque + 1 << "#R:" << registros << "#Lib:" << espacio << "#Tam_fijo:" << tam_fijo <<'\n';
+    header_nuevo << "ID:" << id_bloque << "#R:" << registros << "#Lib:" << espacio << "#Tam_fijo:" << tam_fijo <<'\n';
 
     archivo.seekp(0);
     archivo << header_nuevo.str();
     archivo.close();
 }
 
-
-void Creacion_bloques(Disco& d, int tam_sector, int n_b) {
+void Creacion_bloques(Disco& d, int tam_sector, int n_b, int& bloques_reservados_coordenadas, vector<int>& bloques_coordenadas) {
     int total_superficies = platos * superficies;
     int sectores_por_superficie = pistas * sectores;
-    char rutas_de_bloque[MAX_C][TAM_CH];
-
     vector<int> cursor_por_superficie(total_superficies, 0);
-    vector<string> rutas_bloque_B0;
-
+    vector<string> rutas_todos_los_sectores;
+    vector<string> lineas_bloques;
     int bloque_id = 0;
     bool quedan_sectores = true;
-    bool bloque_B0_guardado = false;
-
-    vector<string> lineas_bloques;
 
     while (quedan_sectores) {
         quedan_sectores = false;
@@ -164,12 +448,11 @@ void Creacion_bloques(Disco& d, int tam_sector, int n_b) {
 
             quedan_sectores = true;
 
-            std::stringstream linea;
+            stringstream linea;
             linea << "B" << bloque_id << ":";
 
             int pl = s / superficies;
             int sp = s % superficies;
-
             int agregados = 0;
 
             for (int pt = 0; pt < pistas && agregados < n_b; ++pt) {
@@ -180,18 +463,13 @@ void Creacion_bloques(Disco& d, int tam_sector, int n_b) {
                                      sec;
 
                     int sector_consumido = pt * sectores + sec;
-
                     if (sector_consumido >= cursor_por_superficie[s]) {
                         int p, su, pi, se;
                         d.coordenadas(flat_index, p, su, pi, se);
                         linea << p << su << pi << se << '#';
 
-                        // guardar ruta solo si se va a usar
                         string ruta_sector = d.rutaSector(flat_index);
-                        strcpy(rutas_de_bloque[agregados], ruta_sector.c_str());
-
-                        if (!bloque_B0_guardado)
-                            rutas_bloque_B0.push_back(ruta_sector);
+                        rutas_todos_los_sectores.push_back(ruta_sector);
 
                         agregados++;
                         cursor_por_superficie[s]++;
@@ -199,59 +477,71 @@ void Creacion_bloques(Disco& d, int tam_sector, int n_b) {
                 }
             }
 
-            // Guardar la línea de coordenadas
-            lineas_bloques.push_back(linea.str());
-
-            // Escribir header del bloque recién creado
-            header(rutas_de_bloque, n_b, bloque_id, tam_sector * n_b);
-
-            bloque_id++;
-
-            if (!bloque_B0_guardado && rutas_bloque_B0.size() == (size_t)n_b)
-                bloque_B0_guardado = true;
+            if (agregados > 0) {
+                lineas_bloques.push_back(linea.str());
+                bloque_id++;
+            }
         }
     }
 
-    // Agrupar líneas de instrucciones (bloque B0)
-    vector<string> sectores_texto;
-    std::stringstream sector_actual;
-    int tam_actual = 0;
+    // Guardar coordenadas en sectores del disco
+    int total_bloques = (int)lineas_bloques.size() / n_b + ((lineas_bloques.size() % n_b) ? 1 : 0);
+    int linea_idx = 0;
 
-    for (const string& linea : lineas_bloques) {
-        if ((int)linea.size() + tam_actual > tam_sector) {
-            sectores_texto.push_back(sector_actual.str());
-            sector_actual.str("");
-            sector_actual.clear();
-            tam_actual = 0;
+    for (int b = 0; b < total_bloques; ++b) {
+        vector<string> rutas_b;
+        vector<string> texto_sectores;
+
+        for (int s = 0; s < n_b && (b * n_b + s) < (int)rutas_todos_los_sectores.size(); ++s) {
+            rutas_b.push_back(rutas_todos_los_sectores[b * n_b + s]);
         }
 
-        sector_actual << linea << "\n";
-        tam_actual += linea.size() + 1;
+        stringstream actual;
+        int tam_actual = 0;
+
+        while (linea_idx < (int)lineas_bloques.size()) {
+            string& linea = lineas_bloques[linea_idx];
+
+            if ((int)linea.size() + tam_actual > tam_sector) {
+                texto_sectores.push_back(actual.str());
+                actual.str("");
+                actual.clear();
+                tam_actual = 0;
+
+                if ((int)texto_sectores.size() >= (int)rutas_b.size()) break;
+            }
+
+            actual << linea << '\n';
+            tam_actual += linea.size() + 1;
+            linea_idx++;
+        }
+
+        if (tam_actual > 0 && (int)texto_sectores.size() < (int)rutas_b.size())
+            texto_sectores.push_back(actual.str());
+
+        if (!texto_sectores.empty()) {
+            bloques_coordenadas.push_back(b); // Solo si el bloque tuvo coordenadas
+
+            header(rutas_b, b, tam_sector * n_b);
+
+            for (size_t i = 0; i < texto_sectores.size(); ++i) {
+                ofstream archivo(rutas_b[i]);
+                archivo << texto_sectores[i];
+                archivo.close();
+            }
+
+            for (size_t i = texto_sectores.size(); i < rutas_b.size(); ++i) {
+                ofstream archivo(rutas_b[i]);
+                archivo.close();
+            }
+        }
     }
 
-    if (tam_actual > 0)
-        sectores_texto.push_back(sector_actual.str());
+    bloques_reservados_coordenadas = (int)bloques_coordenadas.size(); // solo bloques reales
 
-    // Validación de capacidad para B0
-    if ((int)sectores_texto.size() > n_b) {
-        cerr << "ERROR: Las líneas no caben completas en el bloque B0 con " 
-             << n_b << " sectores de " << tam_sector << " bytes.\n";
-        return;
-    }
-
-    // Escribir las instrucciones en el bloque B0
-    for (size_t i = 0; i < sectores_texto.size(); ++i) {
-        ofstream archivo(rutas_bloque_B0[i]);
-        archivo << sectores_texto[i];
-        archivo.close();
-    }
-
-    // Rellenar sectores vacíos en B0
-    for (size_t i = sectores_texto.size(); i < (size_t)n_b; ++i) {
-        ofstream archivo(rutas_bloque_B0[i]);
-        archivo.close();
-    }
+    cout << "Bloques disponibles: " << TOTAL_SECTORES / n_b << endl;
 }
+
 
 
 void limpiar_campo(char* campo){
@@ -346,25 +636,6 @@ int hallar_tam_fijo(const char* archivo_csv, char tipos_columnas[MAX_COLS][10], 
         max_len_string[i] = 0;
     }
 
-    // Leer cada línea
-    while (archivo.getline(linea, MAX_LINE_LEN)) {
-        char* token = strtok(linea, ",");
-        int col_index = 0;
-        while (token != NULL && col_index < num_cols) {
-            limpiar_campo(token);
-            if (strcmp(tipos_columnas[col_index], "string") == 0) {
-                int len = strlen(token);
-                if (len > max_len_string[col_index]) {
-                    max_len_string[col_index] = len;
-                }
-            }
-            token = strtok(NULL, ",");
-            ++col_index;
-        }
-    }
-
-    archivo.close();
-
     // Sumar tam_fijo
     int tam_fijo = 0;
     for (int i = 0; i < num_cols; ++i) {
@@ -403,15 +674,13 @@ void guardar_csv(Disco& d, const char* ruta, int tam_sector, int tam_bloque, int
     // Saltar encabezado
     char c;
     bool dentroComillas = false;
-
-    // Saltar primera línea (encabezado)
     while (csv.get(c) && c != '\n') {}
 
     // Ahora procesar el resto del archivo
     while (csv.get(c)) {
         if (c == '"') {
             dentroComillas = !dentroComillas;
-            csv.get(c);  // Leer siguiente caracter (puede ser el caracter dentro de las comillas o después de cerrar comillas)
+            csv.get(c);  // Leer siguiente caracter (puede ser el caracter dentro de las comillas o despues de cerrar comillas)
         }
 
         if (dentroComillas) {
@@ -427,219 +696,617 @@ void guardar_csv(Disco& d, const char* ruta, int tam_sector, int tam_bloque, int
         }
     }
 
-    temp << '\n';  // Asegurarse de terminar con salto de línea
+    temp << '\n';
     temp.close();
 }
 
 
-void importar_disco(Disco& d, const char* archivo, int tam_sector, int tam_bloque, int n_b, int tam_fijo,
-                    const char* esquema, int bloques_usados[MAX_C], int total_bloques_usados,
-                    int tam_columna[MAX_COLS], int num_cols, char tipos_columnas[MAX_COLS][10]) {
-    int pl = 0, sup = 0, pt = 0, sec = 0;
-    char ruta[TAM_CH];
-    sprintf(ruta, "Disco\\Plato%d\\Superficie%d\\Pista%d\\Sector%d.txt", pl, sup, pt, sec);
-    ifstream bloque_d(ruta);
-    if (!bloque_d.is_open()) {
-        cerr << "Error al abrir el archivo: " << ruta << endl;
+void importar_disco(Disco& d, const char* ruta_temp, int tam_sector, int tam_bloque, int n_b, int tam_fijo, const char* esquema,
+                    int bloques_usados[], int& total_bloques_usados, int tam_columna[], int num_cols,
+                    char tipos_columnas[MAX_COLS][10], const vector<int>& bloques_coordenadas, char nombres_columnas[MAX_COLS][MAX_LINE_LEN],
+                    vector<pair<string, vector<string>>>& bloques, vector<int>& bloques_registros)
+{
+    ifstream archivoTemp(ruta_temp);
+    if (!archivoTemp.is_open()) {
+        cerr << " No se pudo abrir el archivo temporal." << endl;
         return;
     }
 
-    string dummy;
-    getline(bloque_d, dummy);
-    string linea;
-    getline(bloque_d, linea);
+    vector<string> registros;
+    string reg;
+    while (getline(archivoTemp, reg)) {
+        if (!reg.empty()) registros.push_back(reg);
+    }
+    archivoTemp.close();
 
-    int pos = linea.find(':');
-    if (pos == string::npos) {
-        cerr << "Las coordenadas no se guardaron correctamente" << endl;
-        return;
+    // Validacion de capacidad antes de insertar registros
+    int bloques_disponibles = (TOTAL_SECTORES / n_b) - (int)bloques_coordenadas.size();
+    int registros_por_bloque = tam_bloque / tam_fijo;
+    int registros_maximos = bloques_disponibles * registros_por_bloque;
+
+    if ((int)registros.size() > registros_maximos) {
+        cout << "⚠️  Advertencia: El disco no tiene capacidad para todos los registros.\n";
+        cout << "➡️  Capacidad maxima: " << registros_maximos << " registros\n";
+        cout << "📄 Registros en el CSV: " << registros.size() << " registros\n";
+        cout << "Solo se guardaran los primeros " << registros_maximos << " registros.\n\n";
+        registros.resize(registros_maximos);
     }
 
-    linea = linea.substr(pos + 1);
-    int coordenadas[n_b][TAM_COOR];
-    int i = 0, inicio = 0;
+    unordered_map<int, vector<string>> mapa_bloques;
 
-    while (inicio < linea.length() && i < n_b) {
-        int fin = linea.find('#', inicio);
-        if (fin == string::npos) break;
+    for (int bloque_id : bloques_coordenadas) {
+        for (int i = 0; i < n_b; ++i) {
+            string ruta_sector = d.rutaSector(bloque_id * n_b + i);
+            ifstream archivo(ruta_sector);
+            if (!archivo.is_open()) continue;
 
-        string codigo = linea.substr(inicio, fin - inicio);
-        if (codigo.length() == 4) {
-            coordenadas[i][0] = codigo[0] - '0';
-            coordenadas[i][1] = codigo[1] - '0';
-            coordenadas[i][2] = codigo[2] - '0';
-            coordenadas[i][3] = codigo[3] - '0';
-            i++;
-        }
+            string linea;
+            while (getline(archivo, linea)) {
+                if (linea.empty()) continue;
+                size_t pos = linea.find(':');
+                if (pos == string::npos) continue;
 
-        inicio = fin + 1;
-    }
+                string bloque_str = linea.substr(1, pos - 1);
+                int id_b = stoi(bloque_str);
 
-    ifstream reg("temp.txt");
-    if (!reg.is_open()) {
-        cerr << "Error al abrir el archivo: temp.txt" << endl;
-        return;
-    }
+                vector<string> rutas_b;
+                stringstream ss(linea.substr(pos + 1));
+                string token;
 
-    int current_sector_idx = 0;
-    int bloque_actual = 0;
-    int contador_registros = 0;
-    int espacio_restante = tam_bloque;
+                while (getline(ss, token, '#')) {
+                    if (token.length() == 4) {
+                        int p = token[0] - '0';
+                        int s = token[1] - '0';
+                        int pi = token[2] - '0';
+                        int se = token[3] - '0';
 
-    char ruta_primer_sector[TAM_CH];
-    sprintf(ruta_primer_sector, "Disco\\Plato%d\\Superficie%d\\Pista%d\\Sector%d.txt",
-            coordenadas[0][0], coordenadas[0][1], coordenadas[0][2], coordenadas[0][3]);
-
-    ofstream sect_d;
-    int contador_bytes_sector = 0;
-
-    // Abrir primer sector y poner el esquema
-    pl = coordenadas[0][0];
-    sup = coordenadas[0][1];
-    pt = coordenadas[0][2];
-    sec = coordenadas[0][3];
-
-    char ruta_disco[TAM_CH];
-    sprintf(ruta_disco, "Disco\\Plato%d\\Superficie%d\\Pista%d\\Sector%d.txt", pl, sup, pt, sec);
-
-    string header_line;
-    {
-        ifstream entrada(ruta_disco);
-        if (!entrada.is_open()) {
-            cerr << "Error al abrir sector para lectura: " << ruta_disco << endl;
-            return;
-        }
-        getline(entrada, header_line);
-        entrada.close();
-
-        ofstream salida(ruta_disco);
-        if (!salida.is_open()) {
-            cerr << "Error al abrir sector para escritura: " << ruta_disco << endl;
-            return;
-        }
-        salida << header_line << '\n';
-        salida << esquema << '\n';
-        salida.close();
-
-        contador_bytes_sector = strlen(esquema) + 1;
-    }
-
-    sect_d.open(ruta_disco, ios::app);
-    if (!sect_d.is_open()) {
-        cerr << "Error al reabrir para registros: " << ruta_disco << endl;
-        return;
-    }
-
-    string registro;
-    while (getline(reg, registro)) {
-        char buffer[tam_fijo];
-        memset(buffer, ' ', tam_fijo);
-
-        stringstream ss(registro);
-        string campo;
-        int offset = 0;
-
-        for (int i = 0; i < num_cols && getline(ss, campo, '#'); ++i) {
-            int len = campo.length();
-            int tam_col = tam_columna[i];
-            int copiar = min(len, tam_col);
-            memcpy(buffer + offset, campo.c_str(), copiar);
-            offset += tam_col;
-        }
-
-        int tam_registro = tam_fijo + 1;
-
-        if (contador_bytes_sector + tam_registro > tam_sector) {
-            sect_d.close();
-            current_sector_idx++;
-
-            if (current_sector_idx >= n_b) {
-                actualizar_header(ruta_primer_sector, bloque_actual, contador_registros, espacio_restante, tam_fijo);
-
-                string lineaBloque;
-                while (getline(bloque_d, lineaBloque)) {
-                    if (lineaBloque[0] == 'B') break;
-                }
-
-                pos = lineaBloque.find(':');
-                if (pos == string::npos) {
-                    cerr << "Error: formato de bloque inválido." << endl;
-                    return;
-                }
-
-                lineaBloque = lineaBloque.substr(pos + 1);
-                i = 0;
-                inicio = 0;
-                while (inicio < lineaBloque.length() && i < n_b) {
-                    int fin = lineaBloque.find('#', inicio);
-                    if (fin == string::npos) break;
-
-                    string codigo = lineaBloque.substr(inicio, fin - inicio);
-                    if (codigo.length() == 4) {
-                        coordenadas[i][0] = codigo[0] - '0';
-                        coordenadas[i][1] = codigo[1] - '0';
-                        coordenadas[i][2] = codigo[2] - '0';
-                        coordenadas[i][3] = codigo[3] - '0';
-                        i++;
+                        char ruta_sec[TAM_CH];
+                        sprintf(ruta_sec, "Disco\\Plato%d\\Superficie%d\\Pista%d\\Sector%d.txt", p, s, pi, se);
+                        rutas_b.push_back(ruta_sec);
                     }
-                    inicio = fin + 1;
                 }
 
-                bloque_actual++;
-                current_sector_idx = 0;
-                contador_registros = 0;
-                espacio_restante = tam_bloque;
-
-                sprintf(ruta_primer_sector, "Disco\\Plato%d\\Superficie%d\\Pista%d\\Sector%d.txt",
-                        coordenadas[0][0], coordenadas[0][1], coordenadas[0][2], coordenadas[0][3]);
+                if (!rutas_b.empty()) {
+                    mapa_bloques[id_b] = rutas_b;
+                }
             }
 
-            pl = coordenadas[current_sector_idx][0];
-            sup = coordenadas[current_sector_idx][1];
-            pt = coordenadas[current_sector_idx][2];
-            sec = coordenadas[current_sector_idx][3];
+            archivo.close();
+        }
+    }
 
-            sprintf(ruta_disco, "Disco\\Plato%d\\Superficie%d\\Pista%d\\Sector%d.txt", pl, sup, pt, sec);
-            sect_d.open(ruta_disco, ios::app);
-            if (!sect_d.is_open()) {
-                cerr << "Error al abrir el sector: " << ruta_disco << endl;
-                return;
+    int idx_reg = 0;
+    unordered_set<int> bloques_ocupados_por_coordenadas(bloques_coordenadas.begin(), bloques_coordenadas.end());
+    int bloque_id_actual = 0;
+    while (bloques_ocupados_por_coordenadas.count(bloque_id_actual) && bloque_id_actual < TOTAL_SECTORES / n_b) {
+        bloque_id_actual++;
+    }
+
+    while (idx_reg < (int)registros.size() && mapa_bloques.count(bloque_id_actual)) { // Cambiado a bloque_id_actual
+        vector<string> rutas_b = mapa_bloques[bloque_id_actual];
+        if (rutas_b.empty()) { // Esto no deberia pasar si mapa_bloques.count(bloque_id_actual) es true
+            bloque_id_actual++;
+            while (bloques_ocupados_por_coordenadas.count(bloque_id_actual) && bloque_id_actual < TOTAL_SECTORES / n_b) {
+                bloque_id_actual++;
             }
+            continue; // Ir al siguiente bloque
+        }
 
-            contador_bytes_sector = 0;
+        int espacio_disponible = tam_bloque;
+        int registros_escritos = 0;
+        int sector_idx = 0;
+        int espacio_sector = tam_sector;
 
-            if (current_sector_idx == 0) {
-                bloques_usados[total_bloques_usados++] = bloque_actual;
-                sect_d << esquema << '\n';
-                contador_bytes_sector += strlen(esquema) + 1;
+        ofstream out[rutas_b.size()];
+        for (size_t j = 0; j < rutas_b.size(); ++j) {
+            out[j].open(rutas_b[j], ios::binary);
+            if (!out[j].is_open()) {
+                cerr << "No se pudo abrir: " << rutas_b[j] << endl;
             }
         }
 
-        for (int j = 0; j < tam_fijo; j++) {
-            sect_d << buffer[j];
+        // Escribir el esquema en el primer sector del bloque
+        if (!esquema || strlen(esquema) == 0) {
+            cerr << "Esquema no definido.\n";
+        } else {
+            if (!rutas_b.empty()) {
+                out[0] << esquema << '\n';
+                espacio_sector -= (int)strlen(esquema) + 1;
+                espacio_disponible -= (int)strlen(esquema) + 1;
+            }
         }
-        sect_d << '\n';
 
-        contador_bytes_sector += tam_registro;
-        contador_registros++;
-        espacio_restante -= tam_registro;
+        while (idx_reg < (int)registros.size() && espacio_disponible >= tam_fijo) {
+            const string& r = registros[idx_reg];
+            int len = tam_fijo;
+
+            while (espacio_sector < len) {
+                sector_idx++;
+                if (sector_idx >= (int)rutas_b.size()) {
+                    espacio_disponible = 0;
+                    break;
+                }
+                espacio_sector = tam_sector;
+            }
+
+            if (sector_idx >= (int)rutas_b.size()) break;
+
+            char buffer[tam_fijo];
+            memset(buffer, ' ', tam_fijo);
+
+            stringstream ss(r);
+            string campo;
+            int offset = 0;
+
+            for (int i = 0; i < num_cols && getline(ss, campo, '#'); ++i) {
+                int len_campo = campo.length();
+                int tam_col = tam_columna[i];
+                int copiar = min(len_campo, tam_col);
+                memcpy(buffer + offset, campo.c_str(), copiar);
+                offset += tam_col;
+            }
+
+            out[sector_idx].write(buffer, tam_fijo);
+            out[sector_idx] << '\n';
+
+            espacio_disponible -= tam_fijo;
+            espacio_sector -= tam_fijo;
+
+            registros_escritos++;
+            idx_reg++;
+        }
+
+        for (size_t j = 0; j < rutas_b.size(); ++j)
+            out[j].close();
+
+        actualizar_header(rutas_b[0].c_str(), bloque_id_actual, registros_escritos, espacio_disponible, tam_fijo);
+        bloques_usados[total_bloques_usados++] = bloque_id_actual;
+
+        if (registros_escritos > 0) {
+            bloques_registros.push_back(bloque_id_actual);
+        }
+
+        string nombre_bloque = "B" + to_string(bloque_id_actual);
+        bloques.push_back({nombre_bloque, rutas_b});
+
+        bloque_id_actual++; // Incrementar para el proximo bloque
+        // Avanzar bloque_id_actual hasta que encontremos un bloque que NO este ocupado por coordenadas
+        while (bloques_ocupados_por_coordenadas.count(bloque_id_actual) && bloque_id_actual < TOTAL_SECTORES / n_b) {
+            bloque_id_actual++;
+        }
     }
 
-    sect_d.close();
-    actualizar_header(ruta_primer_sector, bloque_actual, contador_registros, espacio_restante, tam_fijo);
-    reg.close();
+    // ===================== ACTUALIZAR estructuras de datos =====================
+    registros_csv.clear();
+    bpt_id = BPlusTree<int>(4);  // reiniciar B+
 
-    cout << "Bloques utilizados:\n";
-    for (int i = 0; i < total_bloques_usados; i++) {
-        cout << "B" << bloques_usados[i] << " ";
+    for (const string& r : registros) {
+        Registro reg;
+        stringstream ss(r);
+        string campo;
+        while (getline(ss, campo, '#')) {
+            reg.campos.push_back(campo);
+        }
+
+        registros_csv.push_back(reg);
+
+        if (ID_INDEX >= 0 && ID_INDEX < (int)reg.campos.size()) {
+            try {
+                int id = stoi(reg.campos[ID_INDEX]);
+                bpt_id.insert(id);
+            } catch (...) {
+                cerr << "ID invalido: " << reg.campos[ID_INDEX] << endl;
+            }
+        }
     }
-    cout << endl;
+
+    construir_hash_extendible();  // ahora si con los registros que realmente estan en disco
 }
 
 
 
+void MENU_CLOCK(const vector<pair<string, vector<string>>>& bloques, Buffer* global_clock_buffer) {
+    
+    
+
+    cout << "Ya existe un buffer cargado. Se usara el existente.\n";
+
+
+    while (true) {
+        cout << "\n======================Buffer Manager======================\n";
+        cout << "1. Solicitar pagina\n";
+        cout << "2. Mostrar paginas\n";
+        cout << "3. Unpinear una pagina\n";
+        cout << "4. Mostrar Operaciones pendientes\n";
+        cout << "5. Mostrar Contenido de la pagina\n";
+        cout << "6. Salir\n";
+        cout << "Seleccione una opcion: ";
+        int op;
+        cin >> op;
+        cin.ignore();
+
+        if (op == 1) {
+            string id;
+            char modo;
+            string pinStr;
+            bool pin_fijo = false;
+
+            cout << "Ingrese ID de pagina: ";
+            getline(cin, id);
+            int page_id = stoi(id.substr(1)); 
+
+            cout << "Modo (R/W): ";
+            cin >> modo;
+            cin.ignore();
+
+            cout << "Fijar la pagina? (s/n): ";
+            getline(cin, pinStr);
+            if (!pinStr.empty() && (pinStr[0] == 's' || pinStr[0] == 'S'))
+                pin_fijo = true;
+
+            int operacion = (modo == 'W' || modo == 'w') ? 1 : 0;
+            global_clock_buffer->loadPage(page_id, operacion, pin_fijo);
+        } else if (op == 2) {
+            global_clock_buffer->Mostrar();
+        } else if (op == 3) {
+            string id;
+            cout << "ID de la pagina a despinear (ej. B0): ";
+            getline(cin, id);
+            int page_id = stoi(id.substr(1));
+            global_clock_buffer->setPinFijo(page_id, false);
+        } else if (op == 4) {
+            global_clock_buffer->MostrarOP();
+        } else if (op == 5) {
+            string id;
+            cout << "ID de pagina? (ej. B0): ";
+            getline(cin, id);
+            if (id.size() > 1 && id[0] == 'B') {
+                int page_id = stoi(id.substr(1));
+                global_clock_buffer->mostrarContenidoPagina(page_id, bloques);
+            } else {
+                cout << "Formato incorrecto.\n";
+            }
+        }
+
+        else if (op == 6) {
+            break;
+        } else {
+            cout << "Opcion no valida\n";
+        }
+    }
+}
+
+struct FrameLRU {
+    string id;
+    string contenido;
+    bool dirty;
+    int pinCount;
+
+    FrameLRU(string id_, string contenido_, bool dirty_ = false)
+        : id(id_), contenido(contenido_), dirty(dirty_), pinCount(1) {}
+};
+
+class LRUCache {
+private:
+    int capacidad;
+    list<FrameLRU> lru;
+    unordered_map<string, list<FrameLRU>::iterator> tabla;
+    vector<string> historial;
+
+public:
+    LRUCache(int cap) : capacidad(cap) {}
+
+    bool reemplazar() {
+        for (auto it = lru.rbegin(); it != lru.rend(); ++it) {
+            if (it->pinCount == 0) {
+                cout << "Reemplazando: " << it->id << '\n';
+                tabla.erase(it->id);
+                lru.erase(next(it).base());
+                return true;
+            }
+        }
+        cout << "No se puede reemplazar ningun bloque (todos pinneados)\n";
+        return false;
+    }
+
+
+    void acceso(const string& id, char modo, bool pin) {
+        bool escritura = (modo == 'W' || modo == 'w');
+
+        // Ya esta en cache
+        if (tabla.count(id)) {
+            auto it = tabla[id];
+            it->pinCount += pin ? 1 : 0;
+            if (escritura) it->dirty = true;
+            historial.push_back(id);
+            lru.splice(lru.begin(), lru, it);
+            cout << id << " accedido (en cache)\n";
+            return;
+        }
+
+        // Si esta lleno, intentar reemplazar
+        if ((int)lru.size() == capacidad) {
+            bool reemplazado = reemplazar();
+            if (!reemplazado) {
+                cout << "No se puede cargar " << id << ": cache lleno y todos los bloques estan pinneados.\n";
+                return;
+            }
+        }
+
+        string contenido = "[contenido simulado de " + id + "]";
+        lru.emplace_front(id, contenido);
+        lru.front().dirty = escritura;
+        lru.front().pinCount = pin ? 1 : 0;
+        tabla[id] = lru.begin();
+        historial.push_back(id);
+        cout << id << " cargado en cache\n";
+    }
+
+
+    void unpin(const string& id) {
+        if (!tabla.count(id)) return;
+        auto& f = tabla[id];
+        if (f->pinCount > 0) f->pinCount--;
+        cout << "Unpinned " << id << "\n";
+    }
+
+    void mostrarEstado() const {
+        cout << "\n--- Estado del Cache ---\n";
+        for (const auto& frame : lru) {
+            cout << frame.id << " | pin: " << frame.pinCount
+                 << " | dirty: " << (frame.dirty ? "si" : "no") << '\n';
+        }
+    }
+
+    void mostrarPinHistorial() const {
+        cout << "\n--- Historial de acceso ---\n";
+        for (const auto& id : historial) {
+            cout << id << " ";
+        }
+        cout << '\n';
+    }
+
+    
+};
+
+class BloqueManager {
+private:
+    vector<pair<string, vector<string>>> bloques;
+
+public:
+    BloqueManager(const vector<pair<string, vector<string>>>& b) : bloques(b) {}
+
+    void mostrarContenido(const string& id) {
+        for (const auto& bloque : bloques) {
+            const string& nombre = bloque.first;
+            const vector<string>& sectores = bloque.second;
+            if (nombre == id) {
+                cout << "Contenido de " << id << ":\n";
+                for (const string& ruta : sectores) {
+                    ifstream in(ruta);
+                    if (in.is_open()) {
+                        string linea;
+                        while (getline(in, linea)) {
+                            cout << linea << '\n';
+                        }
+                        in.close();
+                    } else {
+                        cout << "No se pudo abrir " << ruta << '\n';
+                    }
+                }
+                return;
+            }
+        }
+        cout << "Bloque " << id << " no encontrado.\n";
+    }
+};
+
+void menuBufferPool(const vector<pair<string, vector<string>>>& bloques) {
+    int frames;
+    cout << "Ingrese la cantidad de frames (tamano del cache): ";
+    cin >> frames;
+    cin.ignore();
+
+    LRUCache cache(frames);
+    BloqueManager bloqueManager(bloques);
+
+    while (true) {
+        cout << "\n======================Buffer Manager======================\n";
+        cout << "1. Solicitar pagina\n";
+        cout << "2. Mostrar paginas\n";
+        cout << "3. Unpinear una pagina\n";
+        cout << "4. Mostrar historial\n";
+        cout << "5. Mostrar contenido de pagina\n";
+        cout << "6. Salir\n";
+        cout << "Seleccione una opcion: ";
+        int op;
+        cin >> op;
+        cin.ignore();
+
+        if (op == 1) {
+            string id, pinStr;
+            char modo;
+            bool pin = false;
+            cout << "Ingrese id de pagina: ";
+            getline(cin, id);
+            cout << "Modo (R/W): ";
+            cin >> modo;
+            cin.ignore();
+            cout << "Pinned? (s/n, enter para ninguno): ";
+            getline(cin, pinStr);
+            if (!pinStr.empty()) {
+                if (pinStr[0] == 's' || pinStr[0] == 'S') pin = true;
+            }
+            cache.acceso(id, modo, pin);
+        } else if (op == 2) {
+            cache.mostrarEstado();
+        } else if (op == 3) {
+            string id;
+            cout << "Ingrese id de pagina a despinear: ";
+            getline(cin, id);
+            cache.unpin(id);
+        } else if (op == 4) {
+            cache.mostrarPinHistorial();
+        } else if (op == 5) {
+            string id;
+            cout << "ID de pagina? ";
+            getline(cin, id);
+            bloqueManager.mostrarContenido(id);
+        } else if (op == 6) {
+            break;
+        } else {
+            cout << "Opcion invalida\n";
+        }
+    }
+}
+
+void selectAllClock(Buffer& buffer,
+                    const vector<pair<string, vector<string>>>& bloques,
+                    const vector<int>& bloques_coordenadas,
+                    int /*tam_fijo*/, int /*num_cols*/,
+                    int /*tam_columna*/[MAX_COLS],
+                    const vector<int>& bloques_registros) {
+    cout << "\n==================== SELECT * FROM tabla ====================\n";
+
+    for (const auto& bloque : bloques) {
+        string id = bloque.first;
+
+        // Solo usar bloques que contienen registros
+        bool usado = false;
+        for (int br : bloques_registros) {
+            if (id == "B" + to_string(br)) { usado = true; break; }
+        }
+        if (!usado) continue;
+
+        int page_id = stoi(id.substr(1));
+        buffer.loadPage(page_id, 0, false);
+
+        const vector<string>& rutas = bloque.second;
+        if (rutas.empty()) continue;
+
+        for (const string& ruta : rutas) {
+            ifstream in(ruta);
+            if (!in.is_open()) continue;
+
+            string linea;
+            bool esquema_saltado = false;
+
+            while (getline(in, linea)) {
+                if (!esquema_saltado) { 
+                    esquema_saltado = true; 
+                    continue; // saltar esquema 
+                }
+                if (linea.empty()) continue;
+
+                // Reemplazar '#' por '|'
+                for (char &c : linea) 
+                    if (c == '#') c = '|';
+
+                cout << linea << '\n';
+            }
+            in.close();
+        }
+    }
+
+    cout << "\n=============================================================\n";
+}
+
+void selectWhereClock(Buffer& buffer,
+                      const vector<pair<string, vector<string>>>& bloques,
+                      const vector<int>& bloques_coordenadas,
+                      const string& columna,
+                      const string& valor_buscado,
+                      char nombres_columnas[MAX_COLS][MAX_LINE_LEN],
+                      char tipos_columnas[MAX_COLS][10],
+                      int num_cols,
+                      int tam_fijo, int max_int, int max_float, int max_char)
+{
+    int indice_columna = -1;
+    int offset = 0;
+    int tam_col[MAX_COLS];
+
+
+    for (int i = 0; i < num_cols; ++i) {
+        if (strcmp(tipos_columnas[i], "int") == 0) tam_col[i] = max_int;
+        else if (strcmp(tipos_columnas[i], "float") == 0) tam_col[i] = max_float;
+        else tam_col[i] = max_char;
+    }
+
+    // Buscar indice de la columna
+    for (int i = 0; i < num_cols; ++i) {
+        if (columna == string(nombres_columnas[i])) {
+            indice_columna = i;
+            break;
+        }
+        offset += tam_col[i];
+    }
+
+    if (indice_columna == -1) {
+        cout << "Columna no encontrada: " << columna << endl;
+        return;
+    }
+
+    cout << "\n=========== SELECT * FROM tabla WHERE " << columna << " = " << valor_buscado << " ===========\n";
+
+    for (const auto& bloque : bloques) {
+        string id = bloque.first;
+
+        if (find(bloques_coordenadas.begin(), bloques_coordenadas.end(), stoi(id.substr(1))) != bloques_coordenadas.end()) {
+            continue;
+        }
+
+        int page_id = stoi(id.substr(1));
+        buffer.loadPage(page_id, 0, false);
+
+        const vector<string>& rutas = bloque.second;
+        if (rutas.empty()) continue;
+
+        bool esquema_saltado = false;
+
+        for (const string& ruta : rutas) {
+            ifstream in(ruta, ios::binary);
+            if (!in.is_open()) continue;
+
+            if (!esquema_saltado) {
+                string dummy;
+                getline(in, dummy); // saltar esquema
+                esquema_saltado = true;
+            }
+
+            char buffer_reg[tam_fijo + 1];
+            buffer_reg[tam_fijo] = '\0'; // para evitar errores de impresion
+
+            while (in.read(buffer_reg, tam_fijo)) {
+                string campo(buffer_reg + offset, tam_col[indice_columna]);
+                campo.erase(campo.find_last_not_of(' ') + 1); // trim right
+                campo.erase(0, campo.find_first_not_of(' ')); // trim left
+
+                if (campo == valor_buscado) {
+                    stringstream out;
+                    int pos = 0;
+                    for (int i = 0; i < num_cols; ++i) {
+                        string val(buffer_reg + pos, tam_col[i]);
+                        val.erase(val.find_last_not_of(' ') + 1);
+                        val.erase(0, val.find_first_not_of(' '));
+                        out << val;
+                        if (i < num_cols - 1) out << " | ";
+                        pos += tam_col[i];
+                    }
+                    cout << out.str() << endl;
+                }
+            }
+
+            in.close();
+        }
+    }
+
+    cout << "\n==================== FIN DEL SELECT WHERE ====================\n";
+}
+
+
 
 int main(){
+    vector<pair<string, vector<string>>> bloques; // bloques global
     int tam_bloque, tam_sector, n_b;
     string nombreArchivo;
     int longitudes[MAX_C];
@@ -655,44 +1322,73 @@ int main(){
     int max_float = 0;
     int max_char = 0;
     int capacidad_total;
+    int bloques_reservados_coordenadas = 0;
+    vector<int> bloques_coordenadas;
+    int tam_columna[MAX_COLS]; // <--- NUEVO
+    vector<int> bloques_registros;  // NUEVA LISTA
+
+
+    
+    const int NUM_FRAMES = 5;  // O cualquier numero fijo que desees
+    Buffer* global_clock_buffer = new Buffer(NUM_FRAMES);
+
+
     Disco* d = nullptr;
 
     //Menu    
-    do{
-        cout << "% MEGATRON3000\n Welcome to MEGATRON 3000!\n";
-        cout << "1.- Crear disco" << endl;
-        cout << "2.- Importar csv a disco" << endl;
-        //cout << "3.- Buscar un registro" << endl;
-        //cout << "4.- Agregar un registro" << endl;
-        //cout << "5.- Eliminar un registro" << endl;
-        cout << "3.- Salir" << endl;
-        cout << "Ingrese su opcion: ";
-        cin >> opcion;
+    do {
+    cout << "\n===== MEGATRON 3000 =====" << endl;
+    cout << "1. Crear disco" << endl;
+    cout << "2. Importar CSV a disco" << endl;
+    cout << "3. Consultas" << endl;
+    cout << "4. Extras" << endl;
+    cout << "5. Salir" << endl;
+    cout << "Ingrese su opcion: ";
+    cin >> opcion;
 
-        switch(opcion){
-            case 1:{
-                cout << "Numero de bytes del sector: ";
+    switch(opcion) {
+        case 1:{
+            cout << "Numero de bytes del sector: ";
                 cin >> tam_sector;
                 cout << "Numero de sectores por bloque: ";
                 cin >> n_b;
                 tam_bloque = tam_sector * n_b;
-                if (d != nullptr) delete d;  // Limpia si ya existía uno antes
+                if (d != nullptr) delete d; 
                 d = new Disco("Disco");
-                Creacion_bloques(*d, tam_sector, n_b);
                 cout << "Disco creado correctamente" << endl;
+                cout << "==========================Informacion del disco==========================" << endl;
+                
+                Creacion_bloques(*d, tam_sector, n_b, bloques_reservados_coordenadas, bloques_coordenadas);
+                
                 capacidad_total = TOTAL_SECTORES * tam_sector;
+                
                 cout << "Capacidad total: " << capacidad_total << " bytes" << endl;
+                cout << "Bloques con coordenadas: " << endl;
+                for (int n : bloques_coordenadas) {
+                    cout << n << " ";
+                }
+                cout << endl;
+                cout << "Tamano del sector: " << tam_sector << endl;
+                cout << "Tamano del bloque: " << tam_bloque << endl;
+                cout << "Numero de platos: " << platos << endl;
+                cout << "Numero de pistas: " << pistas << endl;
+                cout << "Numero de sectores: " << sectores << endl;
                 break;
-            }
+        }
+            
 
-            case 2: {
-                if (d == nullptr) {
+        case 2:{
+            if (d == nullptr) {
                     cout << "Primero debe crear el disco (opcion 1).\n";
                     break;
                 }
 
                 cout << "Nombre del archivo CSV: ";
                 cin >> nombreArchivo;
+
+                if (!cargar_registros_csv(nombreArchivo.c_str())) {
+                    break;  
+                }
 
                 cout << "Tamano de los int: ";
                 cin >> max_int;
@@ -705,33 +1401,306 @@ int main(){
                 memset(esquema, 0, sizeof(esquema));
                 obtener_esquema(archivo, nombres_columnas, tipos_columnas, num_cols, esquema);
 
-                int tam_columna[MAX_COLS];
+     
                 tam_fijo = 0;
-
                 for (int i = 0; i < num_cols; ++i) {
                     if (strcmp(tipos_columnas[i], "int") == 0) {
                         tam_columna[i] = max_int;
                     } else if (strcmp(tipos_columnas[i], "float") == 0) {
                         tam_columna[i] = max_float;
-                    } else if (strcmp(tipos_columnas[i], "string") == 0) {
+                    } else {
                         tam_columna[i] = max_char;
                     }
                     tam_fijo += tam_columna[i];
                 }
 
+                
                 guardar_csv(*d, archivo, tam_sector, tam_bloque, n_b, tam_fijo);
 
+     
                 importar_disco(*d, "temp.txt", tam_sector, tam_bloque, n_b, tam_fijo, esquema,
-                            bloques_usados, total_bloques_usados, tam_columna, num_cols, tipos_columnas);
+                            bloques_usados, total_bloques_usados, tam_columna, num_cols,
+                            tipos_columnas, bloques_coordenadas, nombres_columnas,
+                            bloques, bloques_registros);
+
+       
+                bloques.clear();
+                ifstream b0("Disco/Plato0/Superficie0/Pista0/Sector0.txt");
+                string linea;
+                getline(b0, linea); 
+
+                while (getline(b0, linea)) {
+                    if (linea.empty()) continue;
+                    int pos = linea.find(':');
+                    string id = linea.substr(0, pos); 
+                    string resto = linea.substr(pos + 1);
+
+                    vector<string> rutas;
+                    stringstream ss(resto);
+                    string token;
+                    while (getline(ss, token, '#')) {
+                        if (token.size() == 4) {
+                            int p = token[0] - '0';
+                            int s = token[1] - '0';
+                            int pi = token[2] - '0';
+                            int se = token[3] - '0';
+                            char ruta_sec[TAM_CH];
+                            sprintf(ruta_sec, "Disco\\Plato%d\\Superficie%d\\Pista%d\\Sector%d.txt", p, s, pi, se);
+                            rutas.push_back(ruta_sec);
+                        }
+                    }
+
+                    bloques.push_back({id, rutas});
+                }
 
                 cout << "CSV importado correctamente.\n";
                 break;
-            }
         }
 
-    }while (opcion != 3);
+        case 3: {
+            int op_consulta = 0;
+            do {
+                cout << "\n--- Consultas ---" << endl;
+                cout << "1. SELECT *" << endl;
+                cout << "2. Buscar ID (Hash)" << endl;
+                cout << "3. Consultas con B+ Tree" << endl;
+                cout << "4. Volver" << endl;
+                cout << "Seleccione opcion: ";
+                cin >> op_consulta;
 
-    cout << "Saliendo del programa...";
-    delete d;
-    return 0;
+                switch(op_consulta) {
+                    case 1:{
+                        vector<pair<string, vector<string>>> bloques;
+
+                        ifstream b0("Disco/Plato0/Superficie0/Pista0/Sector0.txt");
+                        string linea;
+                        getline(b0, linea);
+
+                        while (getline(b0, linea)) {
+                            if (linea.empty()) continue;
+                            int pos = linea.find(':');
+                            string id = linea.substr(0, pos); 
+                            string resto = linea.substr(pos + 1);
+
+                            vector<string> rutas;
+                            stringstream ss(resto);
+                            string token;
+                            while (getline(ss, token, '#')) {
+                                if (token.size() == 4) {
+                                    int p = token[0] - '0';
+                                    int s = token[1] - '0';
+                                    int pi = token[2] - '0';
+                                    int se = token[3] - '0';
+                                    char ruta[TAM_CH];
+                                    sprintf(ruta, "Disco\\Plato%d\\Superficie%d\\Pista%d\\Sector%d.txt", p, s, pi, se);
+                                    rutas.push_back(ruta);
+                                }
+                            }
+
+                            bloques.push_back({id, rutas});
+                        }
+
+                        selectAllClock(*global_clock_buffer,
+                                            bloques,
+                                            bloques_coordenadas,
+                                            tam_fijo,
+                                            num_cols,
+                                            tam_columna, bloques_registros);
+                        break;
+
+                    }
+
+                    case 2:{
+                        if (directorio.empty()) {
+                            cout << "El indice hash aun no ha sido construido.\n";
+                            break;
+                        }
+
+                        cout << "Ya existe un buffer cargado. Se usara el existente.\n";
+
+
+
+
+                        int id;
+                        cout << "ID a buscar: ";
+                        cin >> id;
+                        cin.ignore();
+
+                        buscar_en_hash_clock(id, global_clock_buffer, bloques);
+                        break;
+                    }
+
+                    case 3:{
+                        construir_hash_extendible();  
+
+                        while (true) {
+                            int tipo;
+                            int valor;
+
+                            cout << "\n===== CONSULTAS B+ TREE SOBRE ID =====\n";
+                            cout << "1. WHERE ID < valor\n";
+                            cout << "2. WHERE ID > valor\n";
+                            cout << "3. Mostrar arbol\n";
+                            cout << "4. Volver al menu principal\n";
+                            cout << "Seleccione opcion: ";
+                            cin >> tipo;
+
+                            if (tipo == 4) break;
+
+                            if(tipo == 3){
+                                bpt_id.bpt_print();
+                                break;
+                            }
+
+
+                            if (tipo != 1 && tipo != 2) {
+                                cout << "Opcion invalida\n";
+                                continue;
+                            }
+
+                            cout << "Ingrese el valor: ";
+                            cin >> valor;
+
+                            const int MAX_RESULTADOS = 10000;
+                            int resultados[MAX_RESULTADOS];
+
+                            int desde = (tipo == 1) ? 0 : valor + 1;
+                            int hasta = (tipo == 1) ? valor - 1 : 9999999;
+
+                            int encontrados = bpt_id.range_search(desde, hasta, resultados, MAX_RESULTADOS);
+
+                            if (encontrados == 0) {
+                                cout << "No se encontraron registros con ese criterio.\n";
+                            } else {
+                                for (int i = 0; i < num_cols; ++i) {
+                                    cout << left << setw(20) << nombres_columnas[i];
+                                }
+                                cout << '\n' << string(num_cols * 20, '-') << '\n';
+
+                                for (int i = 0; i < encontrados; ++i) {
+                                    int clave = resultados[i];
+                                    int index = obtener_bits(hash_func(clave), global_depth);
+                                    if (index >= (int)directorio.size()) continue;
+
+                                    Bucket* b = directorio[index];
+                                    for (const auto& r : b->registros) {
+                                        if (stoi(r.campos[ID_INDEX]) == clave) {
+                                            for (int j = 0; j < num_cols && j < (int)r.campos.size(); ++j) {
+                                                cout << left << setw(20) << r.campos[j];
+                                            }
+                                            cout << '\n';
+                                            break;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        break;
+                    }
+
+                    case 4:
+                        break;
+
+                    default:
+                        cout << "Opcion invalida.\n";
+                }
+            } while (op_consulta != 4);
+            break;
+        }
+
+        case 4: {
+            int op_extra = 0;
+            do {
+                cout << "\n--- Extras ---" << endl;
+                cout << "1. Buffer manager (clock)" << endl;
+                cout << "2. Mostrar contenido de buckets" << endl;
+                cout << "3. Comprobacion manual del hash" << endl;
+                cout << "4. Mostrar arbol B+" << endl;
+                cout << "5. Volver" << endl;
+                cout << "Seleccione opcion: ";
+                cin >> op_extra;
+
+                switch(op_extra) {
+                    case 1:{
+                        if (d == nullptr) {
+                            cout << "Primero debe crear el disco (opcion 1).\n";
+                            break;
+                        }
+
+                        vector<pair<string, vector<string>>> bloques;
+
+                        ifstream b0("Disco/Plato0/Superficie0/Pista0/Sector0.txt");
+                        string linea;
+                        getline(b0, linea); // saltar header
+
+                        while (getline(b0, linea)) {
+                            if (linea.empty()) continue;
+                            int pos = linea.find(':');
+                            string id = linea.substr(0, pos); // "B0"
+                            string resto = linea.substr(pos + 1);
+
+                            vector<string> rutas;
+                            stringstream ss(resto);
+                            string token;
+                            while (getline(ss, token, '#')) {
+                                if (token.size() == 4) {
+                                    int p = token[0] - '0';
+                                    int s = token[1] - '0';
+                                    int pi = token[2] - '0';
+                                    int se = token[3] - '0';
+                                    char ruta[TAM_CH];
+                                    sprintf(ruta, "Disco\\Plato%d\\Superficie%d\\Pista%d\\Sector%d.txt", p, s, pi, se);
+                                    rutas.push_back(ruta);
+                                }
+                            }
+
+                            bloques.push_back({id, rutas});
+                        }
+
+                        MENU_CLOCK(bloques, global_clock_buffer);
+
+                        break;
+                    }
+
+                    case 2:{
+                        if (registros_csv.empty()) {
+                            cout << "Primero debe importar un CSV.\n";
+                            break;
+                        }
+
+                        construir_hash_extendible();
+                        mostrar_buckets_binario();
+                        break;
+                    }
+
+                    case 3:{
+                        insertar_numeros_manual();
+                        break;
+                    }
+
+                    case 4:{
+                        bpt_id.bpt_print();
+                        break;
+                    }
+
+                    case 5:
+                        break;
+
+                    default:
+                        cout << "Opcion invalida.\n";
+                }
+            } while (op_extra != 5);
+            break;
+        }
+
+        case 5:
+            cout << "Saliendo del programa..." << endl;
+            break;
+
+        default:
+            cout << "Opcion invalida. Intente de nuevo.\n";
+    }
+} while (opcion != 5);
+
 }
+

@@ -1,0 +1,11 @@
+ID:8#R:49#Lib:0#Tam_fijo:100
+oat#cantidad#int#en_stock#string#fecha_ingreso#string#ISBN#int
+10343     Proyector Modelo 559179.35    14        si                  2025-06-16          46024452  
+10344     Teclado Modelo 152  444.28    11        si                  2025-03-26          15650420  
+10345     Tablet Modelo 322   1546.2    24        si                  2025-05-17          29656616  
+10346     Escaner Modelo 713  1060.8    27        si                  2025-03-06          47746798  
+10347     Disco Duro Modelo 31774.68    0         no                  2025-03-29          66923338  
+10348     Proyector Modelo 5731470.37   21        si                  2025-05-08          68004884  
+10349     Cable HDMI Modelo 281947.53   24        si                  2025-02-10          15728053  
+10350     Cable HDMI Modelo 41462.53    0         no                  2025-02-16          24329049  
+10351     Laptop Modelo 455   761.99    50        si                  2025-07-02          33705427  

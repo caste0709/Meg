@@ -1,0 +1,10 @@
+10323     Adaptador Bluetooth 1042.86   42        si                  2025-01-27          66996888  
+10324     Tarjeta de Video Mod1595.09   22        si                  2025-06-16          49044505  
+10325     Laptop Modelo 658   1399.45   37        si                  2025-05-15          97612258  
+10326     Tablet Modelo 657   286.91    14        si                  2025-05-23          17641942  
+10327     Joystick Modelo 276 1187.74   24        si                  2025-02-09          29687038  
+10328     Procesador Modelo 361687.17   42        si                  2025-05-22          82889470  
+10329     Tarjeta de Video Mod1219.78   2         si                  2025-03-05          39747534  
+10330     Smartphone Modelo 781729.11   7         si                  2025-03-23          54177534  
+10331     Tarjeta Madre Modelo493.22    22        si                  2025-04-04          80815961  
+10332     Teclado Modelo 308  1756.85   33        si                  2025-02-27          44905849  

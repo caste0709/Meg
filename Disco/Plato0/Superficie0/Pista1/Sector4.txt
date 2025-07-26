@@ -1,0 +1,10 @@
+10774     Case Modelo 707     371.69    33        si                  2025-07-02          11147736  
+10775     Mouse Modelo 416    1925.23   13        si                  2025-04-03          46368550  
+10776     Microfono Modelo 525520.84    24        si                  2025-06-27          31455770  
+10777     Adaptador Bluetooth 1113.53   14        si                  2025-01-26          59648273  
+10778     Escaner Modelo 465  1997.9    6         si                  2025-05-25          26184403  
+10779     Adaptador Bluetooth 1298.38   43        si                  2025-04-28          54399449  
+10780     Smartphone Modelo 701644.78   35        si                  2025-03-17          28906935  
+10781     Impresora Modelo 1291263.86   27        si                  2025-04-23          71896173  
+10782     Cable HDMI Modelo 21246.66    7         si                  2025-03-09          38947884  
+10783     Smartphone Modelo 551379.59   48        si                  2025-03-20          58725916  

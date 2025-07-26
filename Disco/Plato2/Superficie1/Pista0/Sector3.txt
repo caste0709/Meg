@@ -1,0 +1,10 @@
+10225     Procesador Modelo 91380.73    40        si                  2025-04-02          66264796  
+10226     Teclado Modelo 658  1973.79   47        si                  2025-06-12          48118547  
+10227     Parlantes Modelo 659624.5     43        si                  2025-02-05          73211527  
+10228     Laptop Modelo 993   763.06    16        si                  2025-05-27          97439281  
+10229     Adaptador Bluetooth 622.59    34        si                  2025-02-25          19978094  
+10230     Router Modelo 383   1843.6    3         si                  2025-04-11          51940726  
+10231     Teclado Modelo 916  266.1     18        si                  2025-04-23          13167908  
+10232     Cooler Modelo 446   486.51    48        si                  2025-03-06          61881736  
+10233     SSD Externo Modelo 2593.27    5         si                  2025-06-03          22968477  
+10234     Laptop Modelo 522   1452.58   12        si                  2025-02-26          85096999  

@@ -1,0 +1,11 @@
+ID:14#R:49#Lib:0#Tam_fijo:100
+at#cantidad#int#en_stock#string#fecha_ingreso#string#ISBN#int
+10637     Microfono Modelo 455161.59    46        si                  2025-02-11          19759520  
+10638     Smartphone Modelo 93885.36    22        si                  2025-07-19          62865583  
+10639     Webcam Modelo 153   316.29    40        si                  2025-03-22          80137303  
+10640     Hub USB Modelo 501  1525.17   3         si                  2025-06-13          18017418  
+10641     Cooler Modelo 709   194.9     4         si                  2025-07-15          60261111  
+10642     Webcam Modelo 978   739.74    26        si                  2025-07-13          26299139  
+10643     Disco Duro Modelo 99638.39    9         si                  2025-03-24          54149669  
+10644     Laptop Modelo 631   1580.75   22        si                  2025-02-12          20188335  
+10645     Microfono Modelo 6141797.09   6         si                  2025-02-12          78960096  

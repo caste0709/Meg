@@ -1,0 +1,10 @@
+10656     Auriculares Modelo 51893.53   0         no                  2025-04-04          34944531  
+10657     Smartphone Modelo 8443.49     16        si                  2025-06-26          38929224  
+10658     Adaptador Bluetooth 1028.57   46        si                  2025-05-16          60515764  
+10659     Tablet Modelo 410   1122.46   38        si                  2025-04-11          74504106  
+10660     Joystick Modelo 562 626.27    21        si                  2025-05-05          86269078  
+10661     Impresora Modelo 908748.31    47        si                  2025-04-12          90502087  
+10662     Escaner Modelo 679  1219.25   36        si                  2025-04-28          69914497  
+10663     Proyector Modelo 981629.56    38        si                  2025-03-17          63982831  
+10664     Mouse Modelo 148    1330.9    33        si                  2025-03-31          12731715  
+10665     Hub USB Modelo 573  1359.06   17        si                  2025-05-21          72680752  

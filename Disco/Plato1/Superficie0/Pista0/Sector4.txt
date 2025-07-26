@@ -1,0 +1,10 @@
+10088     Auriculares Modelo 184.29     6         si                  2025-07-10          40422768  
+10089     Cable HDMI Modelo 271716.62   30        si                  2025-04-22          19630255  
+10090     Smartwatch Modelo 10814.21    37        si                  2025-02-05          88554796  
+10091     Procesador Modelo 39894.96    50        si                  2025-06-20          25516037  
+10092     Laptop Modelo 805   1846.51   38        si                  2025-06-18          69043920  
+10093     Tarjeta de Video Mod1374.87   44        si                  2025-07-08          35750106  
+10094     Proyector Modelo 5271850.95   47        si                  2025-06-08          69244170  
+10095     Disco Duro Modelo 841022.53   17        si                  2025-03-06          15024656  
+10096     Microfono Modelo 6301445.02   50        si                  2025-05-27          59181091  
+10097     Camara IP Modelo 465980.75    12        si                  2025-03-28          78932514  

@@ -1,0 +1,11 @@
+ID:5#R:49#Lib:0#Tam_fijo:100
+oat#cantidad#int#en_stock#string#fecha_ingreso#string#ISBN#int
+10196     Tarjeta Madre Modelo1397.02   16        si                  2025-03-05          74673904  
+10197     Tablet Modelo 590   1817.45   40        si                  2025-03-14          47990576  
+10198     Escaner Modelo 831  858.11    18        si                  2025-02-26          25582220  
+10199     Proyector Modelo 1211575.85   45        si                  2025-04-12          97579668  
+10200     Auriculares Modelo 6831.52    42        si                  2025-07-24          92127121  
+10201     Escaner Modelo 479  1895.78   2         si                  2025-07-24          68966833  
+10202     Tablet Modelo 316   424.36    16        si                  2025-05-10          46206911  
+10203     Parlantes Modelo 753199.84    47        si                  2025-05-08          38192686  
+10204     Fuente de Poder Mode1391.74   46        si                  2025-02-01          93563569  

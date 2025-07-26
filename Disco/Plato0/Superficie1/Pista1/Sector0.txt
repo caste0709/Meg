@@ -1,0 +1,11 @@
+ID:17#R:49#Lib:0#Tam_fijo:100
+at#cantidad#int#en_stock#string#fecha_ingreso#string#ISBN#int
+10784     Router Modelo 185   773.0     14        si                  2025-06-26          65185568  
+10785     Procesador Modelo 45349.04    37        si                  2025-05-02          89303678  
+10786     Cable HDMI Modelo 51222.19    9         si                  2025-04-17          18866225  
+10787     Joystick Modelo 898 1659.77   6         si                  2025-04-30          55425145  
+10788     Impresora Modelo 6061391.86   16        si                  2025-02-12          39805120  
+10789     Adaptador Bluetooth 589.4     49        si                  2025-07-24          89951039  
+10790     SSD Externo Modelo 9650.66    36        si                  2025-04-14          63155605  
+10791     Auriculares Modelo 6354.5     9         si                  2025-03-11          19144267  
+10792     Parlantes Modelo 9691928.58   28        si                  2025-07-19          60606581  

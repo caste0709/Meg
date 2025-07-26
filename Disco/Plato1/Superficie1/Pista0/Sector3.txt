@@ -1,0 +1,10 @@
+10127     Memoria RAM Modelo 81576.43   7         si                  2025-03-01          87678694  
+10128     Tarjeta de Video Mod1057.5    29        si                  2025-07-16          16984796  
+10129     Escaner Modelo 152  1676.81   50        si                  2025-07-12          95293607  
+10130     Consola de Juegos Mo1892.56   3         si                  2025-03-19          51701709  
+10131     Webcam Modelo 765   1256.41   23        si                  2025-05-22          55420344  
+10132     Tarjeta Madre Modelo1205.3    6         si                  2025-03-04          15465257  
+10133     Hub USB Modelo 275  1773.09   19        si                  2025-05-24          30843556  
+10134     Camara IP Modelo 4411225.79   6         si                  2025-06-27          20839347  
+10135     Cooler Modelo 936   38.33     43        si                  2025-04-23          54370453  
+10136     Monitor Modelo 750  521.89    27        si                  2025-03-29          36499761  

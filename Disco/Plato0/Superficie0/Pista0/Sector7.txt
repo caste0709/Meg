@@ -1,0 +1,10 @@
+10362     Mouse Modelo 858    1459.15   13        si                  2025-06-11          10361493  
+10363     Auriculares Modelo 21623.6    38        si                  2025-03-02          27260260  
+10364     Camara IP Modelo 578231.15    48        si                  2025-02-03          27940045  
+10365     Cooler Modelo 602   97.55     33        si                  2025-04-05          78650892  
+10366     Monitor Modelo 853  1815.19   45        si                  2025-02-09          75083333  
+10367     Auriculares Modelo 6260.55    50        si                  2025-04-04          31828602  
+10368     Monitor Modelo 615  378.23    18        si                  2025-06-13          79388550  
+10369     Parlantes Modelo 811894.53    14        si                  2025-06-29          83600135  
+10370     Auriculares Modelo 31871.52   3         si                  2025-06-12          69316398  
+10371     Case Modelo 648     625.78    42        si                  2025-02-22          15329950  

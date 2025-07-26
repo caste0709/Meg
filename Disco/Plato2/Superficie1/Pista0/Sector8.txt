@@ -1,0 +1,10 @@
+10617     Laptop Modelo 353   305.13    14        si                  2025-07-19          78564801  
+10618     Smartwatch Modelo 31411.82    15        si                  2025-03-19          60521043  
+10619     Joystick Modelo 714 1106.39   42        si                  2025-03-06          63968118  
+10620     Mouse Modelo 485    1157.59   40        si                  2025-03-21          37032085  
+10621     Consola de Juegos Mo1785.6    32        si                  2025-07-01          95781256  
+10622     Escaner Modelo 145  77.55     18        si                  2025-06-20          89366747  
+10623     SSD Externo Modelo 51426.76   40        si                  2025-01-26          20433400  
+10624     Tablet Modelo 377   504.0     35        si                  2025-04-05          26769692  
+10625     Procesador Modelo 71858.56    15        si                  2025-04-16          48170044  
+10626     Tarjeta Madre Modelo1414.52   13        si                  2025-02-21          55390726  

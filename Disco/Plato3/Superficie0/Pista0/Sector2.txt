@@ -1,0 +1,10 @@
+10264     Adaptador Bluetooth 1457.16   49        si                  2025-06-04          64975309  
+10265     Smartwatch Modelo 98329.49    43        si                  2025-04-29          45815998  
+10266     Auriculares Modelo 71406.3    33        si                  2025-02-23          24772234  
+10267     Smartwatch Modelo 45486.73    43        si                  2025-02-10          13563969  
+10268     Camara IP Modelo 4131507.13   34        si                  2025-07-06          58413571  
+10269     Tablet Modelo 448   1195.94   45        si                  2025-02-07          20322423  
+10270     Disco Duro Modelo 301608.66   30        si                  2025-03-13          70405162  
+10271     Tarjeta Madre Modelo693.35    44        si                  2025-05-23          80897158  
+10272     Tarjeta Madre Modelo1999.86   1         si                  2025-06-05          32481408  
+10273     Camara IP Modelo 4411828.04   30        si                  2025-02-20          36284181  

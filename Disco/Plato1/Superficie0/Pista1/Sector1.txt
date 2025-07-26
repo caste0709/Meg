@@ -1,0 +1,10 @@
+10842     Joystick Modelo 830 294.49    38        si                  2025-03-26          95613465  
+10843     Consola de Juegos Mo304.87    43        si                  2025-05-02          70921670  
+10844     Teclado Modelo 119  823.0     0         no                  2025-03-25          16915265  
+10845     Memoria RAM Modelo 81717.78   15        si                  2025-06-18          74139855  
+10846     Hub USB Modelo 213  784.87    47        si                  2025-05-18          33543194  
+10847     Procesador Modelo 661789.57   13        si                  2025-05-01          78256308  
+10848     SSD Externo Modelo 91248.37   34        si                  2025-05-21          62088576  
+10849     Camara IP Modelo 6041784.39   19        si                  2025-05-19          39305305  
+10850     Teclado Modelo 110  1528.05   44        si                  2025-04-09          64205204  
+10851     Tarjeta de Video Mod1421.23   34        si                  2025-02-16          19852707  

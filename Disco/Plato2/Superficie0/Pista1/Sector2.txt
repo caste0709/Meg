@@ -1,0 +1,10 @@
+10950     Procesador Modelo 101426.11   38        si                  2025-04-25          59827036  
+10951     Camara IP Modelo 1981046.36   6         si                  2025-05-13          69068809  
+10952     Smartphone Modelo 78349.18    41        si                  2025-06-29          95707877  
+10953     Webcam Modelo 742   1423.31   46        si                  2025-06-24          43855799  
+10954     Fuente de Poder Mode987.04    1         si                  2025-06-22          80413423  
+10955     Monitor Modelo 568  357.43    43        si                  2025-04-24          38647418  
+10956     Adaptador Bluetooth 1939.95   19        si                  2025-02-01          53140132  
+10957     Proyector Modelo 8221839.02   37        si                  2025-06-16          50854063  
+10958     Tarjeta Madre Modelo772.29    31        si                  2025-03-22          29220342  
+10959     Fuente de Poder Mode915.95    39        si                  2025-03-21          36320034  

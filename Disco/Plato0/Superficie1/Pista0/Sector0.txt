@@ -1,0 +1,11 @@
+ID:1#R:49#Lib:0#Tam_fijo:100
+oat#cantidad#int#en_stock#string#fecha_ingreso#string#ISBN#int
+10000     Auriculares Modelo 41005.85   35        si                  2025-02-06          46584078  
+10001     Cable HDMI Modelo 861227.38   12        si                  2025-02-26          28570149  
+10002     Procesador Modelo 461338.27   20        si                  2025-04-16          51780676  
+10003     Hub USB Modelo 127  450.68    14        si                  2025-03-28          34941406  
+10004     Adaptador Bluetooth 1731.87   16        si                  2025-07-05          44597372  
+10005     Memoria RAM Modelo 3236.39    40        si                  2025-02-01          95974586  
+10006     Escaner Modelo 915  1000.62   9         si                  2025-05-16          83171687  
+10007     Procesador Modelo 22872.29    19        si                  2025-01-28          51532100  
+10008     Laptop Modelo 532   1685.62   27        si                  2025-03-16          83787026  

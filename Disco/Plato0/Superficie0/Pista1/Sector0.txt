@@ -1,0 +1,11 @@
+ID:16#R:49#Lib:0#Tam_fijo:100
+at#cantidad#int#en_stock#string#fecha_ingreso#string#ISBN#int
+10735     Mouse Modelo 952    1198.24   34        si                  2025-03-22          78098393  
+10736     Consola de Juegos Mo792.31    23        si                  2025-04-12          72306267  
+10737     Smartwatch Modelo 541706.72   1         si                  2025-05-14          34384430  
+10738     Procesador Modelo 331700.1    41        si                  2025-07-16          21474721  
+10739     Smartphone Modelo 14887.82    8         si                  2025-06-02          90066828  
+10740     Procesador Modelo 4363.01     16        si                  2025-06-17          27112992  
+10741     Disco Duro Modelo 1944.17     26        si                  2025-06-08          71695459  
+10742     Escaner Modelo 453  1878.87   10        si                  2025-04-11          41998924  
+10743     Tablet Modelo 618   671.39    9         si                  2025-05-04          81547777  

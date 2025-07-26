@@ -1,0 +1,11 @@
+10896     Tarjeta de Video Mod486.93    40        si                  2025-06-09          
+10897     Fuente de Poder Mode424.02    30        si                  2025-04-29          
+10898     Joystick Modelo 730 1623.79   11        si                  2025-03-16          
+10899     Disco Duro Modelo 66106.44    0         no                  2025-06-22          
+10900     Camara IP Modelo 4231066.3    1         si                  2025-05-04          
+10901     Smartwatch Modelo 401960.82   18        si                  2025-03-12          
+10902     Fuente de Poder Mode1501.91   19        si                  2025-06-08          
+10903     Tablet Modelo 676   1121.45   25        si                  2025-07-03          
+10904     Escaner Modelo 349  894.33    36        si                  2025-05-11          
+10905     Router Modelo 312   108.13    44        si                  2025-05-20          
+10906     Adaptador Bluetooth 1574.75   14        si                  2025-04-14          

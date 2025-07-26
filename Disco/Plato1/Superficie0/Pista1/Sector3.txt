@@ -1,0 +1,10 @@
+10862     Impresora Modelo 3571048.05   44        si                  2025-02-12          10217080  
+10863     Smartphone Modelo 171385.3    17        si                  2025-05-09          61648035  
+10864     Disco Duro Modelo 241870.06   7         si                  2025-03-04          97758787  
+10865     Monitor Modelo 922  1791.58   20        si                  2025-04-11          21634391  
+10866     Parlantes Modelo 3711103.85   24        si                  2025-04-21          85595328  
+10867     Parlantes Modelo 4521441.71   5         si                  2025-05-06          24238118  
+10868     Teclado Modelo 253  482.7     32        si                  2025-01-28          47831651  
+10869     Tarjeta de Video Mod400.65    12        si                  2025-07-01          79938739  
+10870     Consola de Juegos Mo508.19    14        si                  2025-03-16          96649726  
+10871     Tarjeta Madre Modelo1943.82   0         no                  2025-06-04          23702331  

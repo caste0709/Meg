@@ -1,0 +1,10 @@
+10989     Proyector Modelo 3781481.36   17        si                  2025-03-15          64400934  
+10990     Proyector Modelo 37572.08     19        si                  2025-03-20          43790644  
+10991     Tablet Modelo 872   99.2      29        si                  2025-05-16          20595444  
+10992     Mouse Modelo 610    660.05    32        si                  2025-03-13          30957123  
+10993     Router Modelo 171   154.1     48        si                  2025-02-25          54361155  
+10994     Parlantes Modelo 483796.81    47        si                  2025-05-05          79129238  
+10995     Microfono Modelo 3761864.46   48        si                  2025-06-25          15789519  
+10996     Teclado Modelo 332  1891.72   22        si                  2025-04-04          52622410  
+10997     Cable HDMI Modelo 87152.9     31        si                  2025-04-08          17793895  
+10998     Teclado Modelo 111  1017.22   26        si                  2025-04-08          85297874  

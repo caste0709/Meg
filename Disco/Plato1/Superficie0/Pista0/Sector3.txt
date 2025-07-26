@@ -1,0 +1,10 @@
+10078     Cable HDMI Modelo 24978.35    30        si                  2025-03-29          69280898  
+10079     Parlantes Modelo 952911.28    29        si                  2025-06-06          53283944  
+10080     Procesador Modelo 61289.18    5         si                  2025-03-26          45198273  
+10081     Cable HDMI Modelo 281480.78   18        si                  2025-06-04          93896615  
+10082     Joystick Modelo 455 137.48    13        si                  2025-03-14          59446317  
+10083     Joystick Modelo 361 1178.47   0         no                  2025-04-03          36389920  
+10084     Joystick Modelo 451 1977.94   13        si                  2025-04-10          28204805  
+10085     Case Modelo 490     387.22    41        si                  2025-03-22          64504709  
+10086     Mouse Modelo 530    1523.65   14        si                  2025-03-21          26754745  
+10087     Microfono Modelo 3001815.36   29        si                  2025-02-12          11899566  

@@ -1,0 +1,11 @@
+10907     Procesador Modelo 23284.87    45        si                  2025-07-18          
+10908     Smartphone Modelo 87563.6     15        si                  2025-04-06          
+10909     Tarjeta Madre Modelo325.46    36        si                  2025-02-17          
+10910     Escaner Modelo 466  1685.37   10        si                  2025-04-22          
+10911     Smartwatch Modelo 26535.87    33        si                  2025-07-13          
+10912     Tarjeta de Video Mod1677.74   2         si                  2025-02-20          
+10913     Auriculares Modelo 3294.73    35        si                  2025-03-01          
+10914     Fuente de Poder Mode1661.14   24        si                  2025-02-15          
+10915     Tablet Modelo 655   1667.65   7         si                  2025-05-21          
+10916     Disco Duro Modelo 25815.55    44        si                  2025-03-19          
+10917     Escaner Modelo 156  1550.97   30        si                  2025-06-20          

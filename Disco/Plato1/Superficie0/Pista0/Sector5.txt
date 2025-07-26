@@ -1,0 +1,11 @@
+ID:10#R:49#Lib:0#Tam_fijo:100
+at#cantidad#int#en_stock#string#fecha_ingreso#string#ISBN#int
+10441     Microfono Modelo 8451958.9    40        si                  2025-02-03          66461604  
+10442     Smartphone Modelo 571353.28   4         si                  2025-03-16          71949471  
+10443     Escaner Modelo 337  1719.21   11        si                  2025-02-24          21356844  
+10444     Tarjeta de Video Mod225.05    13        si                  2025-07-01          70130658  
+10445     Joystick Modelo 138 145.82    29        si                  2025-02-10          59113167  
+10446     Memoria RAM Modelo 1299.63    30        si                  2025-05-29          49251613  
+10447     Disco Duro Modelo 79176.2     42        si                  2025-04-07          58170394  
+10448     Cable HDMI Modelo 391256.17   14        si                  2025-07-18          67859610  
+10449     Joystick Modelo 542 1726.4    22        si                  2025-03-31          42211066  

@@ -1,0 +1,10 @@
+10284     Cooler Modelo 461   1524.43   30        si                  2025-05-29          50931365  
+10285     Memoria RAM Modelo 31161.91   38        si                  2025-05-11          93788395  
+10286     Mouse Modelo 785    1325.11   12        si                  2025-05-05          10335836  
+10287     Microfono Modelo 537882.08    0         no                  2025-06-01          42001006  
+10288     Cooler Modelo 820   407.98    40        si                  2025-04-24          97593600  
+10289     Smartwatch Modelo 621149.08   26        si                  2025-03-26          19266804  
+10290     Camara IP Modelo 680310.24    18        si                  2025-03-05          47564730  
+10291     Memoria RAM Modelo 1929.49    49        si                  2025-03-05          40529743  
+10292     Cable HDMI Modelo 72528.88    1         si                  2025-07-24          88129191  
+10293     Parlantes Modelo 162830.97    30        si                  2025-05-19          73235086  

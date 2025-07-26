@@ -1,0 +1,10 @@
+10705     Parlantes Modelo 673611.84    49        si                  2025-06-07          11512195  
+10706     Consola de Juegos Mo183.32    44        si                  2025-04-04          75517162  
+10707     Consola de Juegos Mo1600.2    14        si                  2025-05-26          85999428  
+10708     Mouse Modelo 245    1830.87   35        si                  2025-05-10          21182583  
+10709     Adaptador Bluetooth 646.44    1         si                  2025-01-27          16947711  
+10710     Proyector Modelo 4291168.59   14        si                  2025-06-02          81890318  
+10711     Smartphone Modelo 97416.36    12        si                  2025-04-11          16033076  
+10712     Auriculares Modelo 8471.21    20        si                  2025-02-20          27459519  
+10713     Impresora Modelo 663574.67    0         no                  2025-02-07          70086147  
+10714     Laptop Modelo 108   483.77    12        si                  2025-03-26          74696368  

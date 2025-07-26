@@ -1,0 +1,11 @@
+ID:20#R:49#Lib:0#Tam_fijo:100
+at#cantidad#int#en_stock#string#fecha_ingreso#string#ISBN#int
+10931     Auriculares Modelo 3419.06    25        si                  2025-01-26          52533896  
+10932     Escaner Modelo 531  1192.08   22        si                  2025-06-17          55427804  
+10933     Case Modelo 559     622.05    25        si                  2025-05-23          50672839  
+10934     Fuente de Poder Mode1951.75   38        si                  2025-03-19          28202301  
+10935     Tarjeta de Video Mod1594.23   2         si                  2025-03-10          55017889  
+10936     Case Modelo 223     1774.06   2         si                  2025-07-16          69880619  
+10937     Procesador Modelo 41843.69    17        si                  2025-01-29          65195757  
+10938     Smartphone Modelo 231560.56   8         si                  2025-01-29          34890146  
+10939     Proyector Modelo 616847.46    43        si                  2025-04-23          34293164  

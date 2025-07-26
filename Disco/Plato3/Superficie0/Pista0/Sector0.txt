@@ -1,0 +1,11 @@
+ID:6#R:49#Lib:0#Tam_fijo:100
+oat#cantidad#int#en_stock#string#fecha_ingreso#string#ISBN#int
+10245     Smartwatch Modelo 32133.67    25        si                  2025-05-18          69655182  
+10246     Tarjeta de Video Mod824.6     2         si                  2025-04-04          91504009  
+10247     Adaptador Bluetooth 1105.86   3         si                  2025-02-11          81128207  
+10248     Smartwatch Modelo 53646.44    47        si                  2025-05-23          45681528  
+10249     Fuente de Poder Mode931.31    36        si                  2025-04-08          86491057  
+10250     Mouse Modelo 450    276.42    36        si                  2025-04-02          34093325  
+10251     Case Modelo 422     773.95    22        si                  2025-01-27          70112466  
+10252     Tarjeta Madre Modelo1541.59   6         si                  2025-03-03          20523592  
+10253     Escaner Modelo 321  872.79    42        si                  2025-04-15          58853987  

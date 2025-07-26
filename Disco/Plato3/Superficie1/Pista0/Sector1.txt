@@ -1,0 +1,10 @@
+10303     Laptop Modelo 625   491.06    3         si                  2025-05-14          45638890  
+10304     Impresora Modelo 9081829.68   29        si                  2025-01-31          47692551  
+10305     Adaptador Bluetooth 872.46    50        si                  2025-03-26          81757403  
+10306     Memoria RAM Modelo 21189.35   11        si                  2025-05-11          26994706  
+10307     Parlantes Modelo 9571389.19   10        si                  2025-02-13          12551830  
+10308     Proyector Modelo 1801335.52   50        si                  2025-07-09          64648079  
+10309     Disco Duro Modelo 81857.48    3         si                  2025-02-28          72920103  
+10310     Laptop Modelo 523   709.18    10        si                  2025-03-31          74456560  
+10311     Microfono Modelo 465710.1     4         si                  2025-03-11          85318285  
+10312     Disco Duro Modelo 73395.55    47        si                  2025-05-18          57050575  

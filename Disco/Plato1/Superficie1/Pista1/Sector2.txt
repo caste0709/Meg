@@ -1,0 +1,10 @@
+10901     Smartwatch Modelo 401960.82   18        si                  2025-03-12          99788981  
+10902     Fuente de Poder Mode1501.91   19        si                  2025-06-08          88894748  
+10903     Tablet Modelo 676   1121.45   25        si                  2025-07-03          30699297  
+10904     Escaner Modelo 349  894.33    36        si                  2025-05-11          65936358  
+10905     Router Modelo 312   108.13    44        si                  2025-05-20          95691339  
+10906     Adaptador Bluetooth 1574.75   14        si                  2025-04-14          94361021  
+10907     Procesador Modelo 23284.87    45        si                  2025-07-18          53191388  
+10908     Smartphone Modelo 87563.6     15        si                  2025-04-06          56815544  
+10909     Tarjeta Madre Modelo325.46    36        si                  2025-02-17          25648824  
+10910     Escaner Modelo 466  1685.37   10        si                  2025-04-22          24948129  

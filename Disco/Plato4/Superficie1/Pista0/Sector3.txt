@@ -1,0 +1,11 @@
+10410     Cable HDMI Modelo 91420.77    29        si                  2025-05-03          
+10411     Impresora Modelo 795471.52    24        si                  2025-02-24          
+10412     Smartwatch Modelo 891976.98   21        si                  2025-02-27          
+10413     Case Modelo 749     650.6     46        si                  2025-04-23          
+10414     Adaptador Bluetooth 740.54    35        si                  2025-02-27          
+10415     Disco Duro Modelo 351795.73   31        si                  2025-07-03          
+10416     Mouse Modelo 430    1027.46   11        si                  2025-02-08          
+10417     Cable HDMI Modelo 68876.01    1         si                  2025-05-26          
+10418     Webcam Modelo 723   218.54    31        si                  2025-05-23          
+10419     Disco Duro Modelo 94343.12    42        si                  2025-03-05          
+10420     Escaner Modelo 334  1723.51   36        si                  2025-04-13          

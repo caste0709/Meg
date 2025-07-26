@@ -1,0 +1,10 @@
+10460     Procesador Modelo 501703.33   35        si                  2025-02-11          59511026  
+10461     Smartwatch Modelo 53218.95    28        si                  2025-03-12          43112030  
+10462     Webcam Modelo 172   487.97    29        si                  2025-03-06          79366540  
+10463     Webcam Modelo 285   1471.75   44        si                  2025-06-19          51631749  
+10464     Procesador Modelo 86224.78    27        si                  2025-07-10          21676290  
+10465     Memoria RAM Modelo 2746.87    46        si                  2025-05-15          67192781  
+10466     Proyector Modelo 278299.28    6         si                  2025-04-08          51116559  
+10467     Impresora Modelo 3351647.74   21        si                  2025-03-31          34746161  
+10468     Escaner Modelo 901  1086.92   35        si                  2025-03-08          45796551  
+10469     Memoria RAM Modelo 177.16     4         si                  2025-02-19          86015357  

@@ -1,0 +1,10 @@
+10519     Memoria RAM Modelo 61378.4    29        si                  2025-04-12          86431525  
+10520     Tarjeta Madre Modelo1057.12   43        si                  2025-05-22          24233349  
+10521     Cable HDMI Modelo 33400.41    41        si                  2025-02-24          75046170  
+10522     Laptop Modelo 946   392.09    34        si                  2025-04-08          93339204  
+10523     Consola de Juegos Mo1575.82   17        si                  2025-04-12          64288860  
+10524     Monitor Modelo 353  1647.43   41        si                  2025-03-15          65590865  
+10525     Case Modelo 496     1347.5    50        si                  2025-03-06          24338370  
+10526     Adaptador Bluetooth 1501.92   7         si                  2025-07-05          43463384  
+10527     Camara IP Modelo 9381535.72   47        si                  2025-03-19          61676197  
+10528     Parlantes Modelo 7981987.79   2         si                  2025-01-28          48282658  

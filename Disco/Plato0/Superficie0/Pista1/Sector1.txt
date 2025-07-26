@@ -1,0 +1,10 @@
+10744     Case Modelo 502     1550.64   35        si                  2025-04-08          20650825  
+10745     Procesador Modelo 21956.77    33        si                  2025-07-16          20022564  
+10746     Cooler Modelo 437   1333.77   33        si                  2025-07-01          88643600  
+10747     Hub USB Modelo 417  1483.02   29        si                  2025-05-28          79948566  
+10748     Memoria RAM Modelo 91899.03   11        si                  2025-04-10          89235144  
+10749     SSD Externo Modelo 91259.31   46        si                  2025-05-06          28427284  
+10750     Memoria RAM Modelo 61009.71   15        si                  2025-05-09          68791297  
+10751     Joystick Modelo 209 826.32    36        si                  2025-02-21          80446372  
+10752     Consola de Juegos Mo49.56     36        si                  2025-02-24          50882417  
+10753     Laptop Modelo 864   1801.64   50        si                  2025-05-31          47691906  

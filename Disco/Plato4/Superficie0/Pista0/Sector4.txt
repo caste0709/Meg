@@ -1,0 +1,11 @@
+10367     Auriculares Modelo 6260.55    50        si                  2025-04-04          
+10368     Monitor Modelo 615  378.23    18        si                  2025-06-13          
+10369     Parlantes Modelo 811894.53    14        si                  2025-06-29          
+10370     Auriculares Modelo 31871.52   3         si                  2025-06-12          
+10371     Case Modelo 648     625.78    42        si                  2025-02-22          
+10372     Disco Duro Modelo 96785.63    26        si                  2025-07-13          
+10373     Cable HDMI Modelo 841153.46   3         si                  2025-04-12          
+10374     Joystick Modelo 751 1479.32   15        si                  2025-03-10          
+10375     Camara IP Modelo 580176.66    1         si                  2025-07-23          
+10376     Cooler Modelo 839   182.83    2         si                  2025-02-28          
+10377     Tarjeta de Video Mod1635.09   17        si                  2025-07-02          

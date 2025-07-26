@@ -1,0 +1,10 @@
+10450     Adaptador Bluetooth 481.77    6         si                  2025-05-11          44715899  
+10451     Adaptador Bluetooth 404.08    30        si                  2025-03-09          61749929  
+10452     Disco Duro Modelo 1929.87     40        si                  2025-07-01          13139525  
+10453     Joystick Modelo 666 1293.41   38        si                  2025-02-25          58593810  
+10454     Laptop Modelo 589   1191.82   12        si                  2025-07-09          13811472  
+10455     Parlantes Modelo 8031042.65   29        si                  2025-01-31          55772158  
+10456     Procesador Modelo 24916.03    3         si                  2025-02-15          50957273  
+10457     Mouse Modelo 429    1903.02   19        si                  2025-04-04          12536894  
+10458     Tarjeta Madre Modelo1397.77   34        si                  2025-06-07          69325536  
+10459     Escaner Modelo 649  811.31    17        si                  2025-07-18          61236957  

@@ -1,0 +1,10 @@
+10911     Smartwatch Modelo 26535.87    33        si                  2025-07-13          25255620  
+10912     Tarjeta de Video Mod1677.74   2         si                  2025-02-20          64582758  
+10913     Auriculares Modelo 3294.73    35        si                  2025-03-01          37257293  
+10914     Fuente de Poder Mode1661.14   24        si                  2025-02-15          86028220  
+10915     Tablet Modelo 655   1667.65   7         si                  2025-05-21          82954436  
+10916     Disco Duro Modelo 25815.55    44        si                  2025-03-19          16915214  
+10917     Escaner Modelo 156  1550.97   30        si                  2025-06-20          86268807  
+10918     Cable HDMI Modelo 771856.5    32        si                  2025-05-07          57318117  
+10919     Disco Duro Modelo 53824.1     49        si                  2025-06-05          12580609  
+10920     Tablet Modelo 331   591.51    42        si                  2025-06-25          19135323  

@@ -1,0 +1,10 @@
+10176     Smartphone Modelo 16515.16    48        si                  2025-04-16          15290515  
+10177     Router Modelo 719   1670.44   11        si                  2025-05-22          79389939  
+10178     Cooler Modelo 592   1878.89   34        si                  2025-03-19          79295630  
+10179     Case Modelo 542     1952.73   10        si                  2025-02-23          37285815  
+10180     Parlantes Modelo 63658.03     10        si                  2025-03-31          91495386  
+10181     Impresora Modelo 7031312.65   14        si                  2025-06-16          26401370  
+10182     Monitor Modelo 969  1164.46   27        si                  2025-03-02          24932542  
+10183     Procesador Modelo 34967.26    33        si                  2025-03-15          88282823  
+10184     Impresora Modelo 739519.8     21        si                  2025-06-19          89465434  
+10185     Fuente de Poder Mode1547.2    38        si                  2025-04-19          68265598  

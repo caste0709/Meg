@@ -1,0 +1,11 @@
+ID:3#R:49#Lib:0#Tam_fijo:100
+oat#cantidad#int#en_stock#string#fecha_ingreso#string#ISBN#int
+10098     Adaptador Bluetooth 1642.14   24        si                  2025-07-06          14071912  
+10099     SSD Externo Modelo 21600.19   45        si                  2025-04-08          53479861  
+10100     Smartphone Modelo 93713.98    47        si                  2025-04-14          81168937  
+10101     Disco Duro Modelo 81201.33    19        si                  2025-06-01          55026037  
+10102     Tarjeta de Video Mod608.08    17        si                  2025-06-29          81060054  
+10103     Laptop Modelo 586   1337.94   40        si                  2025-07-14          59642886  
+10104     Impresora Modelo 147249.3     19        si                  2025-04-08          15932490  
+10105     Webcam Modelo 876   667.22    31        si                  2025-06-29          35828824  
+10106     Router Modelo 198   1130.4    2         si                  2025-07-13          78036004  

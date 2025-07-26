@@ -1,0 +1,10 @@
+10215     Microfono Modelo 599349.74    6         si                  2025-06-29          44265363  
+10216     Microfono Modelo 766642.49    20        si                  2025-04-30          20936894  
+10217     Tablet Modelo 292   1475.81   26        si                  2025-03-30          86863406  
+10218     Tarjeta Madre Modelo566.43    23        si                  2025-02-05          16026966  
+10219     Monitor Modelo 260  1345.57   47        si                  2025-03-20          57144763  
+10220     Impresora Modelo 696362.28    18        si                  2025-02-09          17214005  
+10221     Laptop Modelo 182   335.63    44        si                  2025-03-20          20959417  
+10222     Hub USB Modelo 889  174.89    7         si                  2025-05-03          15139008  
+10223     Fuente de Poder Mode1912.33   16        si                  2025-06-12          82693352  
+10224     Tablet Modelo 383   1749.2    49        si                  2025-05-11          58644955  

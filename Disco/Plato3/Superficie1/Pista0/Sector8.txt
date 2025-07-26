@@ -1,0 +1,10 @@
+10715     Escaner Modelo 954  1821.71   36        si                  2025-07-11          54075011  
+10716     Laptop Modelo 829   1898.44   19        si                  2025-03-07          38284439  
+10717     Monitor Modelo 799  322.1     50        si                  2025-06-26          91707279  
+10718     Procesador Modelo 811343.11   5         si                  2025-06-09          55749349  
+10719     Smartwatch Modelo 73430.05    50        si                  2025-03-14          22477942  
+10720     Tarjeta de Video Mod1723.96   31        si                  2025-07-17          83244565  
+10721     Consola de Juegos Mo1186.57   7         si                  2025-03-26          20744289  
+10722     Parlantes Modelo 5701608.34   32        si                  2025-06-10          90694140  
+10723     SSD Externo Modelo 3499.12    7         si                  2025-03-29          16516764  
+10724     Monitor Modelo 545  1633.13   46        si                  2025-02-10          27650532  

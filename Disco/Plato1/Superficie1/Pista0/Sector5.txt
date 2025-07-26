@@ -1,0 +1,11 @@
+ID:11#R:49#Lib:0#Tam_fijo:100
+at#cantidad#int#en_stock#string#fecha_ingreso#string#ISBN#int
+10490     Mouse Modelo 553    1703.94   31        si                  2025-03-19          53753456  
+10491     Tablet Modelo 824   1394.87   24        si                  2025-03-03          82628578  
+10492     Proyector Modelo 941307.68    10        si                  2025-04-01          91757873  
+10493     Proyector Modelo 8121696.83   10        si                  2025-03-31          63826471  
+10494     Microfono Modelo 604973.57    32        si                  2025-06-19          35898881  
+10495     Camara IP Modelo 450729.3     43        si                  2025-01-28          17790929  
+10496     Auriculares Modelo 91609.82   34        si                  2025-02-13          67928479  
+10497     Escaner Modelo 723  640.02    11        si                  2025-03-06          31518376  
+10498     Adaptador Bluetooth 1611.61   8         si                  2025-06-21          63009150  

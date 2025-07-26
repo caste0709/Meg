@@ -1,0 +1,10 @@
+10695     Tablet Modelo 282   29.23     2         si                  2025-04-09          27393558  
+10696     Parlantes Modelo 1761570.52   32        si                  2025-04-25          72663414  
+10697     Mouse Modelo 279    1421.86   8         si                  2025-04-02          12296444  
+10698     Microfono Modelo 570115.68    20        si                  2025-06-03          11982097  
+10699     Monitor Modelo 440  945.73    39        si                  2025-04-28          37533562  
+10700     Webcam Modelo 576   156.19    5         si                  2025-02-16          23645898  
+10701     Adaptador Bluetooth 928.3     5         si                  2025-05-09          49724521  
+10702     Microfono Modelo 5661954.72   14        si                  2025-04-02          58931084  
+10703     Monitor Modelo 290  527.69    49        si                  2025-06-12          19869121  
+10704     Escaner Modelo 525  126.07    30        si                  2025-07-08          51219877  

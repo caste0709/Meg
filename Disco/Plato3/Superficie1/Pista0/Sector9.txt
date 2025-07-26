@@ -1,0 +1,10 @@
+10725     Teclado Modelo 954  1871.7    37        si                  2025-04-20          37329278  
+10726     Teclado Modelo 881  1719.35   25        si                  2025-07-07          20835433  
+10727     Consola de Juegos Mo609.85    19        si                  2025-05-10          60893783  
+10728     Smartwatch Modelo 861886.87   42        si                  2025-07-07          40250199  
+10729     Consola de Juegos Mo82.56     34        si                  2025-03-31          41530222  
+10730     Fuente de Poder Mode248.42    25        si                  2025-06-15          75979060  
+10731     Cable HDMI Modelo 11886.22    10        si                  2025-03-16          59619597  
+10732     Tarjeta de Video Mod1527.52   32        si                  2025-06-21          62473232  
+10733     Smartwatch Modelo 571943.72   25        si                  2025-05-04          29479086  
+10734     Adaptador Bluetooth 834.73    35        si                  2025-03-23          75709884  

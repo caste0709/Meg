@@ -1,0 +1,10 @@
+10029     Monitor Modelo 824  1632.73   34        si                  2025-01-29          12509979  
+10030     Proyector Modelo 5441069.17   21        si                  2025-04-05          23680286  
+10031     Procesador Modelo 901349.65   23        si                  2025-02-10          89952022  
+10032     Tablet Modelo 769   1117.28   38        si                  2025-03-06          29656781  
+10033     Consola de Juegos Mo1256.0    41        si                  2025-03-27          53988557  
+10034     Tablet Modelo 969   208.93    0         no                  2025-05-31          94995710  
+10035     Auriculares Modelo 41385.23   4         si                  2025-04-05          61700270  
+10036     Adaptador Bluetooth 1992.27   12        si                  2025-04-07          35965124  
+10037     Fuente de Poder Mode1347.09   41        si                  2025-06-04          27769690  
+10038     Hub USB Modelo 543  1912.68   24        si                  2025-03-30          38501875  

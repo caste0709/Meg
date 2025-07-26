@@ -1,0 +1,10 @@
+10117     Cable HDMI Modelo 91112.32    23        si                  2025-04-11          10954322  
+10118     Smartphone Modelo 68577.23    28        si                  2025-04-27          88186576  
+10119     Case Modelo 139     667.31    38        si                  2025-06-02          22643663  
+10120     Cooler Modelo 210   1638.45   41        si                  2025-05-25          11181929  
+10121     SSD Externo Modelo 31196.45   50        si                  2025-05-08          55422776  
+10122     Tablet Modelo 321   794.43    11        si                  2025-04-06          80625153  
+10123     Disco Duro Modelo 77850.23    0         no                  2025-04-27          80252333  
+10124     Tarjeta de Video Mod1811.47   22        si                  2025-04-27          28740589  
+10125     Case Modelo 169     817.54    25        si                  2025-07-15          25263005  
+10126     Monitor Modelo 815  1521.51   30        si                  2025-05-03          28747985  

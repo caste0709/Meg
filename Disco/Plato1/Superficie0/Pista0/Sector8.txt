@@ -1,0 +1,10 @@
+10470     Parlantes Modelo 661178.56    5         si                  2025-04-11          88419645  
+10471     Tarjeta de Video Mod160.78    32        si                  2025-06-02          48394801  
+10472     Adaptador Bluetooth 1818.57   29        si                  2025-07-11          51937317  
+10473     Impresora Modelo 5261338.38   42        si                  2025-05-09          51156447  
+10474     Monitor Modelo 666  1146.71   1         si                  2025-05-27          11440439  
+10475     Tarjeta de Video Mod1582.85   34        si                  2025-07-14          83979983  
+10476     Tarjeta Madre Modelo718.82    12        si                  2025-06-11          79647486  
+10477     Parlantes Modelo 5741236.71   10        si                  2025-03-10          19652521  
+10478     Camara IP Modelo 3011458.05   21        si                  2025-06-23          33245284  
+10479     Case Modelo 424     1350.37   49        si                  2025-05-04          68242878  

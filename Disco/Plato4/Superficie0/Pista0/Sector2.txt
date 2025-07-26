@@ -1,0 +1,11 @@
+10345     Tablet Modelo 322   1546.2    24        si                  2025-05-17          
+10346     Escaner Modelo 713  1060.8    27        si                  2025-03-06          
+10347     Disco Duro Modelo 31774.68    0         no                  2025-03-29          
+10348     Proyector Modelo 5731470.37   21        si                  2025-05-08          
+10349     Cable HDMI Modelo 281947.53   24        si                  2025-02-10          
+10350     Cable HDMI Modelo 41462.53    0         no                  2025-02-16          
+10351     Laptop Modelo 455   761.99    50        si                  2025-07-02          
+10352     Impresora Modelo 6871816.45   28        si                  2025-05-30          
+10353     Disco Duro Modelo 211139.45   26        si                  2025-03-03          
+10354     Router Modelo 604   1503.32   7         si                  2025-06-21          
+10355     Router Modelo 206   1255.89   25        si                  2025-05-30          

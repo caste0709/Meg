@@ -1,0 +1,10 @@
+10529     Smartphone Modelo 43574.44    32        si                  2025-05-22          20739431  
+10530     Disco Duro Modelo 451436.92   36        si                  2025-01-25          75056565  
+10531     Procesador Modelo 54325.17    21        si                  2025-07-07          97717093  
+10532     Teclado Modelo 673  1398.79   45        si                  2025-01-30          99495399  
+10533     Joystick Modelo 470 1189.89   12        si                  2025-05-09          62549831  
+10534     Proyector Modelo 323269.71    40        si                  2025-06-04          69196889  
+10535     Case Modelo 145     1143.0    33        si                  2025-05-09          44353519  
+10536     Smartphone Modelo 291083.47   46        si                  2025-03-28          91107129  
+10537     Proyector Modelo 892877.47    20        si                  2025-05-07          55696591  
+10538     Fuente de Poder Mode1346.9    1         si                  2025-05-25          22833006  

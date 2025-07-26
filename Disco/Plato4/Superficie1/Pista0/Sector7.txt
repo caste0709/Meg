@@ -1,0 +1,11 @@
+10939     Proyector Modelo 616847.46    43        si                  2025-04-23          
+10940     Parlantes Modelo 9151966.7    38        si                  2025-06-23          
+10941     Smartphone Modelo 98902.58    44        si                  2025-01-26          
+10942     Laptop Modelo 157   1386.76   7         si                  2025-03-23          
+10943     Router Modelo 784   1006.6    45        si                  2025-03-29          
+10944     Smartwatch Modelo 591197.43   33        si                  2025-07-07          
+10945     SSD Externo Modelo 9968.82    25        si                  2025-06-21          
+10946     Adaptador Bluetooth 1263.63   8         si                  2025-04-22          
+10947     Tablet Modelo 898   1483.1    4         si                  2025-03-26          
+10948     Disco Duro Modelo 621342.52   40        si                  2025-07-10          
+10949     Memoria RAM Modelo 61803.16   36        si                  2025-05-30          

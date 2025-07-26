@@ -1,0 +1,10 @@
+10666     Memoria RAM Modelo 3435.38    38        si                  2025-05-03          79753506  
+10667     Tablet Modelo 511   1543.82   6         si                  2025-06-21          55354351  
+10668     Teclado Modelo 286  120.08    11        si                  2025-05-04          60833800  
+10669     Fuente de Poder Mode322.78    46        si                  2025-07-13          14417102  
+10670     Mouse Modelo 772    275.25    38        si                  2025-03-14          98194316  
+10671     Disco Duro Modelo 43349.95    15        si                  2025-03-10          20304822  
+10672     Tablet Modelo 646   582.7     18        si                  2025-02-03          63965077  
+10673     Parlantes Modelo 6531523.63   49        si                  2025-04-08          76726902  
+10674     Smartphone Modelo 771047.79   39        si                  2025-06-03          72189377  
+10675     Cooler Modelo 210   453.73    34        si                  2025-04-10          67879228  

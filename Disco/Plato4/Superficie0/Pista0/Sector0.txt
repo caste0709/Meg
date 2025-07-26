@@ -1,0 +1,12 @@
+ID:8#R:54#Lib:0#Tam_fijo:90
+loat#cantidad#int#en_stock#string#fecha_ingreso#string
+10324     Tarjeta de Video Mod1595.09   22        si                  2025-06-16          
+10325     Laptop Modelo 658   1399.45   37        si                  2025-05-15          
+10326     Tablet Modelo 657   286.91    14        si                  2025-05-23          
+10327     Joystick Modelo 276 1187.74   24        si                  2025-02-09          
+10328     Procesador Modelo 361687.17   42        si                  2025-05-22          
+10329     Tarjeta de Video Mod1219.78   2         si                  2025-03-05          
+10330     Smartphone Modelo 781729.11   7         si                  2025-03-23          
+10331     Tarjeta Madre Modelo493.22    22        si                  2025-04-04          
+10332     Teclado Modelo 308  1756.85   33        si                  2025-02-27          
+10333     Procesador Modelo 791630.71   31        si                  2025-03-18          

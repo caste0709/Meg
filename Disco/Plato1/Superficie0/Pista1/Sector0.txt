@@ -1,0 +1,11 @@
+ID:18#R:49#Lib:0#Tam_fijo:100
+at#cantidad#int#en_stock#string#fecha_ingreso#string#ISBN#int
+10833     Microfono Modelo 9301813.9    5         si                  2025-03-29          51611090  
+10834     Camara IP Modelo 4391409.73   42        si                  2025-07-18          94863127  
+10835     Proyector Modelo 423717.4     19        si                  2025-07-20          91934316  
+10836     Parlantes Modelo 6051100.42   41        si                  2025-05-05          10662302  
+10837     Cooler Modelo 221   1230.2    9         si                  2025-06-13          41320883  
+10838     Cooler Modelo 402   830.81    7         si                  2025-04-09          44348655  
+10839     Memoria RAM Modelo 282.6      26        si                  2025-04-25          74648660  
+10840     Case Modelo 588     1861.92   31        si                  2025-07-23          96342388  
+10841     Teclado Modelo 762  228.5     31        si                  2025-06-22          81182028  

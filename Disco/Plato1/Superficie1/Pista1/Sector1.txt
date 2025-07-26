@@ -1,0 +1,10 @@
+10891     Tarjeta de Video Mod94.58     27        si                  2025-07-06          66872688  
+10892     Teclado Modelo 643  591.62    24        si                  2025-01-25          69456531  
+10893     Consola de Juegos Mo586.27    39        si                  2025-06-07          64808867  
+10894     Tarjeta de Video Mod1159.35   33        si                  2025-02-19          49577375  
+10895     Disco Duro Modelo 21585.57    35        si                  2025-05-17          96051945  
+10896     Tarjeta de Video Mod486.93    40        si                  2025-06-09          76729009  
+10897     Fuente de Poder Mode424.02    30        si                  2025-04-29          39514735  
+10898     Joystick Modelo 730 1623.79   11        si                  2025-03-16          80271954  
+10899     Disco Duro Modelo 66106.44    0         no                  2025-06-22          52021374  
+10900     Camara IP Modelo 4231066.3    1         si                  2025-05-04          54130339  

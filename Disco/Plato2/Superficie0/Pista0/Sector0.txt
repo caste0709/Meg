@@ -1,0 +1,11 @@
+ID:4#R:49#Lib:0#Tam_fijo:100
+oat#cantidad#int#en_stock#string#fecha_ingreso#string#ISBN#int
+10147     Tablet Modelo 964   1539.95   41        si                  2025-06-10          18834318  
+10148     Consola de Juegos Mo894.94    2         si                  2025-01-26          52810000  
+10149     Mouse Modelo 539    276.37    34        si                  2025-07-23          64290614  
+10150     Smartphone Modelo 95462.33    9         si                  2025-03-09          90601029  
+10151     Hub USB Modelo 603  761.58    38        si                  2025-06-16          65395707  
+10152     Case Modelo 750     1696.2    46        si                  2025-02-20          50957392  
+10153     Joystick Modelo 868 395.17    18        si                  2025-05-26          58346654  
+10154     Webcam Modelo 708   835.29    15        si                  2025-02-01          32814719  
+10155     SSD Externo Modelo 9471.27    50        si                  2025-01-25          61386619  

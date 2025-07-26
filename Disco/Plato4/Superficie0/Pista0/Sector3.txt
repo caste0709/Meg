@@ -1,0 +1,11 @@
+10356     Procesador Modelo 271891.3    8         si                  2025-04-21          
+10357     Auriculares Modelo 6139.57    12        si                  2025-04-26          
+10358     Parlantes Modelo 628272.03    40        si                  2025-01-29          
+10359     Laptop Modelo 693   961.62    35        si                  2025-02-01          
+10360     Laptop Modelo 275   758.23    26        si                  2025-03-05          
+10361     Cooler Modelo 848   1263.83   14        si                  2025-05-27          
+10362     Mouse Modelo 858    1459.15   13        si                  2025-06-11          
+10363     Auriculares Modelo 21623.6    38        si                  2025-03-02          
+10364     Camara IP Modelo 578231.15    48        si                  2025-02-03          
+10365     Cooler Modelo 602   97.55     33        si                  2025-04-05          
+10366     Monitor Modelo 853  1815.19   45        si                  2025-02-09          

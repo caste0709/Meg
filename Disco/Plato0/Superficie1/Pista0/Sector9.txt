@@ -1,0 +1,10 @@
+10431     Escaner Modelo 213  1539.3    45        si                  2025-02-04          56903112  
+10432     Hub USB Modelo 752  256.04    45        si                  2025-04-12          46283291  
+10433     Memoria RAM Modelo 3431.15    40        si                  2025-02-15          72023389  
+10434     Auriculares Modelo 4492.16    31        si                  2025-07-04          87047305  
+10435     SSD Externo Modelo 4216.5     18        si                  2025-03-24          10198131  
+10436     Teclado Modelo 472  726.15    42        si                  2025-05-11          78128457  
+10437     Escaner Modelo 230  1617.75   41        si                  2025-04-20          62093417  
+10438     Microfono Modelo 9601366.11   3         si                  2025-05-20          44620040  
+10439     Smartwatch Modelo 751210.74   7         si                  2025-03-25          36530719  
+10440     Case Modelo 418     1536.9    33        si                  2025-06-17          93537528  

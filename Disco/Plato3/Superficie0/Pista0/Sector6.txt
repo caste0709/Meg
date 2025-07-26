@@ -1,0 +1,10 @@
+10646     Tarjeta Madre Modelo475.46    5         si                  2025-07-02          40459016  
+10647     Escaner Modelo 385  223.5     8         si                  2025-02-18          41872833  
+10648     Webcam Modelo 498   776.61    2         si                  2025-01-25          48665811  
+10649     Memoria RAM Modelo 136.13     14        si                  2025-07-14          43946411  
+10650     Auriculares Modelo 7279.95    39        si                  2025-03-01          33573766  
+10651     Monitor Modelo 475  725.57    26        si                  2025-04-29          39804945  
+10652     Smartphone Modelo 261022.13   39        si                  2025-04-30          38507023  
+10653     Cooler Modelo 712   1969.44   44        si                  2025-04-25          58448562  
+10654     Adaptador Bluetooth 1071.9    1         si                  2025-06-13          52998771  
+10655     Tarjeta de Video Mod404.91    39        si                  2025-06-26          84545318  

@@ -1,0 +1,11 @@
+10885     Proyector Modelo 339704.54    45        si                  2025-03-14          
+10886     Cooler Modelo 766   532.0     23        si                  2025-06-17          
+10887     Case Modelo 924     1056.76   13        si                  2025-03-02          
+10888     Adaptador Bluetooth 987.49    25        si                  2025-05-30          
+10889     Teclado Modelo 741  415.33    17        si                  2025-05-13          
+10890     Joystick Modelo 473 1581.64   4         si                  2025-06-12          
+10891     Tarjeta de Video Mod94.58     27        si                  2025-07-06          
+10892     Teclado Modelo 643  591.62    24        si                  2025-01-25          
+10893     Consola de Juegos Mo586.27    39        si                  2025-06-07          
+10894     Tarjeta de Video Mod1159.35   33        si                  2025-02-19          
+10895     Disco Duro Modelo 21585.57    35        si                  2025-05-17          

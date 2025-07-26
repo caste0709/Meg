@@ -1,0 +1,10 @@
+10274     Disco Duro Modelo 291734.22   50        si                  2025-06-23          96590308  
+10275     Disco Duro Modelo 2918.18     22        si                  2025-02-22          59292177  
+10276     Fuente de Poder Mode604.74    30        si                  2025-04-24          33562325  
+10277     Tablet Modelo 976   1281.86   23        si                  2025-04-08          81670588  
+10278     Cooler Modelo 249   154.54    21        si                  2025-07-04          58708026  
+10279     Disco Duro Modelo 66968.4     4         si                  2025-02-16          18538659  
+10280     Smartwatch Modelo 951645.11   17        si                  2025-01-28          69866344  
+10281     Router Modelo 711   328.76    40        si                  2025-05-20          74404964  
+10282     Fuente de Poder Mode1486.6    7         si                  2025-04-07          83575541  
+10283     Router Modelo 231   482.33    50        si                  2025-04-16          99661880  

@@ -1,0 +1,11 @@
+10961     SSD Externo Modelo 71118.57   45        si                  2025-07-06          
+10962     Disco Duro Modelo 9316.35     45        si                  2025-04-14          
+10963     Parlantes Modelo 93941.01     44        si                  2025-03-25          
+10964     Escaner Modelo 905  1723.17   21        si                  2025-02-06          
+10965     Monitor Modelo 546  680.45    18        si                  2025-02-18          
+10966     Cooler Modelo 413   1663.26   35        si                  2025-06-26          
+10967     Tarjeta Madre Modelo1545.97   42        si                  2025-03-19          
+10968     Mouse Modelo 856    1012.26   0         no                  2025-05-16          
+10969     Monitor Modelo 539  1125.96   4         si                  2025-04-20          
+10970     Tablet Modelo 689   1112.3    27        si                  2025-05-19          
+10971     Teclado Modelo 310  176.74    5         si                  2025-02-22          

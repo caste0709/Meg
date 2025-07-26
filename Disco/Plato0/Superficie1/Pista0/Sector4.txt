@@ -1,0 +1,10 @@
+10039     Router Modelo 804   1031.47   33        si                  2025-04-25          35733150  
+10040     Smartphone Modelo 42527.37    38        si                  2025-03-06          13964617  
+10041     Adaptador Bluetooth 954.12    48        si                  2025-07-18          40597558  
+10042     Impresora Modelo 228333.98    34        si                  2025-02-04          62616185  
+10043     Auriculares Modelo 51430.91   19        si                  2025-04-05          52944867  
+10044     Laptop Modelo 989   1331.01   8         si                  2025-04-03          97704214  
+10045     Monitor Modelo 650  1447.12   37        si                  2025-04-05          96321361  
+10046     Escaner Modelo 294  1899.63   2         si                  2025-03-17          75318377  
+10047     Proyector Modelo 2901772.35   12        si                  2025-04-24          16600934  
+10048     Cable HDMI Modelo 321770.34   19        si                  2025-06-16          42634192  

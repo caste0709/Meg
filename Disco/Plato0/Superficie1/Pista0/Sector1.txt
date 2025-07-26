@@ -1,0 +1,10 @@
+10009     SSD Externo Modelo 1236.11    15        si                  2025-05-23          21970532  
+10010     Camara IP Modelo 915455.89    31        si                  2025-02-01          37694468  
+10011     Joystick Modelo 558 204.13    33        si                  2025-05-19          28557723  
+10012     Impresora Modelo 231357.09    41        si                  2025-03-17          76062940  
+10013     Adaptador Bluetooth 149.91    48        si                  2025-06-30          71996000  
+10014     Tablet Modelo 258   1336.19   48        si                  2025-03-22          30576577  
+10015     Teclado Modelo 887  1711.5    19        si                  2025-05-15          47532159  
+10016     Joystick Modelo 732 513.35    12        si                  2025-03-16          52793282  
+10017     Smartwatch Modelo 751610.97   34        si                  2025-06-24          77196133  
+10018     SSD Externo Modelo 31143.85   31        si                  2025-05-11          94355220  

@@ -1,0 +1,11 @@
+10388     Disco Duro Modelo 65611.9     43        si                  2025-05-23          
+10389     Camara IP Modelo 2881091.4    44        si                  2025-03-04          
+10390     Case Modelo 233     368.02    12        si                  2025-04-10          
+10391     Consola de Juegos Mo749.78    34        si                  2025-07-01          
+10392     Joystick Modelo 313 351.16    45        si                  2025-02-18          
+10393     Impresora Modelo 560506.88    12        si                  2025-06-27          
+10394     SSD Externo Modelo 61541.41   1         si                  2025-07-03          
+10395     Adaptador Bluetooth 809.36    22        si                  2025-07-01          
+10396     Router Modelo 288   1261.03   24        si                  2025-07-17          
+10397     Impresora Modelo 811454.21    17        si                  2025-06-06          
+10398     Cooler Modelo 753   1417.52   29        si                  2025-01-28          

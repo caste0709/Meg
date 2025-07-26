@@ -1,0 +1,10 @@
+10068     Monitor Modelo 175  1786.4    25        si                  2025-03-08          24890541  
+10069     Consola de Juegos Mo708.38    29        si                  2025-06-25          60899672  
+10070     Router Modelo 228   1125.9    3         si                  2025-02-17          80863758  
+10071     Microfono Modelo 463595.58    20        si                  2025-05-04          64199420  
+10072     Tablet Modelo 887   182.2     1         si                  2025-04-24          17706272  
+10073     Fuente de Poder Mode998.23    26        si                  2025-06-26          33595869  
+10074     Fuente de Poder Mode278.5     27        si                  2025-04-20          65940693  
+10075     Memoria RAM Modelo 41899.63   10        si                  2025-02-09          11304755  
+10076     Fuente de Poder Mode1241.59   46        si                  2025-06-25          37385687  
+10077     Case Modelo 134     1526.36   46        si                  2025-06-05          27639645  

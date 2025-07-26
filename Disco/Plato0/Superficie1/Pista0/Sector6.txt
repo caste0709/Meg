@@ -1,0 +1,10 @@
+10401     Smartwatch Modelo 13268.47    46        si                  2025-02-03          12730019  
+10402     Auriculares Modelo 31827.33   1         si                  2025-04-20          75889012  
+10403     SSD Externo Modelo 41988.35   37        si                  2025-04-19          67169650  
+10404     Teclado Modelo 395  116.6     46        si                  2025-05-01          28244386  
+10405     Smartphone Modelo 561613.21   6         si                  2025-03-01          81077662  
+10406     Laptop Modelo 931   1859.95   47        si                  2025-04-30          38028477  
+10407     Parlantes Modelo 8281682.57   5         si                  2025-06-14          57550258  
+10408     Procesador Modelo 21471.27    44        si                  2025-07-06          80891936  
+10409     Router Modelo 870   26.89     37        si                  2025-03-11          57385203  
+10410     Cable HDMI Modelo 91420.77    29        si                  2025-05-03          48081451  

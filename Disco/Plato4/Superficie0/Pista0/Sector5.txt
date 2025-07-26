@@ -1,0 +1,12 @@
+ID:18#R:54#Lib:0#Tam_fijo:90
+oat#cantidad#int#en_stock#string#fecha_ingreso#string
+10864     Disco Duro Modelo 241870.06   7         si                  2025-03-04          
+10865     Monitor Modelo 922  1791.58   20        si                  2025-04-11          
+10866     Parlantes Modelo 3711103.85   24        si                  2025-04-21          
+10867     Parlantes Modelo 4521441.71   5         si                  2025-05-06          
+10868     Teclado Modelo 253  482.7     32        si                  2025-01-28          
+10869     Tarjeta de Video Mod400.65    12        si                  2025-07-01          
+10870     Consola de Juegos Mo508.19    14        si                  2025-03-16          
+10871     Tarjeta Madre Modelo1943.82   0         no                  2025-06-04          
+10872     Tarjeta Madre Modelo137.08    18        si                  2025-03-27          
+10873     Monitor Modelo 469  1208.5    22        si                  2025-04-11          

@@ -1,0 +1,10 @@
+10166     Memoria RAM Modelo 2791.64    13        si                  2025-05-18          68066349  
+10167     Tablet Modelo 167   1331.53   47        si                  2025-02-14          23812130  
+10168     Proyector Modelo 357312.44    9         si                  2025-07-19          98399426  
+10169     Camara IP Modelo 388310.02    35        si                  2025-06-22          42508937  
+10170     Mouse Modelo 137    1653.84   30        si                  2025-03-24          72956398  
+10171     Smartphone Modelo 82833.21    35        si                  2025-07-14          10577436  
+10172     Consola de Juegos Mo1856.04   14        si                  2025-02-24          15931263  
+10173     Parlantes Modelo 3121017.32   4         si                  2025-02-11          74804798  
+10174     Webcam Modelo 254   1328.49   8         si                  2025-01-28          89934948  
+10175     Monitor Modelo 704  461.02    22        si                  2025-05-01          46088302  
